@@ -1,5 +1,6 @@
 import "animate.css";
 import ReactPlayer from "react-player";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -7,7 +8,8 @@ export default function Home() {
       <header>
         <section className="navbar">
           <div className="logo">
-            <img src="/check.png" alt="" fill />
+            {/* <img src="/check.png" alt="" fill /> */}
+            <Image src="/check.png" width={100} height={100}></Image>
           </div>
 
           <div className="contact-btn">
