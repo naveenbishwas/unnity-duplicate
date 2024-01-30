@@ -7,6 +7,7 @@
   font-family: "Poppins";
   text-decoration: none;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .logo img {
@@ -24,6 +25,17 @@
   position: sticky;
   top: 0;
   z-index: 1;
+}
+
+#connect {
+  transition: all 3s ease;
+}
+
+.contact-btn button a {
+  color: #fff;
+}
+.contact-btn button:hover a {
+  color: #000;
 }
 
 .contact-btn button {
@@ -807,15 +819,13 @@
 .achieve-first-row {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2%;
 }
 
 .catego h2 {
   font-size: 16px;
   font-weight: bolder;
-}
-
-.achieve-first-row {
-  margin-top: 2%;
 }
 
 .achieve-numbers {

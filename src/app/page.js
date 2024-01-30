@@ -11,16 +11,18 @@ export default function Home() {
             {/* <img src="/check.png" alt="" fill /> */}
             <Image
               src="/check.png"
-              width={100}
-              height={100}
+              width={90}
+              height={75}
               alt="logo-image"
             ></Image>
           </div>
 
           <div className="contact-btn">
-            <button className="animate__animated animate__bounceIn">
-              Contact
-            </button>
+            <a href="#connect">
+              <button className="animate__animated animate__bounceIn">
+                Contact
+              </button>
+            </a>
           </div>
         </section>
 
@@ -37,7 +39,7 @@ export default function Home() {
         <section className="intro">
           <div className="intro-wrap">
             <div className="intro-df">
-              <div className="intro-upper-part">
+              <div className="intro-upper-part" id="connect">
                 <div className="intro-heading">
                   <h1>
                     Empower Your Brand with <br />
