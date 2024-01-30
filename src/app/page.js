@@ -25,7 +25,13 @@ export default function Home() {
         </section>
 
         <section className="banner">
-          <img src="/banner.jpg" alt="" />
+          <Image
+            src="/banner.jpg"
+            width={100}
+            height={600}
+            alt="Banner-img"
+            unoptimized
+          ></Image>
         </section>
 
         <section className="intro">
@@ -52,7 +58,14 @@ export default function Home() {
               </div>
               <div className="intro-bottom-part">
                 <div className="intro-bottom-part-left">
-                  <img src="/Blue-Modern.png" alt="" />
+                  {/* <img src="/Blue-Modern.png" alt="" /> */}
+                  <Image
+                    src="/Blue-Modern.png"
+                    width={120}
+                    height={520}
+                    alt="digi-img"
+                    unoptimized
+                  ></Image>
                 </div>
 
                 <div className="intro-bottom-part-right">
@@ -188,7 +201,14 @@ export default function Home() {
               <button class="custom-btn btn-1">Read More</button>
             </div>
             <div className="about-unnity-right">
-              <img src="/about-us-image.jpg" alt="" fill />
+              {/* <img src="/about-us-image.jpg" alt="" fill /> */}
+              <Image
+                src="/about-us-image.jpg"
+                width={90}
+                height={300}
+                alt="digi-img-two"
+                unoptimized
+              ></Image>
             </div>
           </div>
         </section>
@@ -249,7 +269,14 @@ export default function Home() {
             <div className="achieve-first-row">
               <div className="achieve-numbers">
                 <div className="">
-                  <img src="/growth.png" alt="" />
+                  {/* <img src="/growth.png" alt="" /> */}
+                  <Image
+                    src="/growth.png"
+                    width={50}
+                    height={50}
+                    alt="digi"
+                    unoptimized
+                  ></Image>
                 </div>
                 <div className="red">
                   <h1>+71%</h1>
@@ -264,7 +291,14 @@ export default function Home() {
 
               <div className="achieve-numbers">
                 <div className="">
-                  <img src="/shopping.png" alt="" />
+                  {/* <img src="/shopping.png" alt="" /> */}
+                  <Image
+                    src="/shopping.png"
+                    width={50}
+                    height={50}
+                    alt="digi"
+                    unoptimized
+                  ></Image>
                 </div>
                 <div className="red">
                   <h1>+60%</h1>
@@ -280,7 +314,14 @@ export default function Home() {
 
               <div className="achieve-numbers">
                 <div className="">
-                  <img src="/interest-rate.png" alt="" />
+                  {/* <img src="/interest-rate.png" alt="" /> */}
+                  <Image
+                    src="/interest-rate.png"
+                    width={50}
+                    height={50}
+                    alt="digi"
+                    unoptimized
+                  ></Image>
                 </div>
                 <div className="red">
                   <h1>+22%</h1>
@@ -298,13 +339,28 @@ export default function Home() {
 
           <div className="achievement-first" id="auravebrand">
             <div className="achieve-name">
-              <img src="/aurav.avif" alt="" id="aurave" />
+              {/* <img src="/aurav.avif" alt="" id="aurave" /> */}
+              <Image
+                id="aurave"
+                src="/aurav.avif"
+                width={50}
+                height={60}
+                alt="digi"
+                unoptimized
+              ></Image>
             </div>
 
             <div className="achieve-first-row" id="aurave-row">
               <div className="achieve-numbers">
                 <div className="">
-                  <img src="/growth.png" alt="" />
+                  {/* <img src="/growth.png" alt="" /> */}
+                  <Image
+                    src="/growth.png"
+                    width={50}
+                    height={50}
+                    alt="digi"
+                    unoptimized
+                  ></Image>
                 </div>
                 <div className="red">
                   <h1>+56%</h1>
@@ -319,7 +375,14 @@ export default function Home() {
 
               <div className="achieve-numbers">
                 <div className="">
-                  <img src="/shopping.png" alt="" />
+                  {/* <img src="/shopping.png" alt="" /> */}
+                  <Image
+                    src="/shopping.png"
+                    width={50}
+                    height={50}
+                    alt="digi"
+                    unoptimized
+                  ></Image>
                 </div>
                 <div className="red">
                   <h1>+86%</h1>
@@ -335,7 +398,14 @@ export default function Home() {
 
               <div className="achieve-numbers">
                 <div className="">
-                  <img src="/interest-rate.png" alt="" />
+                  {/* <img src="/interest-rate.png" alt="" /> */}
+                  <Image
+                    src="/interest-rate.png"
+                    width={50}
+                    height={50}
+                    alt="digi"
+                    unoptimized
+                  ></Image>
                 </div>
                 <div className="red">
                   <h1>+36%</h1>
