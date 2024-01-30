@@ -14,6 +14,7 @@ export default function Home() {
               width={90}
               height={75}
               alt="logo-image"
+              unoptimized
             ></Image>
           </div>
 
@@ -28,9 +29,9 @@ export default function Home() {
 
         <section className="banner">
           <Image
-            src="/banner.jpg"
+            src="/bannerfour.png"
             width={100}
-            height={600}
+            height={700}
             alt="Banner-img"
             unoptimized
           ></Image>
@@ -63,8 +64,8 @@ export default function Home() {
                   {/* <img src="/Blue-Modern.png" alt="" /> */}
                   <Image
                     src="/Blue-Modern.png"
-                    width={120}
-                    height={520}
+                    width={550}
+                    height={650}
                     alt="digi-img"
                     unoptimized
                   ></Image>
@@ -188,6 +189,17 @@ export default function Home() {
         </section>
 
         <section className="about-unnity">
+          {/* <svg
+            id="wave"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1440 320"
+          >
+            <path
+              fill="#0099ff"
+              fill-opacity="1"
+              d="M0,64L34.3,96C68.6,128,137,192,206,202.7C274.3,213,343,171,411,170.7C480,171,549,213,617,197.3C685.7,181,754,107,823,80C891.4,53,960,75,1029,96C1097.1,117,1166,139,1234,128C1302.9,117,1371,75,1406,53.3L1440,32L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"
+            ></path>
+          </svg> */}
           <div className="about-unnity-df">
             <div className="about-unnity-left">
               <h1>Boost Your Business Online with Our Smart Marketing Moves</h1>
@@ -200,19 +212,30 @@ export default function Home() {
                 your digital wizards. We'll help your business get noticed,
                 captivate your audience, and be the talk of the online town.
               </p>
-              <button class="custom-btn btn-1">Read More</button>
+              <button>Read More</button>
             </div>
             <div className="about-unnity-right">
               {/* <img src="/about-us-image.jpg" alt="" fill /> */}
               <Image
-                src="/about-us-image.jpg"
-                width={90}
-                height={300}
+                src="/trans-purple.png"
+                width={700}
+                height={700}
                 alt="digi-img-two"
                 unoptimized
               ></Image>
             </div>
           </div>
+          {/* <svg
+            id="down-svg"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1440 320"
+          >
+            <path
+              fill="#0099ff"
+              fill-opacity="1"
+              d="M0,192L120,181.3C240,171,480,149,720,144C960,139,1200,149,1320,154.7L1440,160L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+            ></path>
+          </svg> */}
         </section>
 
         <section className="video">
