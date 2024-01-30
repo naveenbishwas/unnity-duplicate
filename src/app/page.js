@@ -9,7 +9,12 @@ export default function Home() {
         <section className="navbar">
           <div className="logo">
             {/* <img src="/check.png" alt="" fill /> */}
-            <Image src="/check.png" width={100} height={100}></Image>
+            <Image
+              src="/check.png"
+              width={100}
+              height={100}
+              alt="logo-image"
+            ></Image>
           </div>
 
           <div className="contact-btn">
