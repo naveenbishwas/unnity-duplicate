@@ -23,6 +23,7 @@ export default function Home() {
     const disabled = props.disabled ? " arrow--disabled" : "";
     return (
       <svg
+        id="change-color"
         onClick={props.onClick}
         className={`arrow ${
           props.left ? "arrow--left" : "arrow--right"
@@ -71,134 +72,135 @@ export default function Home() {
             unoptimized
           ></Image>
         </section>
+      </header>
 
-        <section className="intro">
-          <div className="intro-wrap">
-            <div className="intro-df">
-              <div className="intro-upper-part" id="connect">
-                <div className="intro-heading">
-                  <h1>
-                    Empower Your Brand with <br />
-                    <span className="brand-name">
-                      {""} Unnity Digital Marketing Solutions
-                    </span>
-                  </h1>
-                </div>
-                <div className="intro-desc">
-                  <p>
-                    At Unnity, we empower brands to thrive in the digital age.
-                    Our comprehensive suite of digital marketing solutions is
-                    designed to amplify your online visibility, engage your
-                    audience, and drive meaningful conversions. Unleash the full
-                    potential of your brand with Unnity.
-                  </p>
-                </div>
+      <section className="intro">
+        <div className="intro-wrap">
+          <div className="intro-df">
+            <div className="intro-upper-part" id="connect">
+              <div className="intro-heading">
+                <h1>
+                  Empower Your Brand with <br />
+                  <span className="brand-name">
+                    {""} Unnity Digital Marketing Solutions
+                  </span>
+                </h1>
               </div>
-              <div className="intro-bottom-part">
-                <div className="intro-bottom-part-left">
-                  {/* <img src="/Blue-Modern.png" alt="" /> */}
-                  <Image
-                    src="/Blue-Modern.png"
-                    width={550}
-                    height={650}
-                    alt="digi-img"
-                    unoptimized
-                  ></Image>
-                </div>
+              <div className="intro-desc">
+                <p>
+                  At Unnity, we empower brands to thrive in the digital age. Our
+                  comprehensive suite of digital marketing solutions is designed
+                  to amplify your online visibility, engage your audience, and
+                  drive meaningful conversions. Unleash the full potential of
+                  your brand with Unnity.
+                </p>
+              </div>
+            </div>
+            <div className="intro-bottom-part">
+              <div className="intro-bottom-part-left">
+                {/* <img src="/Blue-Modern.png" alt="" /> */}
+                <Image
+                  src="/Blue-Modern.png"
+                  width={550}
+                  height={650}
+                  alt="digi-img"
+                  unoptimized
+                ></Image>
+              </div>
 
-                <div className="intro-bottom-part-right">
-                  <form action="" className="contact-form">
-                    <div className="">
-                      <input
-                        type="text"
-                        name=""
-                        id="company-name"
-                        placeholder="Company Name"
-                      />
-                    </div>
-                    <div className="">
-                      <select name="budget" id="budget">
-                        <option value="">Monthly Marketing Budget</option>
-                        <option value="">Less Than Rs 2L Budget</option>
-                        <option value="">Rs 2L to Rs 5L</option>
-                        <option value="">Rs 5L to Rs 25L</option>
-                        <option value="">More Than 50L</option>
-                        <option value="">
-                          I am Looking For Organic Services
-                        </option>
-                      </select>
-                    </div>
-                    <div className="">
-                      <input type="text" name="" id="name" placeholder="Name" />
-                    </div>
-                    <div className="">
-                      <input
-                        type="tel"
-                        name=""
-                        id="phone"
-                        placeholder="Phone Number"
-                      />
-                    </div>
-                    <div className="">
-                      <input
-                        type="email"
-                        name=""
-                        id="email"
-                        placeholder="Email Address"
-                      />
-                    </div>
-                    <div className="">
-                      <select name="service" id="service">
-                        <option value="">Choose The Service</option>
-                        <option value="">SEO & Content</option>
-                        <option value="">Paid Search</option>
-                        <option value="">MarketPlace Management</option>
-                        <option value="">
-                          Social Media/Influencer Marketing
-                        </option>
-                        <option value="">Account Based Marketing</option>
-                        <option value="">Programmatic Ads</option>
-                        <option value="">CRO & Marketing Automation</option>
-                        <option value="">Website Design & Development</option>
-                        <option value="">Creatives & Videos</option>
-                        <option value="">Hyperlocal Marketing</option>
-                        <option value="">Digital Marketing Services</option>
-                      </select>
-                    </div>
-                    <div className="">
-                      <input
-                        type="text"
-                        name=""
-                        id="designation"
-                        placeholder="Designation"
-                      />
-                    </div>
-                    <div className="">
-                      <input type="submit" value="Submit" id="submit" />
-                    </div>
-                  </form>
-                </div>
+              <div className="intro-bottom-part-right">
+                <form action="" className="contact-form">
+                  <div className="">
+                    <input
+                      type="text"
+                      name=""
+                      id="company-name"
+                      placeholder="Company Name"
+                    />
+                  </div>
+                  <div className="">
+                    <select name="budget" id="budget">
+                      <option value="">Monthly Marketing Budget</option>
+                      <option value="">Less Than Rs 2L Budget</option>
+                      <option value="">Rs 2L to Rs 5L</option>
+                      <option value="">Rs 5L to Rs 25L</option>
+                      <option value="">More Than 50L</option>
+                      <option value="">
+                        I am Looking For Organic Services
+                      </option>
+                    </select>
+                  </div>
+                  <div className="">
+                    <input type="text" name="" id="name" placeholder="Name" />
+                  </div>
+                  <div className="">
+                    <input
+                      type="tel"
+                      name=""
+                      id="phone"
+                      placeholder="Phone Number"
+                    />
+                  </div>
+                  <div className="">
+                    <input
+                      type="email"
+                      name=""
+                      id="email"
+                      placeholder="Email Address"
+                    />
+                  </div>
+                  <div className="">
+                    <select name="service" id="service">
+                      <option value="">Choose The Service</option>
+                      <option value="">SEO & Content</option>
+                      <option value="">Paid Search</option>
+                      <option value="">MarketPlace Management</option>
+                      <option value="">
+                        Social Media/Influencer Marketing
+                      </option>
+                      <option value="">Account Based Marketing</option>
+                      <option value="">Programmatic Ads</option>
+                      <option value="">CRO & Marketing Automation</option>
+                      <option value="">Website Design & Development</option>
+                      <option value="">Creatives & Videos</option>
+                      <option value="">Hyperlocal Marketing</option>
+                      <option value="">Digital Marketing Services</option>
+                    </select>
+                  </div>
+                  <div className="">
+                    <input
+                      type="text"
+                      name=""
+                      id="designation"
+                      placeholder="Designation"
+                    />
+                  </div>
+                  <div className="">
+                    <input type="submit" value="Submit" id="submit" />
+                  </div>
+                </form>
               </div>
-              <div className="float">
-                <div className="float-one">
-                  <h1>CPR</h1>
-                </div>
-                <div className="float-two">
-                  <h1>CPM</h1>
-                </div>
-                <div className="float-three">
-                  <h1>CTR</h1>
-                </div>
-                <div className="float-four">
-                  <h1>Cost Per Purchase</h1>
-                </div>
-                <div className="float-five">
-                  <h1>Frequency</h1>
-                </div>
-                <div className="float-six">
-                  <h1>Conversion rate</h1>
-                </div>
-                {/* <div className="float-seven">
+            </div>
+            <div className="float">
+              <div className="float-one">
+                <h1>CPR</h1>
+              </div>
+              <div className="float-two">
+                <h1>CPM</h1>
+              </div>
+              <div className="float-three">
+                <h1>CTR</h1>
+              </div>
+              <div className="float-four">
+                <h1>Cost Per Purchase</h1>
+              </div>
+              <div className="float-five">
+                <h1>Frequency</h1>
+              </div>
+              <div className="float-six">
+                <h1>Conversion rate</h1>
+              </div>
+              {/* <div className="float-seven">
                   <h1>
                     Search
                     <br /> ImpressionSearch
@@ -218,13 +220,13 @@ export default function Home() {
                 <div className="float-ten">
                   <h1>Recall Lift</h1>
                 </div> */}
-              </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section className="about-unnity">
-          {/* <svg
+      <section className="about-unnity">
+        {/* <svg
             id="wave"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1440 320"
@@ -235,32 +237,32 @@ export default function Home() {
               d="M0,64L34.3,96C68.6,128,137,192,206,202.7C274.3,213,343,171,411,170.7C480,171,549,213,617,197.3C685.7,181,754,107,823,80C891.4,53,960,75,1029,96C1097.1,117,1166,139,1234,128C1302.9,117,1371,75,1406,53.3L1440,32L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"
             ></path>
           </svg> */}
-          <div className="about-unnity-df">
-            <div className="about-unnity-left">
-              <h1>Boost Your Business Online with Our Smart Marketing Moves</h1>
-              <p>
-                We're here to supercharge your brand's online presence. Our
-                clever digital marketing strategies are designed to bring you
-                more customers and make your business shine. Discover a new era
-                of digital marketing with us. Our team combines creativity and
-                strategy to bring you success in the online world. Let us be
-                your digital wizards. We'll help your business get noticed,
-                captivate your audience, and be the talk of the online town.
-              </p>
-              <button>Read More</button>
-            </div>
-            <div className="about-unnity-right">
-              {/* <img src="/about-us-image.jpg" alt="" fill /> */}
-              <Image
-                src="/trans-purple.png"
-                width={700}
-                height={700}
-                alt="digi-img-two"
-                unoptimized
-              ></Image>
-            </div>
+        <div className="about-unnity-df">
+          <div className="about-unnity-left">
+            <h1>Boost Your Business Online with Our Smart Marketing Moves</h1>
+            <p>
+              We're here to supercharge your brand's online presence. Our clever
+              digital marketing strategies are designed to bring you more
+              customers and make your business shine. Discover a new era of
+              digital marketing with us. Our team combines creativity and
+              strategy to bring you success in the online world. Let us be your
+              digital wizards. We'll help your business get noticed, captivate
+              your audience, and be the talk of the online town.
+            </p>
+            <button>Read More</button>
           </div>
-          {/* <svg
+          <div className="about-unnity-right">
+            {/* <img src="/about-us-image.jpg" alt="" fill /> */}
+            <Image
+              src="/trans-purple.png"
+              width={700}
+              height={700}
+              alt="digi-img-two"
+              unoptimized
+            ></Image>
+          </div>
+        </div>
+        {/* <svg
             id="down-svg"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1440 320"
@@ -271,27 +273,25 @@ export default function Home() {
               d="M0,192L120,181.3C240,171,480,149,720,144C960,139,1200,149,1320,154.7L1440,160L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
             ></path>
           </svg> */}
-        </section>
+      </section>
 
-        <section className="video">
-          <video width="100%" height="100%" loop muted autoPlay="autoplay">
-            <source src="/videoone.mp4" type="video/mp4" />
-          </video>
-        </section>
+      <section className="video">
+        <video width="100%" height="100%" loop muted autoPlay="autoplay">
+          <source src="/videoone.mp4" type="video/mp4" />
+        </video>
+      </section>
 
-        <section className="brand-we-worked">
-          <div className="brand-we-worked-header">
-            <h1>
-              brand <span id="italic"> we </span> worked <br /> & <br />
-              <span id="italic"> Achievement</span>
-            </h1>
-          </div>
+      <section className="brand-we-worked">
+        <div className="brand-we-worked-header">
+          <h1>
+            brand <span id="italic"> we </span> worked
+          </h1>
+        </div>
 
-          <hr className="brand-border" />
-          <div className="achievement-first" id="cupidclothig"></div>
+        <hr className="brand-border" />
+        <div className="achievement-first" id="cupidclothig"></div>
 
-          <div className="achievement-first" id="auravebrand"></div>
-        </section>
+        <div className="achievement-first" id="auravebrand"></div>
 
         <div className="naveen-slider">
           <div className="navigation-wrapper">
@@ -514,29 +514,9 @@ export default function Home() {
               </>
             )}
           </div>
-
-          {loaded && instanceRef.current && (
-            <div className="dots">
-              {[
-                ...Array(
-                  instanceRef.current.track.details.slides.length
-                ).keys(),
-              ].map((idx) => {
-                return (
-                  <button
-                    key={idx}
-                    onClick={() => {
-                      instanceRef.current?.moveToIdx(idx);
-                    }}
-                    className={"dot" + (currentSlide === idx ? " active" : "")}
-                  ></button>
-                );
-              })}
-            </div>
-          )}
         </div>
         <hr className="brand-border" id="down" />
-      </header>
+      </section>
     </div>
   );
 }

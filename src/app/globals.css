@@ -706,8 +706,9 @@
   line-height: 1.2;
 }
 
-.brand-we-worked-header {
-  margin-top: 12%;
+.brand-we-worked {
+  padding: 5% 0;
+  background-color: rgb(234, 234, 234);
 }
 
 #italic {
@@ -871,7 +872,7 @@
 .brand-border {
   width: 83%;
   margin-left: 9%;
-  border: 0.5px solid #c8c8c8;
+  border: 0.5px solid #040404;
   margin-top: 2%;
 }
 
@@ -985,6 +986,7 @@
   display: flex;
   padding: 10px 0;
   justify-content: center;
+  margin-top: 5%;
 }
 
 .dot {
@@ -1006,8 +1008,8 @@
 }
 
 .arrow {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -1016,12 +1018,14 @@
 }
 
 .arrow--left {
-  left: 5px;
+  left: 7%;
+  top: 55%;
 }
 
 .arrow--right {
   left: auto;
-  right: 5px;
+  right: 7%;
+  top: 55%;
 }
 
 .arrow--disabled {
@@ -1049,5 +1053,5 @@
 }
 
 #down {
-  margin-bottom: 10%;
+  margin-top: 5%;
 }
