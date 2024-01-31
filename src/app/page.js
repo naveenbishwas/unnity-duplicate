@@ -5,6 +5,7 @@ import ReactPlayer from "react-player";
 import Image from "next/image";
 import React, { useState } from "react";
 import { useKeenSlider } from "keen-slider/react";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Home() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -43,7 +44,7 @@ export default function Home() {
   return (
     <div className="main-container">
       <header>
-        <section className="navbar">
+        <section className="add-navbar">
           <div className="logo">
             <Image
               src="/check.png"
@@ -98,7 +99,6 @@ export default function Home() {
             </div>
             <div className="intro-bottom-part">
               <div className="intro-bottom-part-left">
-                {/* <img src="/Blue-Modern.png" alt="" /> */}
                 <Image
                   src="/Blue-Modern.png"
                   width={550}
@@ -107,19 +107,22 @@ export default function Home() {
                   unoptimized
                 ></Image>
               </div>
-
               <div className="intro-bottom-part-right">
-                <form action="" className="contact-form">
-                  <div className="">
+                <form action="" className="contact-form needs-validation">
+                  <div className="was-validated">
                     <input
                       type="text"
                       name=""
                       id="company-name"
                       placeholder="Company Name"
+                      required
                     />
+                    <div className="invalid-feedback">
+                      Please Enter Company Name
+                    </div>
                   </div>
-                  <div className="">
-                    <select name="budget" id="budget">
+                  <div className="was-validated">
+                    <select required name="budget" id="budget">
                       <option value="">Monthly Marketing Budget</option>
                       <option value="">Less Than Rs 2L Budget</option>
                       <option value="">Rs 2L to Rs 5L</option>
@@ -129,28 +132,48 @@ export default function Home() {
                         I am Looking For Organic Services
                       </option>
                     </select>
+                    <div className="invalid-feedback">
+                      Please Select Your Budget
+                    </div>
                   </div>
-                  <div className="">
-                    <input type="text" name="" id="name" placeholder="Name" />
+                  <div className="was-validated">
+                    <input
+                      type="text"
+                      name=""
+                      id="name"
+                      placeholder="Name"
+                      required
+                    />
+                    <div className="invalid-feedback">
+                      Please Enter Your Name
+                    </div>
                   </div>
-                  <div className="">
+                  <div className="was-validated">
                     <input
                       type="tel"
                       name=""
                       id="phone"
                       placeholder="Phone Number"
+                      required
                     />
+                    <div className="invalid-feedback">
+                      Please Enter Phone Number
+                    </div>
                   </div>
-                  <div className="">
+                  <div className="was-validated">
                     <input
                       type="email"
                       name=""
                       id="email"
                       placeholder="Email Address"
+                      required
                     />
+                    <div className="invalid-feedback">
+                      Please Enter Email Adress
+                    </div>
                   </div>
-                  <div className="">
-                    <select name="service" id="service">
+                  <div className="was-validated">
+                    <select required name="service" id="service">
                       <option value="">Choose The Service</option>
                       <option value="">SEO & Content</option>
                       <option value="">Paid Search</option>
@@ -166,15 +189,23 @@ export default function Home() {
                       <option value="">Hyperlocal Marketing</option>
                       <option value="">Digital Marketing Services</option>
                     </select>
+                    <div className="invalid-feedback">
+                      Please Select Service
+                    </div>
                   </div>
-                  <div className="">
+                  <div className="was-validated">
                     <input
                       type="text"
                       name=""
                       id="designation"
                       placeholder="Designation"
+                      required
                     />
+                    <div className="invalid-feedback">
+                      Please Enter Designation
+                    </div>
                   </div>
+
                   <div className="">
                     <input type="submit" value="Submit" id="submit" />
                   </div>
@@ -183,32 +214,32 @@ export default function Home() {
             </div>
             <div className="float">
               <div className="float-one">
-                <h1>CPR</h1>
+                <h5>CPR</h5>
               </div>
               <div className="float-two">
-                <h1>CPM</h1>
+                <h5>CPM</h5>
               </div>
               <div className="float-three">
-                <h1>CTR</h1>
+                <h5>CTR</h5>
               </div>
               <div className="float-four">
-                <h1>Cost Per Purchase</h1>
+                <h5>Cost Per Purchase</h5>
               </div>
               <div className="float-five">
-                <h1>Frequency</h1>
+                <h5>Frequency</h5>
               </div>
               <div className="float-six">
-                <h1>Conversion rate</h1>
+                <h5>Conversion rate</h5>
               </div>
               {/* <div className="float-seven">
-                  <h1>
+                  <h5>
                     Search
                     <br /> ImpressionSearch
                     <br /> Share
-                  </h1>
+                  </h5>
                 </div>
                 <div className="float-eight">
-                  <h1>
+                  <h5>
                     Cost per
                     <br /> Add to
                     <br /> Cart
@@ -338,6 +369,7 @@ export default function Home() {
                     <div className="">
                       {/* <img src="/growth.png" alt="" /> */}
                       <Image
+                        id="network"
                         src="/growth.png"
                         width={50}
                         height={50}
@@ -360,6 +392,7 @@ export default function Home() {
                     <div className="">
                       {/* <img src="/shopping.png" alt="" /> */}
                       <Image
+                        id="network"
                         src="/shopping.png"
                         width={50}
                         height={50}
@@ -383,6 +416,7 @@ export default function Home() {
                     <div className="">
                       {/* <img src="/interest-rate.png" alt="" /> */}
                       <Image
+                        id="network"
                         src="/interest-rate.png"
                         width={50}
                         height={50}
@@ -420,6 +454,7 @@ export default function Home() {
                       <div className="">
                         {/* <img src="/growth.png" alt="" /> */}
                         <Image
+                          id="network"
                           src="/growth.png"
                           width={50}
                           height={50}
@@ -442,6 +477,7 @@ export default function Home() {
                     <div className="achieve-numbers">
                       <div className="">
                         <Image
+                          id="network"
                           src="/shopping.png"
                           width={50}
                           height={50}
@@ -464,6 +500,7 @@ export default function Home() {
                     <div className="achieve-numbers">
                       <div className="">
                         <Image
+                          id="network"
                           src="/interest-rate.png"
                           width={50}
                           height={50}

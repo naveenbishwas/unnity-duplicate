@@ -13,7 +13,7 @@
   width: 150px;
 }
 
-.navbar {
+.add-navbar {
   display: flex;
   justify-content: space-around;
   gap: 5%;
@@ -395,13 +395,13 @@
     top: 58%;
   }
   32% {
-    right: 5%;
+    right: 65%;
   }
   40% {
-    right: 40%;
+    right: 80%;
   }
   50% {
-    top: 85%;
+    top: 45%;
   }
   64% {
     top: 95%;
@@ -416,7 +416,7 @@
     right: 20%;
   }
   100% {
-    top: 74%;
+    top: 44%;
   }
 }
 
@@ -437,7 +437,7 @@
     right: 40%;
   }
   50% {
-    top: 80%;
+    top: 60%;
   }
   60% {
     top: 67%;
@@ -449,10 +449,10 @@
     right: 40%;
   }
   90% {
-    top: 84%;
+    top: 64%;
   }
   100% {
-    top: 100%;
+    top: 50%;
   }
 }
 
@@ -464,19 +464,19 @@
     left: 15%;
   }
   20% {
-    top: 40%;
+    top: 30%;
   }
   32% {
     left: 55%;
   }
   40% {
-    top: 80%;
+    top: 60%;
   }
   55% {
     left: 10%;
   }
   60% {
-    top: 77%;
+    top: 67%;
   }
   71% {
     left: 70%;
@@ -485,10 +485,10 @@
     left: 30%;
   }
   97% {
-    top: 90%;
+    top: 80%;
   }
   100% {
-    top: 58%;
+    top: 48%;
   }
 }
 
@@ -533,7 +533,7 @@
     left: 19%;
   }
   10% {
-    top: 55%;
+    top: 45%;
   }
   20% {
     right: 43%;
@@ -542,13 +542,13 @@
     right: 55%;
   }
   40% {
-    top: 70%;
+    top: 60%;
   }
   50% {
     right: 10%;
   }
   60% {
-    top: 87%;
+    top: 77%;
   }
   70% {
     right: 70%;
@@ -557,7 +557,7 @@
     right: 80%;
   }
   90% {
-    top: 74%;
+    top: 54%;
   }
   100% {
     top: 56%;
@@ -819,10 +819,27 @@
 .achieve-name {
   display: flex;
   justify-content: center;
+  margin-top: 3%;
 }
 
 .achieve-numbers img {
   width: 50px;
+}
+
+.achieve-numbers:hover .catego h2 {
+  font-size: 17px;
+  transition: all 1s ease;
+}
+
+.achieve-numbers:hover .red h1 {
+  font-size: 39px;
+  transition: all 1s ease;
+}
+
+.achieve-numbers:hover #network {
+  width: 70px;
+  height: 70px;
+  transition: all 1s ease;
 }
 
 .achievement {
@@ -851,10 +868,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 5%;
 }
 
 .red h1 {
-  margin-top: 5px;
+  margin-top: 20px;
   color: #061b91;
   font-size: 29px;
   font-family: monospace;
@@ -1058,4 +1076,9 @@
 
 #down {
   margin-top: 5%;
+}
+
+.invalid-feedback {
+  font-family: "Arial";
+  margin-left: 10px;
 }
