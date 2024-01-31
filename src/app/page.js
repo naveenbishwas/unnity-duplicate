@@ -65,7 +65,7 @@ export default function Home() {
 
         <section className="banner">
           <Image
-            src="/bannerfour.png"
+            src="/target.png"
             width={100}
             height={700}
             alt="Banner-img"
