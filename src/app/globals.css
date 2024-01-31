@@ -7,7 +7,6 @@
   font-family: "Poppins";
   text-decoration: none;
   box-sizing: border-box;
-  scroll-behavior: smooth;
 }
 
 .logo img {
@@ -57,13 +56,14 @@
   text-align: center;
   font-size: 2.5rem;
   margin-top: 3%;
-  text-transform: uppercase;
+  text-transform: capitalize;
   line-height: 1.2;
 }
 
 .intro-heading h1 .brand-name {
   color: rgb(53, 53, 148);
   font-size: 2.4rem;
+  text-transform: uppercase;
 }
 
 .intro-desc p {
@@ -133,9 +133,9 @@
 }
 
 .banner {
-  background-image: url("/bannerfour.png");
+  background-image: url("/purple-digi.png");
   width: 100vw;
-  height: 600px;
+  height: 650px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -753,16 +753,15 @@
 
 .about-unnity-left button {
   border: 1px solid #fff;
-  color: #fff;
-  background-color: transparent;
+  background-color: #fff;
   margin-top: 4%;
   font-size: 20px;
   padding: 10px;
 }
 
 .about-unnity-left button:hover {
-  background-color: #ffffff;
-  color: #010101;
+  background-color: #000;
+  color: #ffffff;
   transition: all 0.3s ease;
 }
 
