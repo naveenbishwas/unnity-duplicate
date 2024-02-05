@@ -1,0 +1,307 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Open Sans";
+}
+
+body {
+  padding-bottom: 20%;
+}
+
+.challenge-header h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 5%;
+  text-transform: uppercase;
+  font-family: monospace;
+}
+
+.challenge-df {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.challenge-image {
+  width: 70%;
+}
+
+.challenge-image img {
+  width: 100%;
+  height: 80%;
+  margin-left: 5%;
+}
+
+.challenge-text img {
+  width: 131px;
+  height: 158px;
+  background: #c1c1ee;
+  padding: 10px;
+  clip-path: circle();
+}
+
+.color-line-df {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 6%;
+  padding-top: 3%;
+}
+
+.color-line {
+  width: 14%;
+  height: 10px;
+  background-color: red;
+}
+
+.challenge {
+  position: relative;
+}
+
+.challenge-text-df {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+}
+
+.challenge-text {
+  border: 1px solid #ffffff;
+  box-shadow: #9292ff 0px 0px 9px 0px;
+  width: 48%;
+  height: 97vh;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.challenge-text ul li {
+  margin-top: 6%;
+  font-size: 18px;
+  list-style: disc;
+}
+
+.challenge-text ul li:first-child {
+  margin-top: 0;
+}
+
+.challenge-text ul {
+  padding: 2% 5% 2% 8%;
+}
+
+.puzzle {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  background-color: #23234d;
+  padding: 10px 0;
+}
+
+.goals {
+  position: relative;
+}
+
+.goal-image img {
+  width: 100vw;
+  height: 120vh;
+}
+
+.goal-header h1 {
+  font-family: "Poppins";
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.goal-df {
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+  gap: 5%;
+}
+
+.goal-left {
+  max-width: 40%;
+}
+
+.goal-left li:first-child {
+  margin-top: 0;
+}
+
+.goal-left li {
+  margin-top: 8%;
+  list-style: disc;
+  font-size: 19px;
+  font-weight: bolder;
+}
+
+.goal-right {
+  max-width: 45%;
+}
+
+.goal-right li {
+  margin-top: 20px;
+  font-size: 17px;
+  font-weight: bolder;
+  list-style: disc;
+}
+
+.goal-right p {
+  font-family: "Poppins";
+  text-transform: uppercase;
+  font-size: 22px;
+  text-decoration: underline dashed;
+}
+
+.goal-opacity {
+  background-color: #fff;
+  width: 100%;
+  height: 120vh;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+}
+
+.goal-text {
+  position: absolute;
+  top: 0;
+}
+
+.strategy-image img {
+  margin-left: -5%;
+  width: 105%;
+  height: 100vh;
+  margin-top: 5%;
+}
+
+.strategy-image {
+  width: 70%;
+}
+
+.strategy-df {
+  display: flex;
+  justify-content: center;
+}
+
+.strategy-header h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Poppins";
+  margin-top: 8%;
+}
+
+.strategy-text {
+  width: 50%;
+  height: 100vh;
+  padding: 3% 1% 8% 3%;
+  background-color: #fff;
+  border: 1px solid #ffffff;
+  box-shadow: #ffc392 0px 0px 9px 0px;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+
+.strategy-execution {
+  position: relative;
+}
+
+.strategy-text:first-child {
+  margin-top: 0;
+}
+
+.strategy-text li {
+  margin-top: 7%;
+  margin-left: 10px;
+  list-style: disc;
+  font-size: 17px;
+}
+
+.st-color-line-df {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.str-text-img {
+  background: #85dde7;
+  padding: 5px;
+  clip-path: circle();
+  display: flex;
+  justify-content: center;
+}
+
+#strategy-color {
+  width: 14%;
+  height: 10px;
+  background-color: rgb(134, 28, 187);
+}
+
+.result {
+  margin-top: 30%;
+  position: relative;
+  color: #fff;
+}
+
+.result-image img {
+  width: 100%;
+  height: 110vh;
+}
+
+.result-opacity {
+  width: 100%;
+  height: 110vh;
+  background-color: #1b3d81;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+}
+
+.result-text {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5%;
+}
+
+.result-text-left {
+  border-right: 2px solid rgb(0, 236, 0);
+  padding: 3 10% 3% 3%;
+  width: 43%;
+  height: 77vh;
+}
+
+.result-text-left h1 {
+  font-size: 6rem;
+  font-family: "Poppins";
+  line-height: 1.3;
+  margin-top: 15%;
+  margin-left: 10%;
+}
+
+#result-w {
+  font-size: 8rem;
+  font-family: "Poppins";
+  line-height: 1;
+  margin-top: 15%;
+  margin-left: 10%;
+}
+
+.result-text-right li {
+  font-size: 22px;
+  margin-top: 5%;
+  font-weight: bolder;
+  list-style: disc;
+}
+
+.result-text-right ul {
+  margin-top: 15%;
+  margin-left: 4%;
+}

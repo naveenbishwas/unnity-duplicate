@@ -43,42 +43,48 @@ export default function Home() {
   }
   return (
     <div className="main-container">
-      <header>
-        <section className="add-navbar">
-          <div className="logo">
-            <Image
-              src="/check.png"
-              width={90}
-              height={75}
-              alt="logo-image"
-              unoptimized
-            ></Image>
-          </div>
+      <section className="add-navbar">
+        <div className="logo">
+          <Image
+            src="/check.png"
+            width={90}
+            height={75}
+            alt="logo-image"
+            unoptimized
+          ></Image>
+        </div>
 
-          <div className="contact-btn">
+        <div className="contact-btn">
+          <a href="#connect">
+            <button className="animate__animated animate__bounceIn">
+              Contact
+            </button>
+          </a>
+          <div className="number">
             <a href="#connect">
-              <button className="animate__animated animate__bounceIn">
-                Contact
-              </button>
+              <h4>+91 93150 03754</h4>
             </a>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section className="banner">
-          <Image
+      <section className="banner">
+        {/* <Image
             src="/target.png"
             width={100}
             height={700}
             alt="Banner-img"
             unoptimized
-          ></Image>
-        </section>
-      </header>
+          ></Image> */}
+        <video width="100%" height="100%" loop muted autoPlay="autoplay">
+          <source src="/banner5.mp4" type="video/mp4" />
+        </video>
+      </section>
 
       <section className="intro">
         <div className="intro-wrap">
           <div className="intro-df">
-            <div className="intro-upper-part" id="connect">
+            <div className="intro-upper-part">
               <div className="intro-heading">
                 <h1>
                   Empower Your Brand with <br />
@@ -96,8 +102,11 @@ export default function Home() {
                   your brand with Unnity.
                 </p>
               </div>
+              <a href="#connect">
+                <button id="sign">Sign Up</button>
+              </a>
             </div>
-            <div className="intro-bottom-part">
+            <div className="intro-bottom-part" id="connect">
               <div className="intro-bottom-part-left">
                 <Image
                   src="/Blue-Modern.png"
@@ -117,9 +126,6 @@ export default function Home() {
                       placeholder="Company Name"
                       required
                     />
-                    <div className="invalid-feedback">
-                      Please Enter Company Name
-                    </div>
                   </div>
                   <div className="was-validated">
                     <select required name="budget" id="budget">
@@ -132,9 +138,6 @@ export default function Home() {
                         I am Looking For Organic Services
                       </option>
                     </select>
-                    <div className="invalid-feedback">
-                      Please Select Your Budget
-                    </div>
                   </div>
                   <div className="was-validated">
                     <input
@@ -144,9 +147,6 @@ export default function Home() {
                       placeholder="Name"
                       required
                     />
-                    <div className="invalid-feedback">
-                      Please Enter Your Name
-                    </div>
                   </div>
                   <div className="was-validated">
                     <input
@@ -156,9 +156,6 @@ export default function Home() {
                       placeholder="Phone Number"
                       required
                     />
-                    <div className="invalid-feedback">
-                      Please Enter Phone Number
-                    </div>
                   </div>
                   <div className="was-validated">
                     <input
@@ -168,9 +165,6 @@ export default function Home() {
                       placeholder="Email Address"
                       required
                     />
-                    <div className="invalid-feedback">
-                      Please Enter Email Adress
-                    </div>
                   </div>
                   <div className="was-validated">
                     <select required name="service" id="service">
@@ -178,20 +172,7 @@ export default function Home() {
                       <option value="">SEO & Content</option>
                       <option value="">Paid Search</option>
                       <option value="">MarketPlace Management</option>
-                      <option value="">
-                        Social Media/Influencer Marketing
-                      </option>
-                      <option value="">Account Based Marketing</option>
-                      <option value="">Programmatic Ads</option>
-                      <option value="">CRO & Marketing Automation</option>
-                      <option value="">Website Design & Development</option>
-                      <option value="">Creatives & Videos</option>
-                      <option value="">Hyperlocal Marketing</option>
-                      <option value="">Digital Marketing Services</option>
                     </select>
-                    <div className="invalid-feedback">
-                      Please Select Service
-                    </div>
                   </div>
                   <div className="was-validated">
                     <input
@@ -201,9 +182,6 @@ export default function Home() {
                       placeholder="Designation"
                       required
                     />
-                    <div className="invalid-feedback">
-                      Please Enter Designation
-                    </div>
                   </div>
 
                   <div className="">
@@ -304,6 +282,54 @@ export default function Home() {
               d="M0,192L120,181.3C240,171,480,149,720,144C960,139,1200,149,1320,154.7L1440,160L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
             ></path>
           </svg> */}
+      </section>
+
+      <section className="our-service">
+        <div className="our-service-header">
+          <h1>Our Services</h1>
+          <p></p>
+        </div>
+
+        <div className="services">
+          <div className="service-first-row">
+            <div className="seo">
+              <img src="/seo2.png" alt="" />
+              <h3>Search Engine Optimisation</h3>
+              <div className="seo-right"></div>
+              <div className="seo-bottom"></div>
+            </div>
+            <div className="meta">
+              <img src="/meta2.png" alt="" />
+              <h3>Meta Ads</h3>
+              <div className="meta-right"></div>
+              <div className="meta-bottom"></div>
+            </div>
+            <div className="google">
+              <img src="/adwords2.png" alt="" />
+              <h3>Google Ads</h3>
+              <div className="google-bottom"></div>
+            </div>
+          </div>
+          <div className="service-second-row">
+            <div className="ui">
+              <img src="/ui.png" alt="" />
+              <h3>UI/UX</h3>
+              <div className="ui-right"></div>
+              <div className="ui-bottom"></div>
+            </div>
+            <div className="development">
+              <img src="/smartphone2.png" alt="" />
+              <h3>Website Development</h3>
+              <div className="development-right"></div>
+              <div className="development-bottom"></div>
+            </div>
+            <div className="consult">
+              <img src="/brand-image.png" alt="" />
+              <h3>Brand Consultation</h3>
+              <div className="consult-bottom"></div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section className="video">
@@ -550,10 +576,108 @@ export default function Home() {
                 />
               </>
             )}
+
+            {loaded && instanceRef.current && (
+              <div id="dis-none" className="dots">
+                {[
+                  ...Array(
+                    instanceRef.current.track.details.slides.length
+                  ).keys(),
+                ].map((idx) => {
+                  return (
+                    <button
+                      key={idx}
+                      onClick={() => {
+                        instanceRef.current?.moveToIdx(idx);
+                      }}
+                      className={
+                        "dot" + (currentSlide === idx ? " active" : "")
+                      }
+                    ></button>
+                  );
+                })}
+              </div>
+            )}
           </div>
         </div>
         <hr className="brand-border" id="down" />
       </section>
+
+      <section className="case-studies">
+        <div className="case-study-header">
+          <h1>Case Studies</h1>
+        </div>
+        <div className="dental-df">
+          <a href="Case-study" className="dental-case">
+            <div className="dental-pos">
+              <div className="dental-clove-text">
+                <h1>Case Studies of Dentist</h1>
+              </div>
+
+              <div className="dental-clove">
+                <video
+                  id="dental-hover"
+                  width="85%"
+                  height="75%"
+                  loop
+                  muted
+                  autoPlay="autoplay"
+                >
+                  <source src="/dental-three.mp4" type="video/mp4" />
+                </video>
+                <div className="dental-abs">click me </div>
+              </div>
+            </div>
+          </a>
+
+          <div className="dental-pos">
+            <div className="dental-clove-text">
+              <h1>Case Studies of Home Appliences</h1>
+            </div>
+            <div className="dental-clove">
+              <video width="85%" height="75%" loop muted autoPlay="autoplay">
+                <source src="/dental-three.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </div>
+
+          <div className="dental-pos">
+            <div className="dental-clove-text">
+              <h1>Case Studies E Sim</h1>
+            </div>
+            <div className="dental-clove">
+              <video width="85%" height="75%" loop muted autoPlay="autoplay">
+                <source src="/dental-three.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="lets-started">
+        <div className="start-left">
+          <img src="/call.png" alt="" />
+        </div>
+        <div className="start-right">
+          <div className="right-header">
+            <h1>Let's get Started</h1>
+            <p>
+              Schedule a call at your convenience time to help us understand
+              your brand, vision & expectations.
+            </p>
+            <div className="call-btn">
+              <a href="Calender">
+                <button id="btn-first">Schedule A Call</button>
+              </a>
+              <a href="mailto:naveenbishwas4@gmail.com">
+                <button id="btn-second">Send a Email</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section></section>
     </div>
   );
 }
