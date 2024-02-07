@@ -1,22 +1,37 @@
 import React from "react";
 import "./case-studies.css";
 import Image from "next/image";
+import Link from "next/link";
 
 const page = () => {
   return (
     <>
       <div className="case-study-conatiner">
-        <div className="logo">
-          <a href="#/connect">
+        <section className="add-navbar">
+          <div className="logo">
             <Image
               src="/check.png"
-              width={50}
-              height={85}
+              width={90}
+              height={75}
               alt="logo-image"
               unoptimized
             ></Image>
-          </a>
-        </div>
+          </div>
+
+          <div className="contact-btn">
+            <Link href="/connect">
+              <button className="animate__animated animate__bounceIn">
+                Contact
+              </button>
+            </Link>
+
+            <div className="number">
+              <a href="#connect">
+                <h4>+91 93150 03754</h4>
+              </a>
+            </div>
+          </div>
+        </section>
         <section className="challenge">
           <div className="challenge-header">
             <h1>The Challenge</h1>
@@ -24,7 +39,7 @@ const page = () => {
           <div className="challenge-df">
             <div className="challenge-image">
               <Image
-                src="/dent-pic-three.jpg"
+                src="/girl-happy.jpg"
                 width={100}
                 height={100}
                 alt="logo-image"
@@ -94,41 +109,53 @@ const page = () => {
               <h1>Goals in the Dentistry Category</h1>
             </div>
             <div className="goal-df">
-              <div className="goal-left">
-                <ul>
-                  <li>
+              <div id="goal-line-one"></div>
+              <div id="goal-line-two"></div>
+              <ul id="goals-point">
+                <li>
+                  <div className="goal-color-box"></div>
+                  <p>
                     Top Level was definitely increasing conversions. But the
                     priority was better data clarity in terms of the performance
                     of the campaigns and based on that optimizing campaigns
                     better
-                  </li>
-                  <li>
-                    Splitted campaigns into 3 main different categories 1{")"}{" "}
-                    General Dentistry 2{")"} Implants 3{")"} Ortho(Aligners &
-                    Braces)
-                  </li>
-                  <li>
+                  </p>
+                  <ul id="bottom-points">
+                    <p>Initial process was to maintain hygiene.</p>
+                    <li>
+                      First thing was to rectify the nomenclature that makes
+                      analysis of the campaigns better through filter
+                    </li>
+                    <li>Wrong Landing Pages across the cities in the ads</li>
+                    <li>
+                      UTM parameters across all the campaigns were updated
+                    </li>
+                    <li>
+                      Removed keywords from campaigns to avoid keyword
+                      cannibalization across the account
+                    </li>
+                    <li>
+                      Placement Negation with irrelevant traffic that was
+                      generated
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <div className="goal-color-box"></div>
+                  <p>
+                    Splitted campaigns into 3 main different categories 1{")"}
+                    {""} General Dentistry 2{")"} Implants 3{")"} Ortho
+                    (Aligners & Braces)
+                  </p>
+                </li>
+                <li>
+                  <div className="goal-color-box"></div>
+                  <p>
                     Started recording separate leads for these campaigns to
                     check the lead flow of each category.
-                  </li>
-                </ul>
-              </div>
-              <div className="goal-right">
-                <p>Initial process was to maintain hygiene.</p>
-                <li>
-                  First thing was to rectify the nomenclature that makes
-                  analysis of the campaigns better through filter
+                  </p>
                 </li>
-                <li>Wrong Landing Pages across the cities in the ads</li>
-                <li>UTM parameters across all the campaigns were updated</li>
-                <li>
-                  Removed keywords from campaigns to avoid keyword
-                  cannibalization across the account
-                </li>
-                <li>
-                  Placement Negation with irrelevant traffic that was generated
-                </li>
-              </div>
+              </ul>
             </div>
           </div>
         </section>
@@ -141,7 +168,7 @@ const page = () => {
           <div className="strategy-df">
             <div className="strategy-image">
               <Image
-                src="/dent-pic-four.jpg"
+                src="/girl-happy2.jpg"
                 width={100}
                 height={100}
                 alt="logo-image"
@@ -192,11 +219,12 @@ const page = () => {
         <section className="result">
           <div className="result-image">
             <Image
-              src="/dent-pic-five.jpg"
-              width={50}
-              height={85}
+              src="/dent-pic-seven.webp"
+              width={100}
+              height={100}
               alt="logo-image"
               unoptimized
+              // layout="fill"
             ></Image>
           </div>
           <div className="result-opacity"></div>
@@ -225,6 +253,29 @@ const page = () => {
                   received
                 </li>
               </ul>
+            </div>
+          </div>
+        </section>
+
+        <section className="lets-started">
+          <div className="start-left">
+            <img src="/call.png" alt="" />
+          </div>
+          <div className="start-right">
+            <div className="right-header">
+              <h1>Let's get Started</h1>
+              <p>
+                Schedule a call at your convenience time to help us understand
+                your brand, vision & expectations.
+              </p>
+              <div className="call-btn">
+                <a href="https://calendly.com/sayam-unnity/30min">
+                  <button id="btn-first">Schedule A Call</button>
+                </a>
+                <a href="mailto:naveenbishwas4@gmail.com">
+                  <button id="btn-second">Send a Email</button>
+                </a>
+              </div>
             </div>
           </div>
         </section>

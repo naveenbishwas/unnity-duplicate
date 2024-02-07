@@ -4,14 +4,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@600&family=Rubik:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@600&family=Protest+Riot&family=Rubik:wght@500&display=swap");
 
-* {
-  padding: 0;
-  margin: 0;
-  font-family: "Poppins";
-  text-decoration: none;
-  box-sizing: border-box;
-}
-
 .logo img {
   width: 150px;
 }
@@ -58,7 +50,7 @@
 .intro-heading h1 {
   text-align: center;
   font-size: 2.5rem;
-  margin-top: 3%;
+  margin-top: -4%;
   text-transform: capitalize;
   line-height: 1.2;
 }
@@ -726,8 +718,7 @@
   display: flex;
   margin-top: 5%;
   align-items: center;
-  padding-bottom: 5%;
-  padding-top: 5%;
+  padding-bottom: 2%;
 }
 
 .about-unnity-left {
@@ -737,14 +728,6 @@
 
 .about-unnity-right {
   margin-top: -10%;
-}
-
-.about-unnity-left button {
-  border: 1px solid #fff;
-  background-color: #fff;
-  margin-top: 4%;
-  font-size: 20px;
-  padding: 10px;
 }
 
 .about-unnity-left button:hover {
@@ -794,14 +777,16 @@
 .about-unnity-left h1 {
   font-weight: bolder;
   font-size: 2rem;
+  margin-top: 6%;
 }
 
 .about-unnity-left p {
-  margin-top: 10px;
+  margin-top: 5%;
   font-size: 18px;
-  max-width: 82%;
-  text-align: justify;
+  max-width: 85%;
+  text-align: left;
   color: #dedddd;
+  word-spacing: 4px;
 }
 
 .service-first-row,
@@ -812,7 +797,7 @@
 }
 
 .service-second-row {
-  margin-top: 6%;
+  margin-top: 4%;
 }
 
 .service-first-row {
@@ -820,11 +805,15 @@
 }
 
 .our-service {
-  padding: 10% 0;
+  padding: 3% 0;
 }
 
 .services {
   text-align: center;
+}
+
+.services .service-first-row .seo h3 {
+  margin-top: -12%;
 }
 
 .services img {
@@ -848,7 +837,7 @@
 
 .ui {
   position: relative;
-  margin-left: 10%;
+  margin-left: 8%;
 }
 
 .development {
@@ -864,7 +853,7 @@
 }
 
 .ui img {
-  width: 90px;
+  width: 117px;
 }
 
 .development img {
@@ -891,6 +880,7 @@
 .consult {
   position: relative;
   left: -5%;
+  top: -19px;
 }
 
 .seo-right {
@@ -913,19 +903,19 @@
 
 .ui-right {
   position: absolute;
-  top: -16%;
-  left: 255%;
+  top: 15%;
+  left: 223%;
   width: 1px;
-  height: 120%;
+  height: 78%;
   border: 0.5px solid #aeaeae;
 }
 
 .development-right {
   position: absolute;
-  top: 9%;
+  top: 10%;
   left: 139%;
   width: 1px;
-  height: 75%;
+  height: 89%;
   border: 0.5px solid #aeaeae;
 }
 
@@ -954,6 +944,14 @@
 
 .service-second-row h3 {
   margin-top: 30px;
+}
+
+.ui h3 {
+  margin-top: -30px;
+}
+
+.consult h3 {
+  margin-top: -20px;
 }
 
 .achieve-name {
@@ -1242,13 +1240,13 @@
 .dental-clove-text h1 {
   padding: 16px 30px;
   font-size: 1.4rem;
-  margin-left: 6px;
   font-weight: bolder;
   font-family: "Rubik";
 }
 
 .case-study-header h1 {
   text-align: center;
+  font-size: 3.4rem;
 }
 
 .dental-clove {
@@ -1259,15 +1257,23 @@
 
 .dental-clove video {
   object-fit: cover;
-  margin-top: -30%;
+  margin-top: -23%;
+}
+
+#girl-happy video {
+  margin-top: -32%;
+}
+
+#dentist {
+  margin-left: 18px;
 }
 
 .dental-df {
   display: flex;
   justify-content: space-around;
   gap: 5%;
-  padding: 0 2% 8% 0;
-  margin-top: 6%;
+  padding: 0 2% 0% 0;
+  margin-top: 3%;
 }
 
 .dental-case {
@@ -1278,16 +1284,22 @@
 .dental-abs {
   position: absolute;
   top: 0%;
-  left: 7%;
-  background-color: rgb(0, 0, 0);
-  width: 343px;
-  height: 365px;
+  left: 12%;
+  width: 301px;
+  height: 277px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 23px;
   opacity: 0;
-  color: #fff;
+  background-color: #000;
+}
+
+.social {
+  display: flex;
+  align-items: start;
+
+  gap: 130px;
 }
 
 #sign {
@@ -1301,7 +1313,7 @@
 }
 
 .dental-clove:hover .dental-abs {
-  opacity: 0.8;
+  opacity: 0.3;
   transition: 0.4s ease;
 }
 
@@ -1380,6 +1392,75 @@
   border: 1px solid #23234d;
   transition: 0.3s ease;
   font-size: 21px;
+}
+
+footer {
+  background-color: #23234d;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding: 2% 0;
+}
+
+.footer-text {
+  margin-top: 15%;
+}
+
+.follow-us {
+  margin-top: 1%;
+}
+
+.follow-us > span {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  margin-top: 15px;
+}
+
+.follow-us > span h6 {
+  font-size: 19px;
+}
+
+.follow-us > span svg {
+  width: 20px;
+  height: 20px;
+}
+
+#insta {
+  margin-top: 29px;
+}
+
+.footer-services li {
+  list-style: none;
+}
+
+.follow-us h6 {
+  margin-top: 10px;
+}
+
+.follow-us h6:hover {
+  color: lightblue;
+}
+
+.follow-us > span {
+  gap: 10px;
+}
+
+footer h4 {
+  color: aquamarine;
+  cursor: pointer;
+}
+
+.footer-services li {
+  margin-top: 15px;
+}
+
+.footer-services li:hover {
+  color: lightblue;
+}
+
+.footer-services li:first-of-type {
+  margin-top: 30px;
 }
 
 @media screen and (max-width: 768px) {
@@ -1833,7 +1914,7 @@
   .consult {
     position: relative;
     left: 99%;
-    top: -284%;
+    top: -208%;
   }
 
   .google {
@@ -1866,7 +1947,7 @@
 
   .consult-bottom {
     position: absolute;
-    bottom: -25%;
+    bottom: -13%;
     width: 146px;
     left: 13%;
     border: 0.5px solid #aeaeae;
@@ -1909,14 +1990,11 @@
 
   .consult img {
     margin-top: -15px;
+    width: 75px;
   }
 
   .consult h3 {
-    margin-top: 5%;
-  }
-
-  .banner video {
-    height: 238px;
+    margin-top: -3%;
   }
 
   #sign {

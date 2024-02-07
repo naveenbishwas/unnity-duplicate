@@ -1,22 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@1,600&family=Pacifico&family=Poppins:wght@600&family=Protest+Riot&family=Raleway:wght@500&family=Rubik:wght@500&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  font-family: "Open Sans";
-}
-
-body {
-  padding-bottom: 20%;
+  font-family: "Poppins";
 }
 
 .challenge-header h1 {
-  font-size: 3rem;
+  font-size: 3.6rem;
+  word-spacing: 4px;
   text-align: center;
   margin-top: 5%;
-  text-transform: uppercase;
-  font-family: monospace;
+  text-transform: capitalize;
+  font-family: "Raleway";
 }
 
 .challenge-df {
@@ -30,9 +29,9 @@ body {
 }
 
 .challenge-image img {
-  width: 100%;
-  height: 80%;
-  margin-left: 5%;
+  width: 88%;
+  height: 90%;
+  margin-left: 11%;
 }
 
 .challenge-text img {
@@ -73,7 +72,6 @@ body {
   height: 97vh;
   background-color: #fff;
   position: relative;
-  z-index: 1;
 }
 
 .challenge-text ul li {
@@ -95,15 +93,10 @@ body {
   justify-content: center;
 }
 
-.logo {
-  display: flex;
-  justify-content: center;
-  background-color: #23234d;
-  padding: 10px 0;
-}
-
 .goals {
   position: relative;
+  z-index: -1;
+  margin-top: 3%;
 }
 
 .goal-image img {
@@ -112,50 +105,80 @@ body {
 }
 
 .goal-header h1 {
-  font-family: "Poppins";
+  font-family: "Raleway";
   font-size: 3rem;
   text-align: center;
-  margin-top: 10%;
+  margin-top: 13%;
+}
+
+.goal-color-box {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #003b9b;
+  background-color: #073988;
+}
+
+#goals-point {
+  margin-top: 4%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 3%;
+}
+
+#goals-point > li {
+  max-width: 23%;
+  font-size: 17px;
+  line-height: 1.5;
+  word-spacing: 2px;
+}
+
+#goals-point li:first-child {
+  max-width: 28%;
+}
+
+#goals-point > li p {
+  margin-top: 15px;
+}
+
+#bottom-points p {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 19px;
 }
 
 .goal-df {
-  display: flex;
-  justify-content: center;
-  margin-top: 4%;
-  gap: 5%;
+  position: relative;
 }
 
-.goal-left {
+#bottom-points {
+  position: absolute;
+  margin-top: 3%;
+  margin-left: 12%;
   max-width: 40%;
 }
 
-.goal-left li:first-child {
-  margin-top: 0;
-}
-
-.goal-left li {
-  margin-top: 8%;
-  list-style: disc;
-  font-size: 19px;
-  font-weight: bolder;
-}
-
-.goal-right {
-  max-width: 45%;
-}
-
-.goal-right li {
-  margin-top: 20px;
-  font-size: 17px;
-  font-weight: bolder;
+#bottom-points li {
+  margin-top: 16px;
+  font-size: 16px;
   list-style: disc;
 }
 
-.goal-right p {
-  font-family: "Poppins";
-  text-transform: uppercase;
-  font-size: 22px;
-  text-decoration: underline dashed;
+#goal-line-one {
+  position: absolute;
+  left: 8%;
+  top: 152%;
+  width: 1px;
+  height: 150px;
+  border: 0.5px solid #2265eb;
+}
+
+#goal-line-two {
+  position: absolute;
+  left: 8%;
+  top: 240%;
+  width: 100px;
+  height: 1px;
+  border: 0.5px solid #2265eb;
 }
 
 .goal-opacity {
@@ -192,18 +215,18 @@ body {
   text-align: center;
   font-size: 3rem;
   font-family: "Poppins";
-  margin-top: 8%;
+  margin-top: 3%;
 }
 
 .strategy-text {
   width: 50%;
-  height: 100vh;
-  padding: 3% 1% 8% 3%;
+  height: 90vh;
+  padding: 1%;
   background-color: #fff;
   border: 1px solid #ffffff;
-  box-shadow: #ffc392 0px 0px 9px 0px;
+  box-shadow: #92b0ff 0px 0px 9px 0px;
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 40%;
 }
 
@@ -236,6 +259,10 @@ body {
   justify-content: center;
 }
 
+.str-text-img img {
+  width: 57px;
+  height: 90px;
+}
 #strategy-color {
   width: 14%;
   height: 10px;
@@ -243,19 +270,20 @@ body {
 }
 
 .result {
-  margin-top: 30%;
+  margin-top: 20%;
   position: relative;
   color: #fff;
 }
 
 .result-image img {
   width: 100%;
-  height: 110vh;
+  height: 100vh;
+  object-fit: cover;
 }
 
 .result-opacity {
   width: 100%;
-  height: 110vh;
+  height: 100vh;
   background-color: #1b3d81;
   opacity: 0.6;
   position: absolute;
