@@ -804,10 +804,6 @@
   margin-top: 1%;
 }
 
-.our-service {
-  padding: 3% 0;
-}
-
 .services {
   text-align: center;
 }
@@ -1088,68 +1084,6 @@
   height: 300px;
   max-height: 100vh;
 }
-/* 
-.number-slide1 {
-  background: rgb(64, 175, 255);
-  background: linear-gradient(
-    128deg,
-    rgba(64, 175, 255, 1) 0%,
-    rgba(63, 97, 255, 1) 100%
-  );
-}
-
-.number-slide2 {
-  background: rgb(255, 75, 64);
-  background: linear-gradient(
-    128deg,
-    rgba(255, 154, 63, 1) 0%,
-    rgba(255, 75, 64, 1) 100%
-  );
-}
-
-.number-slide3 {
-  background: rgb(182, 255, 64);
-  background: linear-gradient(
-    128deg,
-    rgba(182, 255, 64, 1) 0%,
-    rgba(63, 255, 71, 1) 100%
-  );
-  background: linear-gradient(
-    128deg,
-    rgba(189, 255, 83, 1) 0%,
-    rgba(43, 250, 82, 1) 100%
-  );
-}
-
-.number-slide4 {
-  background: rgb(64, 255, 242);
-  background: linear-gradient(
-    128deg,
-    rgba(64, 255, 242, 1) 0%,
-    rgba(63, 188, 255, 1) 100%
-  );
-}
-
-.number-slide5 {
-  background: rgb(255, 64, 156);
-  background: linear-gradient(
-    128deg,
-    rgba(255, 64, 156, 1) 0%,
-    rgba(255, 63, 63, 1) 100%
-  );
-}
-.number-slide6 {
-  background: rgb(64, 76, 255);
-  background: linear-gradient(
-    128deg,
-    rgba(64, 76, 255, 1) 0%,
-    rgba(174, 63, 255, 1) 100%
-  );
-} */
-
-.navigation-wrapper {
-  position: relative;
-}
 
 .dots {
   display: flex;
@@ -1217,8 +1151,61 @@
   flex-direction: column;
 }
 
+.dental-clove img {
+  width: 100%;
+  height: 100%;
+}
+
+.dental-pos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 5%;
+  text-align: left;
+  width: 350px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.dent-button {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 13px;
+}
+
+.navigation-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
 .naveen-slider {
   overflow: hidden;
+}
+
+.case-studies {
+  padding: 1% 0 5% 0;
+}
+
+.dent-text p {
+  font-size: 16px;
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 10%;
+  padding: 0 10px;
+}
+
+.dent-button button {
+  font-size: 17px;
+  background-color: #191194;
+  color: #ffffff;
+  border: none;
+  font-size: 15px;
+  padding: 7px 20px;
+}
+
+#one,
+#two,
+#third {
+  height: 580px;
 }
 
 #down {
@@ -1231,6 +1218,13 @@
 
 .case-study-header {
   margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.our-service {
+  padding: 3% 0;
 }
 
 .dental-clove-text {
@@ -1246,34 +1240,13 @@
 
 .case-study-header h1 {
   text-align: center;
-  font-size: 3.4rem;
+  font-size: 2.4rem;
 }
 
-.dental-clove {
-  display: grid;
-  place-items: center;
-  align-items: center;
-}
-
-.dental-clove video {
-  object-fit: cover;
-  margin-top: -23%;
-}
-
-#girl-happy video {
-  margin-top: -32%;
-}
-
-#dentist {
-  margin-left: 18px;
-}
-
-.dental-df {
-  display: flex;
-  justify-content: space-around;
-  gap: 5%;
-  padding: 0 2% 0% 0;
-  margin-top: 3%;
+.case-study-header p {
+  margin-top: 8px;
+  max-width: 60%;
+  text-align: center;
 }
 
 .dental-case {
@@ -1281,40 +1254,14 @@
   color: #000;
 }
 
-.dental-abs {
-  position: absolute;
-  top: 0%;
-  left: 12%;
-  width: 301px;
-  height: 277px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 23px;
-  opacity: 0;
-  background-color: #000;
-}
-
 .social {
   display: flex;
   align-items: start;
-
   gap: 130px;
 }
 
 #sign {
   display: none;
-}
-
-.dental-clove {
-  position: relative;
-  height: 364px;
-  width: 400px;
-}
-
-.dental-clove:hover .dental-abs {
-  opacity: 0.3;
-  transition: 0.4s ease;
 }
 
 .number a {
@@ -1816,7 +1763,7 @@ footer h4 {
 
   .about-unnity-left p {
     max-width: 100%;
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .about-unnity-left button {
@@ -1886,7 +1833,16 @@ footer h4 {
   }
 
   .brand-border {
-    margin-top: 9%;
+    margin-top: 5%;
+  }
+
+  .naveen-slider {
+    overflow: hidden;
+    margin-top: -8%;
+  }
+
+  .achieve-first-row {
+    margin-top: -2%;
   }
 
   .number h4 {
@@ -2017,5 +1973,103 @@ footer h4 {
   #dis-none {
     display: flex;
     margin-top: -10px;
+  }
+
+  .lets-started {
+    flex-direction: column;
+  }
+
+  .start-left img {
+    width: 292px;
+    margin-top: -50%;
+  }
+
+  .start-right {
+    max-width: 100%;
+    padding: 0 0% 9% 7%;
+    margin-top: -7%;
+  }
+
+  .right-header h1 {
+    font-size: 2rem;
+  }
+
+  .right-header p {
+    margin-top: 3%;
+    font-size: 14px;
+  }
+
+  .right-header h1 {
+    text-transform: capitalize;
+  }
+
+  .call-btn {
+    display: flex;
+    gap: 2%;
+    align-items: flex-end;
+    margin-top: 5%;
+    margin-left: -3px;
+  }
+
+  #btn-first {
+    font-size: 13px;
+    border: none;
+    padding: 9px 20px;
+    background: #23234d;
+    border-radius: 30px;
+    color: #fff;
+  }
+
+  #btn-second {
+    font-size: 14px;
+    padding: 5px 12px;
+    background: transparent;
+    border-radius: 30px;
+    color: #000000;
+    border: 1px solid #000;
+  }
+
+  footer {
+    display: none;
+  }
+
+  .video {
+    margin-top: -19%;
+  }
+
+  .our-service-header h1 {
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .case-study-header h1 {
+    font-size: 1.6rem;
+    margin-top: 12%;
+  }
+
+  .dental-clove {
+    position: relative;
+    height: 299px;
+    width: 410px;
+    margin-top: -3px;
+  }
+
+  .dental-abs {
+    position: absolute;
+    top: 0%;
+    left: 12%;
+    width: 301px;
+    height: 277px;
+  }
+
+  #home {
+    position: relative;
+    height: 299px;
+    width: 387px;
+  }
+
+  #smile-left {
+    margin-left: -20px;
+    margin-top: 20px;
   }
 }

@@ -21,11 +21,22 @@ export default function Home() {
     },
   });
 
+  const [sliderRef2] = useKeenSlider({
+    breakpoints: {
+      "(min-width: 400px)": {
+        slides: { perView: 2, spacing: 5 },
+      },
+      "(min-width: 1000px)": {
+        slides: { perView: 3, spacing: 10 },
+      },
+    },
+    slides: { perView: 1 },
+  });
+
   function Arrow(props) {
     const disabled = props.disabled ? " arrow--disabled" : "";
     return (
       <svg
-        id="change-color"
         onClick={props.onClick}
         className={`arrow ${
           props.left ? "arrow--left" : "arrow--right"
@@ -42,6 +53,7 @@ export default function Home() {
       </svg>
     );
   }
+
   return (
     <div className="main-container">
       <section className="add-navbar">
@@ -603,57 +615,6 @@ export default function Home() {
         <hr className="brand-border" id="down" />
       </section>
 
-      <section className="case-studies">
-        <div className="case-study-header">
-          <h1>Case Studies</h1>
-        </div>
-        <div className="dental-df">
-          <a href="Case-study" className="dental-case">
-            <div className="dental-pos">
-              <div className="dental-clove-text">
-                <h1 id="dentist">Case Studies of Dentist</h1>
-              </div>
-
-              <div className="dental-clove" id="girl-happy">
-                <video
-                  id="dental-hover"
-                  width="75%"
-                  height="68%"
-                  loop
-                  muted
-                  autoPlay="autoplay"
-                >
-                  <source src="/dental-three.mp4" type="video/mp4" />
-                </video>
-                <div className="dental-abs"> </div>
-              </div>
-            </div>
-          </a>
-
-          <div className="dental-pos">
-            <div className="dental-clove-text">
-              <h1>Case Studies of Home Appliances</h1>
-            </div>
-            <div className="dental-clove">
-              <video width="85%" height="75%" loop muted autoPlay="autoplay">
-                <source src="/home.mp4" type="video/mp4" />
-              </video>
-            </div>
-          </div>
-
-          <div className="dental-pos">
-            <div className="dental-clove-text">
-              <h1>Case Studies E Sim</h1>
-            </div>
-            <div className="dental-clove">
-              <video width="85%" height="75%" loop muted autoPlay="autoplay">
-                <source src="/travel.mp4" type="video/mp4" />
-              </video>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section className="lets-started">
         <div className="start-left">
           <img src="/call.png" alt="" />
@@ -669,10 +630,113 @@ export default function Home() {
               <a href="https://calendly.com/sayam-unnity/30min">
                 <button id="btn-first">Schedule A Call</button>
               </a>
-              <a href="mailto:naveenbishwas4@gmail.com">
+              <a href="mailto:sayam.unnity@gmail.com">
                 <button id="btn-second">Send a Email</button>
               </a>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="case-studies">
+        <div className="case-study-header">
+          <h1>Solutions for every business</h1>
+          <p>
+            Growing a business isn’t easy, but we’ve got your back. Explore some
+            of our customers’ top business challenges and learn how can we help
+            you leave these problems in the past.
+          </p>
+        </div>
+
+        <div className="navigation-wrapper">
+          <div ref={sliderRef2} className="keen-slider">
+            <div className="keen-slider__slide number-slide1" id="one">
+              <a href="Case-study" className="dental-case">
+                <div className="dental-pos" id="smile-left">
+                  <div className="dental-clove-text">
+                    <h1 id="dentist">Case Studies of Dentist</h1>
+                  </div>
+                  <div className="dental-clove" id="girl-happy">
+                    <Image
+                      src={"/dent-again.jpg"}
+                      alt="dent-case"
+                      width={100}
+                      height={100}
+                      unoptimized
+                    ></Image>
+                    <div className="dental-abs"></div>
+                  </div>
+                  <div className="dent-text">
+                    <p>
+                      Find out how companies like yours seamlessly attract
+                      qualified leads, convert them into customers, and drive
+                      revenue.
+                    </p>
+                  </div>
+
+                  <div className="dent-button">
+                    <button>Learn More</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className="keen-slider__slide number-slide2" id="two">
+              <div className="dental-pos">
+                <div className="dental-clove-text">
+                  <h1>Case Studies of Home Appliances</h1>
+                </div>
+                <div className="dental-clove" id="home">
+                  <Image
+                    src={"/home2.jpg"}
+                    alt="dent-case"
+                    width={100}
+                    height={100}
+                    unoptimized
+                  ></Image>
+                </div>
+                <div className="dent-text">
+                  <p>
+                    Find out how companies like yours seamlessly attract
+                    qualified leads, convert them into customers, and drive
+                    revenue.
+                  </p>
+                </div>
+
+                <div className="dent-button">
+                  <button>Learn More</button>
+                </div>
+              </div>
+            </div>
+            <div className="keen-slider__slide number-slide3" id="third">
+              <div className="dental-pos">
+                <div className="dental-clove-text">
+                  <h1>Case Studies E Sim</h1>
+                </div>
+                <div className="dental-clove">
+                  <Image
+                    src={"/travel3.jpg"}
+                    alt="dent-case"
+                    width={100}
+                    height={100}
+                    unoptimized
+                  ></Image>
+                </div>
+                <div className="dent-text">
+                  <p>
+                    Find out how companies like yours seamlessly attract
+                    qualified leads, convert them into customers, and drive
+                    revenue.
+                  </p>
+                </div>
+
+                <div className="dent-button">
+                  <button>Learn More</button>
+                </div>
+              </div>
+            </div>
+            <div className="keen-slider__slide number-slide4">4</div>
+            <div className="keen-slider__slide number-slide5">5</div>
+            <div className="keen-slider__slide number-slide6">6</div>
           </div>
         </div>
       </section>
