@@ -721,11 +721,12 @@ export default function Home() {
                     unoptimized
                   ></Image>
                 </div>
+
                 <div className="dent-text">
                   <p>
                     Find out how companies like yours seamlessly attract
                     qualified leads, convert them into customers, and drive
-                    revenue.
+                    revenue..
                   </p>
                 </div>
 
