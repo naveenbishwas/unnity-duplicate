@@ -6,7 +6,6 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { useKeenSlider } from "keen-slider/react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Link from "next/link";
 
 export default function Home() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -84,13 +83,6 @@ export default function Home() {
       </section>
 
       <section className="banner">
-        {/* <Image
-            src="/target.png"
-            width={100}
-            height={700}
-            alt="Banner-img"
-            unoptimized
-          ></Image> */}
         <video
           width="100%"
           height="100%"
@@ -231,43 +223,12 @@ export default function Home() {
               <div className="float-six">
                 <h5>Conversion rate</h5>
               </div>
-              {/* <div className="float-seven">
-                  <h5>
-                    Search
-                    <br /> ImpressionSearch
-                    <br /> Share
-                  </h5>
-                </div>
-                <div className="float-eight">
-                  <h5>
-                    Cost per
-                    <br /> Add to
-                    <br /> Cart
-                  </h1>
-                </div>
-                <div className="float-nine">
-                  <h1>Thumbstop Ratio</h1>
-                </div>
-                <div className="float-ten">
-                  <h1>Recall Lift</h1>
-                </div> */}
             </div>
           </div>
         </div>
       </section>
 
       <section className="about-unnity">
-        {/* <svg
-            id="wave"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1440 320"
-          >
-            <path
-              fill="#0099ff"
-              fill-opacity="1"
-              d="M0,64L34.3,96C68.6,128,137,192,206,202.7C274.3,213,343,171,411,170.7C480,171,549,213,617,197.3C685.7,181,754,107,823,80C891.4,53,960,75,1029,96C1097.1,117,1166,139,1234,128C1302.9,117,1371,75,1406,53.3L1440,32L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"
-            ></path>
-          </svg> */}
         <div className="about-unnity-df">
           <div className="about-unnity-left">
             <h1>Boost Your Business Online with Our Smart Marketing Moves</h1>
@@ -292,17 +253,6 @@ export default function Home() {
             ></Image>
           </div>
         </div>
-        {/* <svg
-            id="down-svg"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1440 320"
-          >
-            <path
-              fill="#0099ff"
-              fill-opacity="1"
-              d="M0,192L120,181.3C240,171,480,149,720,144C960,139,1200,149,1320,154.7L1440,160L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
-            ></path>
-          </svg> */}
       </section>
 
       <section className="our-service">
@@ -624,29 +574,6 @@ export default function Home() {
         <hr className="brand-border" id="down" />
       </section>
 
-      <section className="lets-started">
-        <div className="start-left">
-          <img src="/call.png" alt="" />
-        </div>
-        <div className="start-right">
-          <div className="right-header">
-            <h1>Let's get Started</h1>
-            <p>
-              Schedule a call at your convenience time to help us understand
-              your brand, vision & expectations.
-            </p>
-            <div className="call-btn">
-              <a href="https://calendly.com/sayam-unnity/30min">
-                <button id="btn-first">Schedule A Call</button>
-              </a>
-              <a href="mailto:sayam.unnity@gmail.com">
-                <button id="btn-second">Send a Email</button>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section className="case-studies">
         <div className="case-study-header">
           <h1>Solutions for every business</h1>
@@ -658,7 +585,7 @@ export default function Home() {
         </div>
 
         <div className="navigation-wrapper">
-          <div ref={sliderRef2} className="keen-slider">
+          <div ref={sliderRef2} className="keen-slider" id="case-study-slider">
             <div className="keen-slider__slide number-slide1" id="one">
               <a href="Case-study" className="dental-case">
                 <div className="dental-pos" id="smile-left">
@@ -748,27 +675,88 @@ export default function Home() {
         </div>
       </section>
 
-      <footer>
-        <div className="address">
-          <div className="footer-logo">
-            <Image
-              src="/check.png"
-              width={150}
-              height={85}
-              alt="logo-image"
-              unoptimized
-            ></Image>
-          </div>
-          <div className="footer-text">
-            <span className="footer-phone">
-              <h6>Phone No - 93150 03754</h6>
-            </span>
-            <span className="footer-email">
-              <h6>Email Address: sayam@unnity.in</h6>
-            </span>
+      <section className="lets-started">
+        <div className="start-left">
+          <img src="/call.png" alt="" />
+        </div>
+        <div className="start-right">
+          <div className="right-header">
+            <h1>Let's get Started</h1>
+            <p>
+              Schedule a call at your convenience time to help us understand
+              your brand, vision & expectations.
+            </p>
+            <div className="call-btn">
+              <a href="https://calendly.com/sayam-unnity/30min">
+                <button id="btn-first">Schedule A Call</button>
+              </a>
+              <a href="mailto:sayam.unnity@gmail.com">
+                <button id="btn-second">Send a Email</button>
+              </a>
+            </div>
           </div>
         </div>
-        <div className="social">
+      </section>
+
+      <footer>
+        <div className="footer-logo">
+          <Image
+            src="/check.png"
+            width={150}
+            height={85}
+            alt="logo-image"
+            unoptimized
+          ></Image>
+        </div>
+        <div className="footer-text">
+          <span className="footer-phone">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-telephone-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"
+              />
+            </svg>
+            <h6>Phone No - +91 93150 03754</h6>
+          </span>
+          <span className="footer-email">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-envelope-fill"
+              viewBox="0 0 16 16"
+            >
+              <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+            </svg>
+            <h6>Email Id : sayam@unnity.in</h6>
+          </span>
+          <span className="footer-address">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-geo-alt-fill"
+              viewBox="0 0 16 16"
+            >
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+            </svg>
+            <h6>
+              Address : SF-40 2nd Floor, Pearl Omaxe, Netaji Subhash Place,
+              Pitampura, New Delhi - 110034
+            </h6>
+          </span>
+        </div>
+
+        <div className="form-boottom">
           <div className="footer-services">
             <h4>Services</h4>
             <li>SEO</li>

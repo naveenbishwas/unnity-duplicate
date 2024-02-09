@@ -900,7 +900,7 @@
 .ui-right {
   position: absolute;
   top: 15%;
-  left: 223%;
+  left: 208%;
   width: 1px;
   height: 78%;
   border: 0.5px solid #aeaeae;
@@ -1226,7 +1226,7 @@
 }
 
 .case-study-header {
-  margin-top: 5%;
+  margin-top: 2%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1354,12 +1354,15 @@ footer {
   background-color: #23234d;
   color: #fff;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  align-items: center;
   padding: 2% 0;
 }
 
 .footer-text {
-  margin-top: 15%;
+  margin-top: 3%;
+  max-width: 26%;
 }
 
 .follow-us {
@@ -1384,10 +1387,6 @@ footer {
 
 #insta {
   margin-top: 29px;
-}
-
-.footer-services li {
-  list-style: none;
 }
 
 .follow-us h6 {
@@ -1417,6 +1416,43 @@ footer h4 {
 
 .footer-services li:first-of-type {
   margin-top: 30px;
+}
+
+.footer-text span {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+
+.footer-email {
+  margin-top: 3%;
+}
+
+.footer-address h6 {
+  max-width: 89%;
+}
+
+.footer-text span svg {
+  width: 20px;
+  height: 20px;
+}
+
+.footer-text .footer-address svg {
+  width: 19px;
+  height: 25px;
+}
+
+.footer-text .footer-address {
+  margin-top: 5%;
+}
+
+.footer-address h6 {
+  line-height: 1.5;
+}
+
+.form-boottom {
+  display: flex;
+  gap: 50px;
 }
 
 @media screen and (max-width: 768px) {
@@ -2038,10 +2074,6 @@ footer h4 {
     border: 1px solid #000;
   }
 
-  footer {
-    display: none;
-  }
-
   .video {
     margin-top: -19%;
   }
@@ -2080,5 +2112,60 @@ footer h4 {
   #smile-left {
     margin-left: -20px;
     margin-top: 20px;
+  }
+
+  #case-study-slider {
+    display: grid;
+    place-content: center;
+  }
+
+  #smile-left {
+    margin-left: 0;
+  }
+
+  .dental-clove img {
+    width: 83%;
+    height: 84%;
+  }
+
+  .dent-text {
+    margin-top: -20%;
+  }
+
+  .case-study-header {
+    margin-top: -3%;
+  }
+
+  .case-study-header p {
+    margin-top: 8px;
+    max-width: 79%;
+    text-align: justify;
+  }
+
+  footer {
+    flex-direction: column;
+    padding-top: 10%;
+    padding-bottom: 23%;
+  }
+
+  .footer-text {
+    max-width: 100%;
+    margin-left: 6%;
+    margin-top: 8%;
+  }
+
+  .footer-logo img {
+    width: 88%;
+    height: 63px;
+    margin-left: 21px;
+  }
+
+  .form-boottom {
+    display: flex;
+    margin-top: 10%;
+  }
+
+  .footer-text .footer-address {
+    margin-top: 2%;
   }
 }
