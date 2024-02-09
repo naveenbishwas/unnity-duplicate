@@ -57,15 +57,17 @@ export default function Home() {
   return (
     <div className="main-container">
       <section className="add-navbar">
-        <div className="logo">
-          <Image
-            src="/check.png"
-            width={90}
-            height={75}
-            alt="logo-image"
-            unoptimized
-          ></Image>
-        </div>
+        <a href="/">
+          <div className="logo">
+            <Image
+              src="/check.png"
+              width={90}
+              height={75}
+              alt="logo-image"
+              unoptimized
+            ></Image>
+          </div>
+        </a>
 
         <div className="contact-btn">
           <a href="#connect">
@@ -89,8 +91,15 @@ export default function Home() {
             alt="Banner-img"
             unoptimized
           ></Image> */}
-        <video width="100%" height="100%" loop muted autoPlay="autoplay">
-          <source src="/banner5.mp4" type="video/mp4" />
+        <video
+          width="100%"
+          height="100%"
+          loop
+          muted
+          autoPlay="autoplay"
+          unoptimized
+        >
+          <source src="/banner-dots2.mp4" type="video/mp4" />
         </video>
       </section>
 
@@ -735,9 +744,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="keen-slider__slide number-slide4">4</div>
-            <div className="keen-slider__slide number-slide5">5</div>
-            <div className="keen-slider__slide number-slide6">6</div>
           </div>
         </div>
       </section>

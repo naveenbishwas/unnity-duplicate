@@ -133,7 +133,7 @@
 }
 
 .intro {
-  margin-top: 7%;
+  margin-top: -24%;
 }
 
 .intro-wrap {
@@ -1214,6 +1214,15 @@
 
 #dis-none {
   display: none;
+}
+
+.dental-pos:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+
+.banner video {
+  margin-top: -18%;
 }
 
 .case-study-header {
