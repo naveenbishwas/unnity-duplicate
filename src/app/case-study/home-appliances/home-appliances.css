@@ -1,0 +1,508 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-weight: normal;
+}
+
+p {
+  color: #434343;
+}
+
+body {
+  background-color: #f3f3f7;
+}
+
+.section-one {
+  padding: 7% 20%;
+}
+
+.section-one h1 {
+  font-family: "monspace";
+  font-size: 3.2rem;
+  font-weight: bolder;
+  color: rgb(47 47 132);
+}
+
+.section-one p {
+  margin-top: 3%;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.s {
+  width: 25px;
+  height: 25px;
+  background-color: #008bd7;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+#by-sayam {
+  margin-top: 3%;
+  align-items: center;
+  display: flex;
+  gap: 1%;
+}
+
+.section-two {
+  padding: 3% 20%;
+}
+
+.section-two h1 {
+  font-family: "monspace";
+  font-size: 3.2rem;
+  font-weight: bolder;
+  color: rgb(47 47 132);
+}
+
+.section-two p {
+  margin-top: 3%;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.scaling-attempt,
+.performance-analysis,
+.strategy-over {
+  margin-top: 5%;
+  display: flex;
+  position: relative;
+}
+
+.scaling-attempt-right,
+.performance-analysis-right,
+.strategy-over-right {
+  margin-left: 9%;
+}
+
+.scaling-attempt-right h3,
+.performance-analysis-right h3,
+.strategy-over h3 {
+  font-weight: bolder;
+}
+
+.scaling-attempt-left-center,
+.performance-analysis-left-center,
+.strategy-over-left-center {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1739a9;
+  font-family: "Protest Strike";
+  border-radius: 7px;
+  font-size: 22px;
+  position: relative;
+  color: #fff;
+}
+
+.scaling-attempt-left-center::after {
+  content: "";
+  width: 2px;
+  height: 20px;
+  position: absolute;
+  top: -50%;
+  left: 48%;
+  border: 1px solid #1739a9;
+  background-color: #1739a9;
+}
+
+.scaling-attempt-left-center::before,
+.performance-analysis-left-center::before {
+  content: "";
+  width: 2px;
+  height: 140px;
+  position: absolute;
+  top: 100%;
+  left: 48%;
+  border: 1px solid #1739a9;
+  background-color: #1739a9;
+}
+
+.strategy-over-left-center::before {
+  content: "";
+  width: 2px;
+  height: 80px;
+  position: absolute;
+  top: 100%;
+  left: 48%;
+  border: 1px solid #1739a9;
+  background-color: #1739a9;
+}
+
+.scaling-attempt-left-right,
+.performance-analysis-left-right,
+.strategy-over-left-right {
+  width: 60px;
+  height: 3px;
+  position: absolute;
+  top: 15%;
+  left: 4.7%;
+  border: 1px solid #1739a9;
+  background-color: #1739a9;
+}
+
+.scaling-attempt-right p,
+.performance-analysis p,
+.strategy-over p {
+  margin-top: 2%;
+}
+
+.performance-analysis,
+.strategy-over {
+  margin-top: 5%;
+}
+
+.restructuring-header h1 {
+  font-family: "monspace";
+  font-size: 3.2rem;
+  font-weight: bolder;
+  color: rgb(47 47 132);
+}
+
+.section-three {
+  margin-top: 5%;
+  padding: 3% 20%;
+}
+
+.restructuring-header p {
+  margin-top: 3%;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.restructuring-camp-df {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4%;
+  gap: 5%;
+}
+
+.restructuring-camp-df > div h1 {
+  font-size: 20px;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+}
+
+.restructuring-camp-df > div {
+  padding: 5px;
+}
+
+.restructuring-camp-df > div p {
+  margin-top: 20px;
+  line-height: 1.4;
+  word-spacing: 2px;
+}
+
+.section-four {
+  margin-top: 5%;
+  padding: 3% 20%;
+}
+
+.conversion-rate1-header h1 {
+  font-size: 3rem;
+  font-family: "monspace";
+  font-weight: 550;
+  color: rgb(47 47 132);
+}
+
+.conversion-rate1-header p {
+  margin-top: 20px;
+  line-height: 1.4;
+  word-spacing: 2px;
+  max-width: 90%;
+}
+
+.deep-analyse {
+  margin-top: 6%;
+  display: flex;
+}
+
+.deep-analyse-right {
+  margin-left: 5%;
+}
+
+.deep-analyse-left h4 {
+  font-family: "Protest Strike";
+}
+
+.deep-analyse-left {
+  border: 1px solid #0c2782;
+  background-color: #0c2782;
+  width: 100px;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 27px;
+  color: #fff;
+  position: relative;
+}
+
+.deep-analyse-left {
+  position: relative;
+}
+
+.triangle-up {
+  position: absolute;
+  top: -15%;
+  width: 0;
+  height: 0;
+  border-left: 43px solid #0c2782;
+  border-right: 43px solid #0c2782;
+  border-top: 20px solid #f3f3f7;
+  z-index: 1;
+}
+
+.triangle-down {
+  position: absolute;
+  bottom: -10px;
+  width: 0;
+  height: 0;
+  border-left: 43px solid #f3f3f7;
+  border-right: 43px solid #f3f3f7;
+  border-top: 20px solid #0c2782;
+  z-index: 1;
+}
+
+.deep-analyse-right h1 {
+  font-family: "monspace";
+  font-weight: 550;
+}
+
+.deep-analyse-right p {
+  margin-top: 2%;
+  line-height: 1.5;
+  font-size: 17px;
+}
+
+#pinpoint {
+  width: 114px;
+}
+
+#complex {
+  width: 133px;
+}
+
+.section-five {
+  margin-top: 5%;
+  padding: 3% 21%;
+}
+
+.revamping-header h1 {
+  font-size: 3rem;
+  font-family: "monspace";
+  font-weight: 550;
+  color: rgb(47 47 132);
+}
+
+.revamping-header p {
+  margin-top: 2%;
+  line-height: 1.5;
+  font-size: 17px;
+}
+
+.revamping-df {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+  gap: 5%;
+}
+
+.revamping-df > div p {
+  margin-top: 2%;
+  line-height: 1.5;
+  font-size: 17px;
+  margin-top: 5%;
+}
+
+.revamping-df > div {
+  background-color: #dedeea;
+  padding: 5% 2%;
+  border-radius: 10px;
+}
+
+.revamping-df > div h1 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.section-six {
+  margin-top: 5%;
+  padding: 3% 20%;
+}
+
+.implementing-header h1 {
+  font-size: 3rem;
+  font-family: "monspace";
+  font-weight: 550;
+  color: rgb(47 47 132);
+}
+
+.implementing-header p {
+  margin-top: 2%;
+  line-height: 1.5;
+  font-size: 17px;
+}
+
+.implementing-df {
+  margin-top: 5%;
+  display: flex;
+}
+
+.implementing-df > div {
+  display: flex;
+}
+
+.autotag-right {
+  margin-left: 5%;
+}
+
+.autotag-left {
+  width: 130px;
+  height: 30px;
+  background-color: #1739a9;
+  border: #1739a9;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Protest Strike";
+}
+
+.autotag-right h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.autotag-right p {
+  margin-top: 5%;
+  line-height: 1.5;
+  font-size: 17px;
+}
+
+.implementing-df .autotag:last-of-type {
+  margin-left: 10px;
+}
+
+#pincode-spec {
+  margin-left: 33px;
+}
+
+.section-seven {
+  padding: 3% 17%;
+}
+
+.custome-header {
+  max-width: 90%;
+}
+
+.custome-header h1 {
+  font-size: 3rem;
+  font-family: "monspace";
+  font-weight: 550;
+  color: rgb(47 47 132);
+}
+
+.custome-header h1 {
+  margin-top: 5%;
+  font-size: 17px;
+  font-size: 3rem;
+}
+
+.custome-header p {
+  margin-top: 3%;
+}
+
+.custome-label {
+  margin-top: 3%;
+  display: flex;
+  gap: 1px;
+}
+
+.custome-label h3,
+.custome-label p {
+  background-color: #dedeea;
+  padding: 20px;
+  width: 48%;
+  line-height: 1.5;
+}
+
+.custome-label p,
+.automatic-label p {
+  font-size: 18px;
+}
+
+.automatic-label {
+  display: flex;
+}
+
+.automatic-label h3,
+.automatic-label p {
+  padding: 20px;
+  width: 48%;
+  line-height: 1.5;
+}
+
+#focused {
+  margin-top: 0;
+}
+
+.section-eight {
+  margin-top: 5%;
+  padding: 3% 17%;
+}
+
+.outcome h1 {
+  font-size: 3rem;
+  font-family: "monspace";
+  font-weight: 550;
+  color: rgb(47 47 132);
+}
+
+.outcome p {
+  margin-top: 3%;
+  line-height: 1.5;
+  font-size: 17px;
+}
+
+.outcome-df {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  gap: 10px;
+  margin-top: 5%;
+}
+
+.outcome-df > div h1 {
+  font-size: 4rem;
+  font-family: "Protest Strike";
+  font-weight: bold;
+}
+
+.outcome-df > div h3 {
+  font-weight: bold;
+  margin-top: 4%;
+}
+
+.outcome-df > div p {
+  margin-top: 9%;
+  line-height: 1.5;
+  font-size: 17px;
+}
+
+.outcome-df > div:first-of-type {
+  max-width: 28%;
+}
+
+.outcome-df > div {
+  max-width: 30%;
+}

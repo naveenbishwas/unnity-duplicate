@@ -1,5 +1,5 @@
 import React from "react";
-import "./case-studies.css";
+import "./dentist.css";
 import Image from "next/image";
 import "bootstrap/dist/css/bootstrap.min.css";
 

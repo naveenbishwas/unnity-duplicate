@@ -587,7 +587,7 @@ export default function Home() {
         <div className="navigation-wrapper">
           <div ref={sliderRef2} className="keen-slider" id="case-study-slider">
             <div className="keen-slider__slide number-slide1" id="one">
-              <a href="Case-study" className="dental-case">
+              <a href="case-study/dentist" className="dental-case">
                 <div className="dental-pos" id="smile-left">
                   <div className="dental-clove-text">
                     <h1 id="dentist">Case Studies of Dentist</h1>
@@ -617,59 +617,63 @@ export default function Home() {
               </a>
             </div>
             <div className="keen-slider__slide number-slide2" id="two">
-              <div className="dental-pos">
-                <div className="dental-clove-text">
-                  <h1>Case Studies of Home Appliances</h1>
-                </div>
-                <div className="dental-clove" id="home">
-                  <Image
-                    src={"/home2.jpg"}
-                    alt="dent-case"
-                    width={100}
-                    height={100}
-                    unoptimized
-                  ></Image>
-                </div>
-                <div className="dent-text">
-                  <p>
-                    Find out how companies like yours seamlessly attract
-                    qualified leads, convert them into customers, and drive
-                    revenue.
-                  </p>
-                </div>
+              <a href="case-study/home-appliances">
+                <div className="dental-pos">
+                  <div className="dental-clove-text">
+                    <h1>Case Studies of Home Appliances</h1>
+                  </div>
+                  <div className="dental-clove" id="home">
+                    <Image
+                      src={"/home2.jpg"}
+                      alt="dent-case"
+                      width={100}
+                      height={100}
+                      unoptimized
+                    ></Image>
+                  </div>
+                  <div className="dent-text">
+                    <p>
+                      Find out how companies like yours seamlessly attract
+                      qualified leads, convert them into customers, and drive
+                      revenue.
+                    </p>
+                  </div>
 
-                <div className="dent-button">
-                  <button>Learn More</button>
+                  <div className="dent-button">
+                    <button>Learn More</button>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
             <div className="keen-slider__slide number-slide3" id="third">
-              <div className="dental-pos">
-                <div className="dental-clove-text">
-                  <h1>Case Studies E Sim</h1>
-                </div>
-                <div className="dental-clove">
-                  <Image
-                    src={"/travel3.jpg"}
-                    alt="dent-case"
-                    width={100}
-                    height={100}
-                    unoptimized
-                  ></Image>
-                </div>
+              <a href="case-study/travel">
+                <div className="dental-pos">
+                  <div className="dental-clove-text">
+                    <h1>Case Studies E/Sim</h1>
+                  </div>
+                  <div className="dental-clove">
+                    <Image
+                      src={"/travel3.jpg"}
+                      alt="dent-case"
+                      width={100}
+                      height={100}
+                      unoptimized
+                    ></Image>
+                  </div>
 
-                <div className="dent-text">
-                  <p>
-                    Find out how companies like yours seamlessly attract
-                    qualified leads, convert them into customers, and drive
-                    revenue..
-                  </p>
-                </div>
+                  <div className="dent-text">
+                    <p>
+                      Find out how companies like yours seamlessly attract
+                      qualified leads, convert them into customers, and drive
+                      revenue..
+                    </p>
+                  </div>
 
-                <div className="dent-button">
-                  <button>Learn More</button>
+                  <div className="dent-button">
+                    <button>Learn More</button>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>

@@ -1208,6 +1208,12 @@
   height: 580px;
 }
 
+#two a,
+#third a {
+  color: #000;
+  text-decoration: none;
+}
+
 #down {
   margin-top: 5%;
 }
@@ -1355,7 +1361,7 @@ footer {
   color: #fff;
   display: flex;
   justify-content: space-evenly;
-  flex-direction: row-reverse;
+  flex-direction: row;
   align-items: center;
   padding: 2% 0;
 }
