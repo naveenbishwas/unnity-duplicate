@@ -4,6 +4,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@600&family=Rubik:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@600&family=Protest+Riot&family=Rubik:wght@500&display=swap");
 
+body {
+  animation: animationIn 0.5s;
+}
+
+@keyframes animationIn {
+  from {
+    opacity: 0;
+    transform: translateX(-10deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0deg);
+  }
+}
+
 .logo img {
   width: 150px;
 }
@@ -138,6 +154,10 @@
 
 .intro-wrap {
   position: relative;
+}
+
+#color-balls h5 {
+  font-size: 14px;
 }
 
 .float-one {
@@ -1153,10 +1173,12 @@
 
 .dental-clove img {
   width: 100%;
-  height: 100%;
+  height: 250px;
+  object-fit: cover;
 }
 
 .dental-pos {
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -1175,6 +1197,7 @@
 .navigation-wrapper {
   position: relative;
   overflow: hidden;
+  margin-top: -20px;
 }
 
 .naveen-slider {
@@ -1186,11 +1209,12 @@
 }
 
 .dent-text p {
-  font-size: 16px;
+  font-size: 14px;
   text-align: left;
   margin-left: 10px;
   margin-top: 10%;
   padding: 0 10px;
+  font-weight: normal;
 }
 
 .dent-button button {
@@ -1198,8 +1222,9 @@
   background-color: #191194;
   color: #ffffff;
   border: none;
-  font-size: 15px;
-  padding: 7px 20px;
+  font-size: 13px;
+  padding: 6px 13px;
+  margin-top: 10px;
 }
 
 #one,
@@ -1247,10 +1272,9 @@
 }
 
 .dental-clove-text h1 {
-  padding: 16px 30px;
-  font-size: 1.4rem;
-  font-weight: bolder;
-  font-family: "Rubik";
+  padding: 13px 10px 6px 22px;
+  font-size: 1.2rem;
+  font-family: "emoji";
 }
 
 .case-study-header h1 {
@@ -1363,7 +1387,7 @@ footer {
   justify-content: space-evenly;
   flex-direction: row;
   align-items: center;
-  padding: 2% 0;
+  padding: 4% 0;
 }
 
 .footer-text {
@@ -1380,15 +1404,24 @@ footer {
   align-items: center;
   gap: 3px;
   margin-top: 15px;
+  color: #e1dede;
 }
 
 .follow-us > span h6 {
-  font-size: 19px;
+  font-size: 14px;
 }
 
 .follow-us > span svg {
-  width: 20px;
+  width: 15px;
   height: 20px;
+}
+
+.footer-logo {
+  margin-left: -5%;
+}
+
+.follow-us {
+  margin-left: 20px;
 }
 
 #insta {
@@ -1414,6 +1447,7 @@ footer h4 {
 
 .footer-services li {
   margin-top: 15px;
+  color: #e1dede;
 }
 
 .footer-services li:hover {
@@ -1927,7 +1961,7 @@ footer h4 {
   .google {
     position: relative;
     margin-left: -12%;
-    top: 23%;
+    top: 18%;
   }
 
   .ui {
@@ -2145,7 +2179,8 @@ footer h4 {
   .case-study-header p {
     margin-top: 8px;
     max-width: 79%;
-    text-align: justify;
+    text-align: left;
+    font-size: 14px;
   }
 
   footer {

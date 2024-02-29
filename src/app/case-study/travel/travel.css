@@ -15,7 +15,8 @@ body {
 }
 
 .section-one {
-  padding: 7% 20%;
+  background-color: rgb(255, 255, 255);
+  padding: 7% 9% 3%;
 }
 
 .section-one h1 {
@@ -29,24 +30,22 @@ body {
   margin-top: 3%;
   line-height: 1.5;
   font-size: 18px;
+  max-width: 89%;
 }
 
-.s {
-  width: 25px;
-  height: 25px;
-  background-color: #008bd7;
-  border-radius: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
+.section-one-right {
+  margin-top: -6%;
 }
 
-#by-sayam {
-  margin-top: 3%;
-  align-items: center;
+.section-one-right img {
+  margin-left: -25%;
+  height: 480px;
+  width: 350px;
+}
+
+.section-one-df {
   display: flex;
-  gap: 1%;
+  gap: 10%;
 }
 
 .section-two {
@@ -132,7 +131,7 @@ body {
 
 .sealing-df {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   text-align: center;
   margin-top: 5%;
 }
@@ -154,7 +153,35 @@ body {
 
 .section-four {
   margin-top: 5%;
+}
+
+.initial-text {
   padding: 3% 20%;
+}
+
+.initial-image {
+  position: relative;
+}
+
+.initial-image img {
+  opacity: 0.5;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.initial-background {
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+}
+
+.initial-text {
+  position: absolute;
+  top: 0;
 }
 
 .section-four h1 {
@@ -411,9 +438,16 @@ body {
   font-size: 20px;
 }
 
+.section-image img {
+  width: 100%;
+  height: 350px;
+  margin-top: 3%;
+}
+
 .section-seven {
   margin-top: 2%;
   padding: 3% 21%;
+  background-color: #fff;
 }
 
 #revamping-color > div {
@@ -479,4 +513,448 @@ body {
 
 #focused {
   margin-top: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .section-one {
+    padding: 20px 10px 20px 40px;
+  }
+
+  .section-one h1 {
+    font-family: "monspace";
+    font-size: 1.7rem;
+    font-weight: bolder;
+    color: rgb(47 47 132);
+  }
+
+  .section-one p {
+    margin-top: 4%;
+    line-height: 1.5;
+    font-size: 14px;
+  }
+
+  .section-one-df {
+    display: flex;
+    gap: 10%;
+    flex-direction: column-reverse;
+  }
+
+  .section-one-right img {
+    margin-left: 0%;
+    height: 280px;
+    width: 312px;
+    clip-path: circle();
+    margin-top: 26px;
+    object-fit: cover;
+  }
+
+  .section-one-left {
+    margin-top: 5%;
+  }
+
+  .section-two {
+    margin-top: 3%;
+    padding: 7% 8%;
+  }
+
+  .implementing-header h1 {
+    font-size: 1.7rem;
+    font-family: "monspace";
+    font-weight: 550;
+    color: rgb(47 47 132);
+  }
+
+  .implementing-header p {
+    margin-top: 2%;
+    line-height: 1.5;
+    font-size: 14px;
+  }
+
+  .implementing-df {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #pincode-spec {
+    margin-left: 0;
+  }
+
+  .autotag-right h1 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .section-image img {
+    width: 100%;
+    height: 158px;
+    margin-top: 3%;
+    object-fit: cover;
+  }
+
+  .autotag-left {
+    width: 67px;
+    height: 26px;
+    background-color: #1739a9;
+    border: #1739a9;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Protest Strike";
+  }
+
+  .autotag-right p {
+    margin-top: 1%;
+    line-height: 1.5;
+    font-size: 14px;
+  }
+
+  .implementing-df .autotag:last-of-type {
+    margin-left: 0px;
+  }
+
+  .implementing-df > div {
+    display: flex;
+    margin-top: 6%;
+  }
+
+  .section-three {
+    margin-top: 3%;
+    padding: 8% 8%;
+  }
+
+  .sealing-header h1 {
+    font-size: 1.7rem;
+    font-family: "monspace";
+    font-weight: 550;
+    color: rgb(47 47 132);
+  }
+
+  .sealing-header p {
+    margin-top: 3%;
+    line-height: 1.5;
+    font-size: 14px;
+  }
+
+  .sealing-df h1 {
+    font-size: 2rem;
+    font-family: "Protest Strike";
+  }
+
+  .sealing-df h3 {
+    margin-top: 4%;
+    font-weight: bolder;
+    font-size: 16px;
+  }
+
+  .sealing-df p {
+    margin-top: 5%;
+    font-size: 14px;
+    max-width: 90%;
+    margin-left: 4%;
+  }
+
+  .section-four {
+    margin-top: 3%;
+    padding: 0;
+  }
+
+  .initial-text {
+    padding: 41px;
+  }
+
+  .sealing-header {
+    margin-left: 6%;
+  }
+
+  .section-four h1 {
+    font-family: "monspace";
+    font-size: 1.7rem;
+    font-weight: bolder;
+    color: rgb(47 47 132);
+  }
+
+  .section-four p {
+    margin-top: 3%;
+    line-height: 1.5;
+    font-size: 15px;
+  }
+
+  .scaling-attempt,
+  .performance-analysis,
+  .strategy-over {
+    margin-top: 13%;
+    display: flex;
+    position: relative;
+  }
+
+  .scaling-attempt-right h3,
+  .performance-analysis-right h3,
+  .strategy-over h3 {
+    font-weight: bolder;
+    font-size: 16px;
+  }
+
+  .section-four p {
+    margin-top: 3%;
+    line-height: 1.5;
+    font-size: 14px;
+  }
+
+  .scaling-attempt-left-center,
+  .performance-analysis-left-center,
+  .strategy-over-left-center {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1739a9;
+    font-family: "Protest Strike";
+    border-radius: 7px;
+    font-size: 14px;
+    position: relative;
+    color: #fff;
+  }
+
+  .scaling-attempt-left-right,
+  .performance-analysis-left-right,
+  .strategy-over-left-right {
+    width: 27px;
+    height: 3px;
+    position: absolute;
+    top: 15%;
+    left: 6.7%;
+    border: 1px solid #1739a9;
+    background-color: #1739a9;
+  }
+
+  .scaling-attempt-left-center::after {
+    content: "";
+    width: 2px;
+    height: 20px;
+    position: absolute;
+    top: -88%;
+    left: 48%;
+    border: 1px solid #1739a9;
+    background-color: #1739a9;
+  }
+
+  .initial-image img {
+    opacity: 0.5;
+    width: 100%;
+    height: 91vh;
+    position: relative;
+    object-fit: cover;
+  }
+
+  .initial-background {
+    width: 100%;
+    height: 91vh;
+  }
+
+  .section-five {
+    margin-top: 3%;
+    padding: 7% 8%;
+  }
+
+  .conversion-rate1-header h1 {
+    font-size: 1.7rem;
+    font-family: "monspace";
+    font-weight: 550;
+    color: rgb(47 47 132);
+  }
+
+  .performance-df {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .deep-analyse-left {
+    border: 1px solid #0c2782;
+    background-color: #0c2782;
+    width: 80px;
+    margin-left: -34%;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .triangle-up {
+    position: absolute;
+    top: -12%;
+    right: -21%;
+    width: 0;
+    height: 0;
+    border-top: 19px solid transparent;
+    border-bottom: 19px solid transparent;
+    border-left: 22px solid #0c2782;
+    border-radius: 8px;
+    z-index: 1;
+  }
+
+  .triangle-down {
+    position: absolute;
+    left: -30%;
+    width: 0;
+    height: 0;
+    border-top: 15px solid #0c2782;
+    border-bottom: 18px solid #0c2782;
+    border-left: 35px solid transparent;
+    z-index: 1;
+  }
+
+  .deep-analyse-right h1 {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  .deep-analyse-right p {
+    margin-top: 1%;
+    line-height: 1.5;
+    font-size: 14px;
+    margin-left: 2%;
+  }
+
+  #pinpoint {
+    margin-left: -63%;
+  }
+
+  #deep-last {
+    margin-left: 0;
+  }
+
+  #complex {
+    margin-left: -65%;
+  }
+
+  .deep-analyse-right {
+    margin-left: 2%;
+  }
+
+  #deep-first {
+    margin-right: 97px;
+  }
+
+  .conversion-rate1-header p {
+    margin-top: 13px;
+    line-height: 1.4;
+    word-spacing: 2px;
+    max-width: 100%;
+    font-size: 14px;
+  }
+
+  .section-six {
+    margin-top: 7%;
+    padding: 7% 7%;
+  }
+
+  .revamping-header h1 {
+    font-size: 1.7rem;
+  }
+
+  .revamping-header p {
+    margin-top: 2%;
+    line-height: 1.5;
+    font-size: 14px;
+  }
+
+  .revamping-df {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    gap: 5%;
+    flex-direction: column;
+  }
+
+  .revamping-df > div p {
+    margin-top: 2%;
+    line-height: 1.5;
+    font-size: 14px;
+    margin-top: 1%;
+    max-width: 90%;
+  }
+
+  .revamping-df > div {
+    padding: 13px 0;
+  }
+
+  .section-seven {
+    margin-top: 2%;
+    padding: 3% 7%;
+  }
+
+  #revamping-color > div {
+    background-color: #dedeea;
+    padding: 13px 2px 18px 10px;
+    max-width: 92%;
+    margin-top: 6%;
+  }
+
+  .revamping-df > div h1 {
+    font-size: 18px;
+  }
+
+  .section-eight {
+    padding: 7% 6%;
+    margin-left: 0;
+  }
+
+  .custome-header h1 {
+    margin-top: 5%;
+    font-size: 17px;
+    font-size: 1.7rem;
+  }
+
+  .custome-header p {
+    font-size: 14px;
+    margin-top: 3%;
+    line-height: 1.4;
+  }
+
+  .custome-label h3 {
+    background-color: #dedeea;
+    padding: 10px 20px;
+    width: 38%;
+    line-height: 1.5;
+    font-size: 14px;
+  }
+
+  .custome-label p {
+    background-color: #dedeea;
+    padding: 10px 20px;
+    width: 56%;
+    line-height: 1.5;
+    font-size: 14px;
+  }
+
+  .automatic-label h3 {
+    padding: 10px 20px;
+    width: 34%;
+    line-height: 1.5;
+    font-size: 14px;
+  }
+
+  .automatic-label p {
+    padding: 10px 20px;
+    width: 64%;
+    line-height: 1.5;
+    font-size: 14px;
+    margin-left: 11px;
+  }
+
+  .custome-label {
+    margin-top: 8%;
+    display: flex;
+    gap: 1px;
+  }
 }

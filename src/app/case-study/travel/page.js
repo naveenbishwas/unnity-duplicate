@@ -1,25 +1,35 @@
 import React from "react";
 import "./travel.css";
+import Image from "next/image";
 
 const paje = () => {
   return (
     <>
       <div className="main-container">
         <section className="section-one">
-          <h1>E-Travelsim: A Google Ads Success Story</h1>
-          <p>
-            Brand E-Travelsim's journey with Google Ads is a testament to
-            strategic scaling and optimization. From a modest beginning to
-            achieving record-breaking sales and conversion rates, this case
-            study showcases the power of targeted advertising and the effective
-            use of Google's algorithms. Let's dive into the details of how
-            E-Travelsim leveraged Google Ads to maximize their ecommerce
-            potential and outperform the competition
-          </p>
-          <span id="by-sayam">
-            <div className="s">S</div>
-            <h3>by Sayam Jain</h3>
-          </span>
+          <div className="section-one-df">
+            <div className="section-one-left">
+              <h1>E-Travelsim: A Google Ads Success Story</h1>
+              <p>
+                Brand E-Travelsim's journey with Google Ads is a testament to
+                strategic scaling and optimization. From a modest beginning to
+                achieving record-breaking sales and conversion rates, this case
+                study showcases the power of targeted advertising and the
+                effective use of Google's algorithms. Let's dive into the
+                details of how E-Travelsim leveraged Google Ads to maximize
+                their ecommerce potential and outperform the competition
+              </p>
+            </div>
+            <div className="section-one-right">
+              <Image
+                src="/travel6.jpg"
+                alt=""
+                width={300}
+                height={550}
+                unoptimized
+              ></Image>
+            </div>
+          </div>
         </section>
 
         <section className="section-two">
@@ -68,6 +78,72 @@ const paje = () => {
           </div>
         </section>
 
+        <section className="section-four">
+          <div className="initial-image">
+            <Image
+              src={"/travel7.jpg"}
+              alt="image"
+              width={100}
+              height={100}
+              unoptimized
+            ></Image>
+            <div className="initial-background"></div>
+            <div className="initial-text">
+              <h1>Initial Scaling Efforts</h1>
+              <p>
+                The initial phase of the campaign focused on scaling up the ads.
+                However, the performance was not aligning with the set
+                benchmarks, leading to a comprehensive review of the campaign
+                strategies.
+              </p>
+
+              <div className="scaling-attempt">
+                <div className="scaling-attempt-left">
+                  <div className="scaling-attempt-left-center">1</div>
+                  <div className="scaling-attempt-left-right"></div>
+                </div>
+                <div className="scaling-attempt-right">
+                  <h3>Scaling Attempts</h3>
+                  <p>
+                    Efforts to amplify the reach and impact of the ads were met
+                    with subpar performance, necessitating a reevaluation of
+                    tactics.
+                  </p>
+                </div>
+              </div>
+
+              <div className="performance-analysis">
+                <div className="performance-analysis-left">
+                  <div className="performance-analysis-left-center">2</div>
+                  <div className="performance-analysis-left-right"></div>
+                </div>
+                <div className="performance-analysis-right">
+                  <h3>Performance Analysis</h3>
+                  <p>
+                    An in-depth analysis was conducted to understand the reasons
+                    behind the lackluster results, revealing the need for a more
+                    targeted approach.
+                  </p>
+                </div>
+              </div>
+
+              <div className="strategy-over">
+                <div className="strategy-over-left">
+                  <div className="strategy-over-left-center">3</div>
+                  <div className="strategy-over-left-right"></div>
+                </div>
+                <div className="strategy-over-right">
+                  <h3>Strategy Overhaul</h3>
+                  <p>
+                    A strategic overhaul was imperative to address the issues
+                    and steer the campaigns towards the desired outcomes.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="section-three">
           <div className="sealing-header">
             <h1>Scaling to New Heights</h1>
@@ -84,6 +160,9 @@ const paje = () => {
               <h3>Initial Sales</h3>
               <p>Starting daily sales before scaling.</p>
             </div>
+            <div className="sealing-dots">
+              <h1>........</h1>
+            </div>
             <div className="scaled">
               <h1>$10000</h1>
               <h3>Scaled Sales</h3>
@@ -92,57 +171,15 @@ const paje = () => {
           </div>
         </section>
 
-        <section className="section-four">
-          <h1>Initial Scaling Efforts</h1>
-          <p>
-            The initial phase of the campaign focused on scaling up the ads.
-            However, the performance was not aligning with the set benchmarks,
-            leading to a comprehensive review of the campaign strategies.
-          </p>
-
-          <div className="scaling-attempt">
-            <div className="scaling-attempt-left">
-              <div className="scaling-attempt-left-center">1</div>
-              <div className="scaling-attempt-left-right"></div>
-            </div>
-            <div className="scaling-attempt-right">
-              <h3>Scaling Attempts</h3>
-              <p>
-                Efforts to amplify the reach and impact of the ads were met with
-                subpar performance, necessitating a reevaluation of tactics.
-              </p>
-            </div>
-          </div>
-
-          <div className="performance-analysis">
-            <div className="performance-analysis-left">
-              <div className="performance-analysis-left-center">2</div>
-              <div className="performance-analysis-left-right"></div>
-            </div>
-            <div className="performance-analysis-right">
-              <h3>Performance Analysis</h3>
-              <p>
-                An in-depth analysis was conducted to understand the reasons
-                behind the lackluster results, revealing the need for a more
-                targeted approach.
-              </p>
-            </div>
-          </div>
-
-          <div className="strategy-over">
-            <div className="strategy-over-left">
-              <div className="strategy-over-left-center">3</div>
-              <div className="strategy-over-left-right"></div>
-            </div>
-            <div className="strategy-over-right">
-              <h3>Strategy Overhaul</h3>
-              <p>
-                A strategic overhaul was imperative to address the issues and
-                steer the campaigns towards the desired outcomes.
-              </p>
-            </div>
-          </div>
-        </section>
+        <div className="section-image">
+          <Image
+            src={"/travel8.png"}
+            alt="image"
+            width={100}
+            height={100}
+            unoptimized
+          ></Image>
+        </div>
 
         <section className="section-five">
           <div className="conversion-rate1-header">

@@ -1,30 +1,40 @@
 import React from "react";
 import "./home-appliances.css";
+import Image from "next/image";
 
 const page = () => {
   return (
     <div className="main-container">
       <section className="section-one">
-        <h1>Case Study: Brand Faber India's Google Ads Campaign</h1>
-        <p>
-          Brand Faber India, a prominent ecommerce brand, embarked on a mission
-          to dominate the digital advertising space through Google Ads. The
-          journey began with scaling efforts, but the initial performance did
-          not meet expectations. A deep dive into the campaign structures and
-          budget management was initiated to pinpoint the underlying issues and
-          rectify them for improved results.
-        </p>
-        <p>
-          Through meticulous analysis and strategic restructuring, Brand Faber
-          India's advertising campaigns were transformed. This case study
-          explores the challenges faced, the innovative solutions implemented,
-          and the remarkable outcomes achieved in their quest for ecommerce
-          excellence
-        </p>
-        <span id="by-sayam">
-          <div className="s">S</div>
-          <h3>by Sayam Jain</h3>
-        </span>
+        <div className="section-one-df">
+          <div className="section-one-left">
+            <h1>Case Study: Home appliance India's Google Ads Campaign</h1>
+            <p>
+              mission to dominate the digital advertising space through Google
+              Ads. The journey began with scaling efforts, but the initial
+              performance did not meet expectations. A deep dive into the
+              campaign structures and budget management was initiated to
+              pinpoint the underlying issues and rectify them for improved
+              results.
+            </p>
+            <p>
+              Through meticulous analysis and strategic restructuring, Home
+              appliances India's advertising campaigns were transformed. This
+              case study explores the challenges faced, the innovative solutions
+              implemented, and the remarkable outcomes achieved in their quest
+              for ecommerce excellence
+            </p>
+          </div>
+          <div className="section-one-right">
+            <Image
+              src="/home5.jpg"
+              alt=""
+              width={300}
+              height={550}
+              unoptimized
+            ></Image>
+          </div>
+        </div>
       </section>
 
       <section className="section-two">
@@ -79,6 +89,77 @@ const page = () => {
         </div>
       </section>
 
+      <section className="section-four">
+        <div className="converstion-image">
+          <Image
+            src={"/background-home.jpg"}
+            alt="conversation-image"
+            width={100}
+            height={100}
+            unoptimized
+          ></Image>
+
+          <div className="converstion-background"></div>
+          <div className="coversation-text">
+            <div className="conversion-rate1-header">
+              <h1>Conversion Rate Challenges</h1>
+              <p>
+                The team delved into the intricacies of the campaigns to uncover
+                the reasons behind the low conversion rates. This investigation
+                was critical to identify and address the root causes of the
+                problem.
+              </p>
+            </div>
+
+            <div className="deep-analyse">
+              <div className="deep-analyse-left">
+                <div className="triangle-up"></div>
+                <h4>1</h4>
+                <div className="triangle-down"></div>
+              </div>
+              <div className="deep-analyse-right">
+                <h1>Deep Analysis</h1>
+                <p>
+                  An exhaustive analysis was conducted to understand the factors
+                  contributing to the low conversion rates.
+                </p>
+              </div>
+            </div>
+
+            <div className="deep-analyse">
+              <div className="deep-analyse-left" id="pinpoint">
+                <div className="triangle-up"></div>
+                <h4>2</h4>
+                <div className="triangle-down"></div>
+              </div>
+              <div className="deep-analyse-right">
+                <h1>Pinpointing Issues</h1>
+                <p>
+                  The issue of Pincodes emerged as a significant barrier, with a
+                  vast product range and limited availability across locations.
+                </p>
+              </div>
+            </div>
+
+            <div className="deep-analyse">
+              <div className="deep-analyse-left" id="complex">
+                <div className="triangle-up"></div>
+                <h4>3</h4>
+                <div className="triangle-down"></div>
+              </div>
+              <div className="deep-analyse-right">
+                <h1>Complexity of Delivery</h1>
+                <p>
+                  The complexity of managing deliveries for over 2,000 products
+                  across various Pincodes was a daunting task that required a
+                  strategic solution.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="section-three">
         <div className="restructuring-header">
           <h1>Restructuring Campaigns</h1>
@@ -108,63 +189,6 @@ const page = () => {
             <p>
               Continuous tracking of campaign performance allowed for quick
               adjustments and fine-tuning to avoid any wastage of resources.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section className="section-four">
-        <div className="conversion-rate1-header">
-          <h1>Conversion Rate Challenges</h1>
-          <p>
-            The team delved into the intricacies of the campaigns to uncover the
-            reasons behind the low conversion rates. This investigation was
-            critical to identify and address the root causes of the problem.
-          </p>
-        </div>
-
-        <div className="deep-analyse">
-          <div className="deep-analyse-left">
-            <div className="triangle-up"></div>
-            <h4>1</h4>
-            <div className="triangle-down"></div>
-          </div>
-          <div className="deep-analyse-right">
-            <h1>Deep Analysis</h1>
-            <p>
-              An exhaustive analysis was conducted to understand the factors
-              contributing to the low conversion rates.
-            </p>
-          </div>
-        </div>
-
-        <div className="deep-analyse">
-          <div className="deep-analyse-left" id="pinpoint">
-            <div className="triangle-up"></div>
-            <h4>2</h4>
-            <div className="triangle-down"></div>
-          </div>
-          <div className="deep-analyse-right">
-            <h1>Pinpointing Issues</h1>
-            <p>
-              The issue of Pincodes emerged as a significant barrier, with a
-              vast product range and limited availability across locations.
-            </p>
-          </div>
-        </div>
-
-        <div className="deep-analyse">
-          <div className="deep-analyse-left" id="complex">
-            <div className="triangle-up"></div>
-            <h4>3</h4>
-            <div className="triangle-down"></div>
-          </div>
-          <div className="deep-analyse-right">
-            <h1>Complexity of Delivery</h1>
-            <p>
-              The complexity of managing deliveries for over 2,000 products
-              across various Pincodes was a daunting task that required a
-              strategic solution.
             </p>
           </div>
         </div>
@@ -204,6 +228,16 @@ const page = () => {
           </div>
         </div>
       </section>
+
+      <div className="section-image">
+        <Image
+          src={"/home6.png"}
+          alt="image"
+          width={100}
+          height={100}
+          unoptimized
+        ></Image>
+      </div>
 
       <section className="section-six">
         <div className="implementing-header">

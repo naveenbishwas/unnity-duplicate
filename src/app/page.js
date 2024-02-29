@@ -197,14 +197,14 @@ export default function Home() {
                       required
                     />
                   </div>
-
+                  c
                   <div className="">
                     <input type="submit" value="Submit" id="submit" />
                   </div>
                 </form>
               </div>
             </div>
-            <div className="float">
+            <div className="float" id="color-balls">
               <div className="float-one">
                 <h5>CPR</h5>
               </div>
@@ -521,10 +521,6 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="keen-slider__slide number-slide3">3</div>
-              <div className="keen-slider__slide number-slide4">4</div>
-              <div className="keen-slider__slide number-slide5">5</div>
-              <div className="keen-slider__slide number-slide6">6</div>
             </div>
             {loaded && instanceRef.current && (
               <>
@@ -576,7 +572,7 @@ export default function Home() {
 
       <section className="case-studies">
         <div className="case-study-header">
-          <h1>Solutions for every business</h1>
+          <h1>Case Studies</h1>
           <p>
             Growing a business isn’t easy, but we’ve got your back. Explore some
             of our customers’ top business challenges and learn how can we help
@@ -587,14 +583,14 @@ export default function Home() {
         <div className="navigation-wrapper">
           <div ref={sliderRef2} className="keen-slider" id="case-study-slider">
             <div className="keen-slider__slide number-slide1" id="one">
-              <a href="case-study/dentist" className="dental-case">
+              <a href="Case-study/dentist" className="dental-case">
                 <div className="dental-pos" id="smile-left">
                   <div className="dental-clove-text">
                     <h1 id="dentist">Case Studies of Dentist</h1>
                   </div>
                   <div className="dental-clove" id="girl-happy">
                     <Image
-                      src={"/dent-again.jpg"}
+                      src={"/debntist-girl.jpg"}
                       alt="dent-case"
                       width={100}
                       height={100}
@@ -617,14 +613,14 @@ export default function Home() {
               </a>
             </div>
             <div className="keen-slider__slide number-slide2" id="two">
-              <a href="case-study/home-appliances">
+              <a href="Case-study/home-appliances">
                 <div className="dental-pos">
                   <div className="dental-clove-text">
-                    <h1>Case Studies of Home Appliances</h1>
+                    <h1 id="big-dental">Case Studies of Home Appliances</h1>
                   </div>
                   <div className="dental-clove" id="home">
                     <Image
-                      src={"/home2.jpg"}
+                      src={"/home3.jpg"}
                       alt="dent-case"
                       width={100}
                       height={100}
@@ -646,14 +642,14 @@ export default function Home() {
               </a>
             </div>
             <div className="keen-slider__slide number-slide3" id="third">
-              <a href="case-study/travel">
+              <a href="Case-study/travel">
                 <div className="dental-pos">
                   <div className="dental-clove-text">
                     <h1>Case Studies E/Sim</h1>
                   </div>
                   <div className="dental-clove">
                     <Image
-                      src={"/travel3.jpg"}
+                      src={"/travel4.jpg"}
                       alt="dent-case"
                       width={100}
                       height={100}
