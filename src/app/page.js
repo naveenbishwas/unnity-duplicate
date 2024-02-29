@@ -582,8 +582,8 @@ export default function Home() {
 
         <div className="navigation-wrapper">
           <div ref={sliderRef2} className="keen-slider" id="case-study-slider">
-            <div className="keen-slider__slide number-slide1" id="one">
-              <a href="Case-study/dentist" className="dental-case">
+            <a href="Case-study/dentist" className="dental-case">
+              <div className="keen-slider__slide number-slide1" id="one">
                 <div className="dental-pos" id="smile-left">
                   <div className="dental-clove-text">
                     <h1 id="dentist">Case Studies of Dentist</h1>
@@ -610,10 +610,10 @@ export default function Home() {
                     <button>Learn More</button>
                   </div>
                 </div>
-              </a>
-            </div>
-            <div className="keen-slider__slide number-slide2" id="two">
-              <a href="Case-study/home-appliances">
+              </div>
+            </a>
+            <a href="Case-study/home-appliances">
+              <div className="keen-slider__slide number-slide2" id="two">
                 <div className="dental-pos">
                   <div className="dental-clove-text">
                     <h1 id="big-dental">Case Studies of Home Appliances</h1>
@@ -639,10 +639,10 @@ export default function Home() {
                     <button>Learn More</button>
                   </div>
                 </div>
-              </a>
-            </div>
-            <div className="keen-slider__slide number-slide3" id="third">
-              <a href="Case-study/travel">
+              </div>
+            </a>
+            <a href="Case-study/travel">
+              <div className="keen-slider__slide number-slide3" id="third">
                 <div className="dental-pos">
                   <div className="dental-clove-text">
                     <h1>Case Studies E/Sim</h1>
@@ -669,8 +669,8 @@ export default function Home() {
                     <button>Learn More</button>
                   </div>
                 </div>
-              </a>
-            </div>
+              </div>
+            </a>
           </div>
         </div>
       </section>

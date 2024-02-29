@@ -78,7 +78,7 @@ body {
 }
 
 .intro-desc p {
-  text-align: center;
+  text-align: left;
   font-size: 17px;
   max-width: 70%;
 }
@@ -1967,7 +1967,7 @@ footer h4 {
   .google {
     position: relative;
     margin-left: -12%;
-    top: 18%;
+    top: 14%;
   }
 
   .ui {
@@ -2236,5 +2236,29 @@ footer h4 {
 
   .dental-pos {
     width: 310px;
+  }
+
+  .dental-pos:hover {
+    display: none;
+  }
+
+  .footer-text h6 {
+    font-size: 14px;
+  }
+
+  footer h4 {
+    color: #0090ff;
+    cursor: pointer;
+    font-size: 17px;
+  }
+
+  .form-boottom {
+    display: flex;
+    gap: 20px;
+  }
+
+  .keen-slider a {
+    color: #000;
+    text-decoration: none;
   }
 }
