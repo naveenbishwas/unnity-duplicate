@@ -197,7 +197,7 @@ export default function Home() {
                       required
                     />
                   </div>
-                  c
+
                   <div className="">
                     <input type="submit" value="Submit" id="submit" />
                   </div>

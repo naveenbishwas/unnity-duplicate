@@ -1211,10 +1211,11 @@ body {
 .dent-text p {
   font-size: 14px;
   text-align: left;
-  margin-left: 10px;
-  margin-top: 10%;
+  margin-left: 33px;
+  margin-top: 0;
   padding: 0 10px;
-  font-weight: normal;
+  font-weight: 400;
+  max-width: 84%;
 }
 
 .dent-button button {
@@ -1531,7 +1532,7 @@ footer h4 {
     max-width: 90%;
     font-size: 14px;
     margin-top: 3%;
-    text-align: justify;
+    text-align: center;
   }
 
   .intro-bottom-part {
@@ -1567,9 +1568,14 @@ footer h4 {
     align-items: center;
     margin-top: 20%;
   }
-
   #submit {
-    width: 150px;
+    border-radius: 6px;
+    width: 100px;
+    height: 35px;
+    background-color: #23234d;
+    border: none;
+    color: #fff;
+    font-size: 17px;
   }
 
   .intro-bottom-part-right {
@@ -2163,9 +2169,10 @@ footer h4 {
     margin-left: 0;
   }
 
-  .dental-clove img {
-    width: 83%;
-    height: 84%;
+  .dental-clove im {
+    width: 62%;
+    height: 67%;
+    margin-left: 11%;
   }
 
   .dent-text {
@@ -2208,5 +2215,26 @@ footer h4 {
 
   .footer-text .footer-address {
     margin-top: 2%;
+  }
+
+  .dental-clove img {
+    width: 259px;
+    height: 200px;
+    object-fit: cover;
+    margin-left: 7%;
+  }
+
+  #one,
+  #two,
+  #third {
+    height: 480px;
+  }
+
+  #third {
+    padding-bottom: 10%;
+  }
+
+  .dental-pos {
+    width: 310px;
   }
 }
