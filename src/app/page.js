@@ -95,7 +95,7 @@ export default function Home() {
         </video>
       </section>
 
-      <section className="intro">
+      <section className="intro" id="intro-id">
         <div className="intro-wrap">
           <div className="intro-df">
             <div className="intro-upper-part">

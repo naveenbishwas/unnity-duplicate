@@ -79,8 +79,9 @@ body {
 
 .intro-desc p {
   text-align: left;
-  font-size: 17px;
-  max-width: 70%;
+  font-size: 14px;
+  max-width: 85%;
+  margin-left: 10px;
 }
 
 .intro-desc {
@@ -1526,13 +1527,6 @@ footer h4 {
   .intro-heading h1 .brand-name {
     font-size: 1.4rem;
     font-weight: bolder;
-  }
-
-  .intro-desc p {
-    max-width: 90%;
-    font-size: 14px;
-    margin-top: 3%;
-    text-align: center;
   }
 
   .intro-bottom-part {
