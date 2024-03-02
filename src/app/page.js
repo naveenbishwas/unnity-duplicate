@@ -6,6 +6,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { useKeenSlider } from "keen-slider/react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Link from "next/link";
 
 export default function Home() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -582,7 +583,7 @@ export default function Home() {
 
         <div className="navigation-wrapper">
           <div ref={sliderRef2} className="keen-slider" id="case-study-slider">
-            <a href="Case-study/dentist" className="dental-case">
+            <Link href="Case-study/dentist" className="dental-case">
               <div className="keen-slider__slide number-slide1" id="one">
                 <div className="dental-pos" id="smile-left">
                   <div className="dental-clove-text">
@@ -611,7 +612,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            </a>
+            </Link>
             <a href="Case-study/home-appliances">
               <div className="keen-slider__slide number-slide2" id="two">
                 <div className="dental-pos">
