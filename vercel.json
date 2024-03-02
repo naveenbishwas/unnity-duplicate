@@ -1,6 +1,3 @@
 {
-  "rewrites": [
-    { "source": "/Case-study/(.*)", "destination": "/Case-study/$1" },
-    { "source": "/case-studies/(.*)", "destination": "/" }
-  ]
+  "rewrites": [{ "source": "/Case-studies/(.*)", "destination": "/" }]
 }
