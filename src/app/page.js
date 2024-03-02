@@ -613,7 +613,7 @@ export default function Home() {
                 </div>
               </div>
             </Link>
-            <a href="Case-study/home-appliances">
+            <Link href="Case-study/home-appliances">
               <div className="keen-slider__slide number-slide2" id="two">
                 <div className="dental-pos">
                   <div className="dental-clove-text">
@@ -641,8 +641,8 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            </a>
-            <a href="Case-study/travel">
+            </Link>
+            <Link href="Case-study/travel">
               <div className="keen-slider__slide number-slide3" id="third">
                 <div className="dental-pos">
                   <div className="dental-clove-text">
@@ -671,7 +671,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
         </div>
       </section>
