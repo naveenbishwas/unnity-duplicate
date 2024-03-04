@@ -974,7 +974,7 @@ body {
 .achieve-name {
   display: flex;
   justify-content: center;
-  margin-top: 3%;
+  margin-top: 4%;
 }
 
 .achieve-numbers img {
@@ -1914,8 +1914,8 @@ footer h4 {
   }
 
   #aurave {
-    width: 105px;
-    height: 49px;
+    width: 100px;
+    height: 40px;
   }
 
   #auravebrand {
@@ -1960,7 +1960,7 @@ footer h4 {
   .consult {
     position: relative;
     left: 99%;
-    top: -208%;
+    top: -212%;
   }
 
   .google {
@@ -1977,7 +1977,7 @@ footer h4 {
 
   .meta-bottom {
     position: absolute;
-    bottom: -19%;
+    bottom: -14%;
     width: 139px;
     left: 28%;
     border: 0.5px solid #aeaeae;
@@ -1997,6 +1997,17 @@ footer h4 {
     width: 146px;
     left: 13%;
     border: 0.5px solid #aeaeae;
+  }
+
+  .consult::after {
+    content: "";
+    width: 1px;
+    height: 107px;
+    position: absolute;
+    top: 22%;
+    left: 0%;
+    border: 0.5px solid #e2e2e2;
+    background-color: #000;
   }
 
   .services h3 {
@@ -2070,13 +2081,13 @@ footer h4 {
   }
 
   .start-left img {
-    width: 292px;
+    width: 250px;
     margin-top: -50%;
   }
 
   .start-right {
     max-width: 100%;
-    padding: 0 0% 9% 7%;
+    padding: 0 0% 9% 13%;
     margin-top: -7%;
   }
 
@@ -2265,6 +2276,15 @@ footer h4 {
     margin-top: 0;
   }
 
+  .achieve-numbers img {
+    width: 31px;
+    height: 31px;
+  }
+
+  .red {
+    margin-top: -26px;
+  }
+
   .achieve-numbers:hover .catego h2 {
     font-size: 11px;
     transition: all 1s ease;
@@ -2279,6 +2299,20 @@ footer h4 {
     width: 37px;
     height: 37px;
     transition: all 1s ease;
+  }
+
+  .dent-text p {
+    font-size: 14px;
+    text-align: left;
+    margin-left: 21px;
+    margin-top: -15px;
+    padding: 0 10px;
+    font-weight: 400;
+    max-width: 90%;
+  }
+
+  .dent-button button {
+    margin-top: 2px;
   }
 }
 
