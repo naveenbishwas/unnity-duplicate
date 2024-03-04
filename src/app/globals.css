@@ -150,6 +150,14 @@ body {
   justify-content: center;
 }
 
+#data {
+  font-size: 5rem;
+}
+
+#data-text {
+  font-size: 3rem;
+}
+
 .banner h1 {
   position: absolute;
   top: 20%;
@@ -158,7 +166,19 @@ body {
   max-width: 80%;
   text-align: center;
   font-family: "emoji";
-  font-size: 3.5rem;
+  line-height: 1.3;
+  font-family: auto;
+}
+
+#banner-btn {
+  position: absolute;
+  top: 40%;
+  font-size: 19px;
+  border: none;
+  padding: 10px 20px;
+  background: #fff;
+  border-radius: 30px;
+  color: #23234d;
 }
 
 .banner {
@@ -1515,6 +1535,42 @@ footer h4 {
     gap: 16%;
   }
 
+  #data {
+    font-size: 1.7rem;
+  }
+
+  #data-text {
+    font-size: 1.1rem;
+  }
+
+  .banner h1 {
+    line-height: 1;
+  }
+
+  .banner video {
+    height: 61vh;
+    margin-top: -30%;
+  }
+
+  #banner-btn {
+    position: absolute;
+    top: 40%;
+    font-size: 12px;
+    border: none;
+    padding: 4px 11px;
+    background: #fff;
+    border-radius: 30px;
+    color: #23234d;
+  }
+
+  #intro-id .intro-bottom-part-left img {
+    width: 90%;
+    height: 340px;
+    margin-top: 0;
+    margin-left: 4%;
+    object-fit: cover;
+  }
+
   .logo img {
     width: 90px;
     height: 49px;
@@ -1547,8 +1603,9 @@ footer h4 {
   .intro-bottom-part-left {
     max-width: 100%;
   }
-  .intro-bottom-part-left img {
-    width: 90%;
+
+  #intro-id .intro-bottom-part-left img {
+    /* width: 90%; */
     height: 400px;
     margin-top: 0;
     margin-left: 4%;
@@ -2334,6 +2391,60 @@ footer h4 {
     margin-top: -2%;
   }
 
+  #intro-id .intro-bottom-part-left img {
+    width: 350px;
+  }
+
+  .intro {
+    margin-top: -9%;
+  }
+
+  #data {
+    font-size: 2.7rem;
+  }
+
+  #data-text {
+    font-size: 1.6rem;
+  }
+
+  .banner h1 {
+    line-height: 1.3;
+  }
+
+  .banner video {
+    margin-top: -17%;
+    width: 100%;
+    height: auto;
+  }
+
+  #banner-btn {
+    position: absolute;
+    top: 40%;
+    font-size: 17px;
+    border: none;
+    padding: 8px 10px;
+    background: #fff;
+    border-radius: 30px;
+    color: #23234d;
+  }
+
+  .number h4 {
+    font-size: 13px;
+  }
+
+  .contact-btn button {
+    font-size: 14px;
+  }
+
+  .intro {
+    margin-top: -20%;
+  }
+
+  .intro-bottom-part-right {
+    width: 300vw;
+    margin-left: 3%;
+  }
+
   .contact-form {
     display: flex;
     flex-direction: column;
@@ -2343,7 +2454,17 @@ footer h4 {
   }
 
   .intro-bottom-part-left img {
-    width: 300px;
+    width: 330px;
+  }
+
+  .consult::after {
+    content: "";
+    width: 1px;
+    height: 92px;
+    position: absolute;
+    top: 21%;
+    left: 4%;
+    border: 0.5px solid #aeaeae;
   }
 
   .about-unnity-df {

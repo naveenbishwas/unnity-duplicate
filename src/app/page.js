@@ -94,9 +94,11 @@ export default function Home() {
         </video>
         <div className="banner-text">
           <h1>
-            Data. Strategy. Growth.
-            <br /> We Connect the Dots for Your Brand
+            <span id="data">Data. Strategy. Growth.</span>
+            <br />{" "}
+            <span id="data-text">We Connect the Dots for Your Brand </span>
           </h1>
+          <button id="banner-btn">Schedule a call now</button>
         </div>
       </section>
 
@@ -577,7 +579,7 @@ export default function Home() {
 
       <section className="case-studies">
         <div className="case-study-header">
-          <h1>Case Studies</h1>
+          <h1>Case Study</h1>
           <p>
             Growing a business isn’t easy, but we’ve got your back. Explore some
             of our customers’ top business challenges and learn how can we help
@@ -621,7 +623,7 @@ export default function Home() {
               <div className="keen-slider__slide number-slide2" id="two">
                 <div className="dental-pos">
                   <div className="dental-clove-text">
-                    <h1 id="big-dental">Case Studies of Home Appliances</h1>
+                    <h1 id="big-dental">Case Study of Home Appliances</h1>
                   </div>
                   <div className="dental-clove" id="home">
                     <Image
@@ -650,7 +652,7 @@ export default function Home() {
               <div className="keen-slider__slide number-slide3" id="third">
                 <div className="dental-pos">
                   <div className="dental-clove-text">
-                    <h1>Case Studies E/Sim</h1>
+                    <h1>Case Study of E/Sim</h1>
                   </div>
                   <div className="dental-clove">
                     <Image
