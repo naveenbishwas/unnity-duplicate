@@ -98,7 +98,9 @@ export default function Home() {
             <br />{" "}
             <span id="data-text">We Connect the Dots for Your Brand </span>
           </h1>
-          <button id="banner-btn">Schedule a call now</button>
+          <a href="https://calendly.com/sayam-unnity/30min">
+            <button id="banner-btn">Schedule a call now</button>
+          </a>
         </div>
       </section>
 
