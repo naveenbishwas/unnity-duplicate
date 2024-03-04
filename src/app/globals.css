@@ -1111,6 +1111,7 @@ body {
   padding: 10px 0;
   justify-content: center;
   margin-top: 5%;
+  display: none;
 }
 
 .dot {
@@ -1249,10 +1250,10 @@ body {
 #down {
   margin-top: 5%;
 }
-
+/* 
 #dis-none {
   display: none;
-}
+} */
 
 .dental-pos:hover {
   transform: scale(1.1);
@@ -1960,7 +1961,7 @@ footer h4 {
   .consult {
     position: relative;
     left: 99%;
-    top: -212%;
+    top: -210%;
   }
 
   .google {
@@ -2002,12 +2003,11 @@ footer h4 {
   .consult::after {
     content: "";
     width: 1px;
-    height: 107px;
+    height: 110px;
     position: absolute;
-    top: 22%;
+    top: 21%;
     left: 0%;
-    border: 0.5px solid #e2e2e2;
-    background-color: #e2e2e2;
+    border: 0.5px solid #aeaeae;
   }
 
   .services h3 {
@@ -2313,6 +2313,13 @@ footer h4 {
 
   .dent-button button {
     margin-top: 2px;
+  }
+
+  .dots {
+    display: flex;
+    padding: 10px 0;
+    justify-content: center;
+    margin-top: -3%;
   }
 }
 

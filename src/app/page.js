@@ -32,7 +32,6 @@ export default function Home() {
     },
     slides: { perView: 1 },
   });
-
   function Arrow(props) {
     const disabled = props.disabled ? " arrow--disabled" : "";
     return (
@@ -53,7 +52,6 @@ export default function Home() {
       </svg>
     );
   }
-
   return (
     <div className="main-container">
       <section className="add-navbar">
@@ -546,7 +544,7 @@ export default function Home() {
             )}
 
             {loaded && instanceRef.current && (
-              <div id="dis-none" className="dots">
+              <div className="dots">
                 {[
                   ...Array(
                     instanceRef.current.track.details.slides.length
