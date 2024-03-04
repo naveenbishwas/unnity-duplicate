@@ -621,7 +621,7 @@ export default function Home() {
                   </div>
                   <div className="dental-clove" id="home">
                     <Image
-                      src={"/home3.jpg"}
+                      src={"/home7.jpg"}
                       alt="dent-case"
                       width={100}
                       height={100}
