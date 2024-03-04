@@ -92,6 +92,12 @@ export default function Home() {
         >
           <source src="/banner-dots2.mp4" type="video/mp4" />
         </video>
+        <div className="banner-text">
+          <h1>
+            Data. Strategy. Growth.
+            <br /> We Connect the Dots for Your Brand
+          </h1>
+        </div>
       </section>
 
       <section className="intro" id="intro-id">
@@ -122,9 +128,9 @@ export default function Home() {
             <div className="intro-bottom-part" id="connect">
               <div className="intro-bottom-part-left">
                 <Image
-                  src="/Blue-Modern.png"
-                  width={550}
-                  height={650}
+                  src="/sayyam2.png"
+                  width={100}
+                  height={100}
                   alt="digi-img"
                   unoptimized
                 ></Image>

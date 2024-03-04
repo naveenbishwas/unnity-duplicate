@@ -34,7 +34,7 @@ body {
   color: #ffffff;
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 2;
 }
 
 #connect {
@@ -91,8 +91,10 @@ body {
 }
 
 .intro-bottom-part-left img {
-  border-radius: 2000px;
-  margin-top: -30px;
+  width: 600px;
+  height: 100%;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px 1px salmon, 0.5px 1px 1px 1px blue;
 }
 
 .intro-bottom-part-left {
@@ -103,8 +105,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  gap: 3%;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 #company-name,
@@ -142,6 +143,26 @@ body {
   border: none;
   color: #fff;
   font-size: 19px;
+}
+
+.banner-text {
+  display: flex;
+  justify-content: center;
+}
+
+.banner h1 {
+  position: absolute;
+  top: 20%;
+  z-index: 1;
+  color: #fff;
+  max-width: 80%;
+  text-align: center;
+  font-family: "emoji";
+  font-size: 3.5rem;
+}
+
+.banner {
+  position: relative;
 }
 
 .banner iframe {
@@ -988,22 +1009,6 @@ body {
 
 .number h4 {
   margin-left: 30px;
-}
-
-.achieve-numbers:hover .catego h2 {
-  font-size: 17px;
-  transition: all 1s ease;
-}
-
-.achieve-numbers:hover .red h1 {
-  font-size: 39px;
-  transition: all 1s ease;
-}
-
-.achieve-numbers:hover #network {
-  width: 70px;
-  height: 70px;
-  transition: all 1s ease;
 }
 
 .achievement {
