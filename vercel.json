@@ -1,8 +1,3 @@
 {
-  "rewrites": [
-    {
-      "source": "/Case-study/dentist",
-      "destination": "/page.js"
-    }
-  ]
+  "rewrites": [{ "source": "/(.*)", "destination": "/Case-study" }]
 }
