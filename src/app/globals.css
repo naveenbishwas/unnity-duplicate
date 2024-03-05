@@ -1359,6 +1359,7 @@ body {
 
 .start-left img {
   width: 400px;
+  height: 650px;
   margin-top: -35%;
 }
 
@@ -2013,6 +2014,7 @@ footer h4 {
 
   .services img {
     width: 60px;
+    height: auto;
   }
 
   .dental-df {
@@ -2152,6 +2154,7 @@ footer h4 {
   }
 
   .start-left img {
+    height: auto;
     width: 250px;
     margin-top: -50%;
   }
