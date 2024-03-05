@@ -878,6 +878,7 @@ body {
 
 .services img {
   width: 120px;
+  height: 170px;
 }
 
 .meta {
@@ -981,7 +982,7 @@ body {
 
 .seo-bottom {
   position: absolute;
-  bottom: -21%;
+  bottom: -33%;
   width: 91%;
   border: 0.5px solid #aeaeae;
 }
@@ -1538,15 +1539,16 @@ footer h4 {
   }
 
   #data {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
   }
 
   #data-text {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   .banner h1 {
     line-height: 1;
+    top: 13%;
   }
 
   .banner video {
@@ -1556,13 +1558,18 @@ footer h4 {
 
   #banner-btn {
     position: absolute;
-    top: 40%;
+    top: 35%;
     font-size: 12px;
     border: none;
     padding: 4px 11px;
     background: #fff;
     border-radius: 30px;
     color: #23234d;
+  }
+
+  .seo h3 {
+    margin-top: -12%;
+    margin-left: 6px;
   }
 
   #intro-id .intro-bottom-part-left img {
@@ -2421,13 +2428,24 @@ footer h4 {
 
   #banner-btn {
     position: absolute;
-    top: 40%;
+    top: 35%;
     font-size: 17px;
     border: none;
     padding: 8px 10px;
     background: #fff;
     border-radius: 30px;
     color: #23234d;
+  }
+
+  .intro-heading h1 {
+    font-size: 2rem;
+  }
+
+  .intro-desc p {
+    text-align: left;
+    font-size: 17px;
+    max-width: 85%;
+    margin-left: 10px;
   }
 
   .number h4 {
@@ -2475,7 +2493,8 @@ footer h4 {
   }
 
   .about-unnity-left p {
-    max-width: 87%;
+    max-width: 100%;
+    font-size: 14px;
   }
 
   .about-unnity-left {

@@ -273,38 +273,74 @@ export default function Home() {
         <div className="services">
           <div className="service-first-row">
             <div className="seo">
-              <img src="/seo2.png" alt="" />
+              <Image
+                src="/seo2.png"
+                alt=""
+                width={100}
+                height={100}
+                unoptimized
+              ></Image>
               <h3>Search Engine Optimisation</h3>
               <div className="seo-right"></div>
               <div className="seo-bottom"></div>
             </div>
             <div className="meta">
-              <img src="/meta2.png" alt="" />
+              <Image
+                src="/meta2.png"
+                alt=""
+                width={100}
+                height={100}
+                unoptimized
+              ></Image>
               <h3>Meta Ads</h3>
               <div className="meta-right"></div>
               <div className="meta-bottom"></div>
             </div>
             <div className="google">
-              <img src="/adwords2.png" alt="" />
+              <Image
+                src="/adwords2.png"
+                alt=""
+                width={100}
+                height={100}
+                unoptimized
+              ></Image>
               <h3>Google Ads</h3>
               <div className="google-bottom"></div>
             </div>
           </div>
           <div className="service-second-row">
             <div className="ui">
-              <img src="/ui-short.png" alt="" />
+              <Image
+                src="/ui-short.png"
+                alt=""
+                width={100}
+                height={100}
+                unoptimized
+              ></Image>
               <h3>UI/UX</h3>
               <div className="ui-right"></div>
               <div className="ui-bottom"></div>
             </div>
             <div className="development">
-              <img src="/smartphone2.png" alt="" />
+              <Image
+                src="/smartphone2.png"
+                alt=""
+                width={100}
+                height={100}
+                unoptimized
+              ></Image>
               <h3>Website Development</h3>
               <div className="development-right"></div>
               <div className="development-bottom"></div>
             </div>
             <div className="consult">
-              <img src="/brand-short.png" alt="" />
+              <Image
+                src="/brand-short.png"
+                alt=""
+                width={100}
+                height={100}
+                unoptimized
+              ></Image>
               <h3>Brand Consultation</h3>
               <div className="consult-bottom"></div>
             </div>
