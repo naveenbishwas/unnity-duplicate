@@ -722,7 +722,13 @@ export default function Home() {
 
       <section className="lets-started">
         <div className="start-left">
-          <img src="/call.png" alt="" />
+          <Image
+            src="/call.png"
+            alt="call"
+            width={100}
+            height={100}
+            unoptimized
+          ></Image>
         </div>
         <div className="start-right">
           <div className="right-header">
