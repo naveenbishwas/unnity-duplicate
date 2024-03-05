@@ -591,7 +591,7 @@ export default function Home() {
 
         <div className="navigation-wrapper">
           <div ref={sliderRef2} className="keen-slider" id="case-study-slider">
-            <Link href="Case-study/dentist" className="dental-case">
+            <Link href="/Case-study/dentist" className="dental-case">
               <div className="keen-slider__slide number-slide1" id="one">
                 <div className="dental-pos" id="smile-left">
                   <div className="dental-clove-text">
@@ -621,7 +621,7 @@ export default function Home() {
                 </div>
               </div>
             </Link>
-            <Link href="Case-study/home-appliances">
+            <Link href="/Case-study/home-appliances">
               <div className="keen-slider__slide number-slide2" id="two">
                 <div className="dental-pos">
                   <div className="dental-clove-text">
@@ -650,7 +650,7 @@ export default function Home() {
                 </div>
               </div>
             </Link>
-            <Link href="Case-study/travel">
+            <Link href="/Case-study/travel">
               <div className="keen-slider__slide number-slide3" id="third">
                 <div className="dental-pos">
                   <div className="dental-clove-text">
