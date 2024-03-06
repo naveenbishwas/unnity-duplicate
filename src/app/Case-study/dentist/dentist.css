@@ -942,6 +942,11 @@ body {
     margin-right: 97px;
   }
 
+  .scaling-attempt-left-center::before,
+  .performance-analysis-left-center::before {
+    height: 160px;
+  }
+
   .section-six {
     margin-top: 2%;
     padding: 7% 8%;

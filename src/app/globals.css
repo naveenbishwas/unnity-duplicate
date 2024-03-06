@@ -6,6 +6,7 @@
 
 body {
   animation: animationIn 0.5s;
+  overflow-x: hidden;
 }
 
 @keyframes animationIn {
@@ -1198,11 +1199,14 @@ body {
 
 .keen-slider {
   display: flex;
+  justify-content: space-around;
+  margin-top: 2%;
 }
 
 #dis-grid {
   display: flex;
   flex-direction: column;
+  margin-left: 100%;
 }
 
 .keen-slider a {
@@ -2297,7 +2301,7 @@ footer h4 {
   .dental-clove {
     position: relative;
     height: 299px;
-    width: 410px;
+    width: 100%;
     margin-top: -3px;
   }
 
@@ -2378,16 +2382,20 @@ footer h4 {
   }
 
   .dental-clove img {
-    width: 259px;
     height: 200px;
     object-fit: cover;
-    margin-left: 7%;
+  }
+
+  #home img {
+    width: 82vw;
   }
 
   #one,
   #two,
   #third {
     height: 480px;
+    display: flex;
+    justify-content: center;
   }
 
   #third {
@@ -2395,7 +2403,8 @@ footer h4 {
   }
 
   .dental-pos {
-    width: 310px;
+    width: 82%;
+    height: 88%;
   }
 
   .dental-pos:hover {
@@ -2456,15 +2465,21 @@ footer h4 {
   .dent-text p {
     font-size: 14px;
     text-align: left;
-    margin-left: 21px;
+    margin-left: 0px;
     margin-top: -15px;
     padding: 0 10px;
     font-weight: 400;
-    max-width: 90%;
+    max-width: 100%;
   }
 
   .dent-button button {
     margin-top: 2px;
+  }
+
+  #dis-grid {
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 102%; */
   }
 
   .dots {
