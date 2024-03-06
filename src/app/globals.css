@@ -2394,7 +2394,7 @@ footer h4 {
   #two,
   #third {
     height: 480px;
-    width: 80vw;
+    width: 100vw;
     display: flex;
   }
 
