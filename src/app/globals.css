@@ -1286,10 +1286,6 @@ body {
 #down {
   margin-top: 5%;
 }
-/* 
-#dis-none {
-  display: none;
-} */
 
 .dental-pos:hover {
   transform: scale(1.1);
@@ -2403,8 +2399,9 @@ footer h4 {
   }
 
   .dental-pos {
-    width: 100%;
+    width: 80%;
     height: 88%;
+    transform: translateX(12%);
   }
 
   .dental-pos:hover {
