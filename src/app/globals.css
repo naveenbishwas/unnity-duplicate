@@ -758,6 +758,7 @@ body {
   text-transform: uppercase;
   text-align: center;
   line-height: 1.2;
+  font-family: "Permanent Marker";
 }
 
 .brand-we-worked {
@@ -1440,6 +1441,17 @@ footer {
   margin-top: 1%;
 }
 
+.follow-us a {
+  text-decoration: none;
+  color: #eae9e9;
+}
+
+.follow-us a span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .follow-us > span {
   display: flex;
   align-items: center;
@@ -1551,9 +1563,9 @@ footer h4 {
 
 .brand-logo-center-df {
   display: flex;
-  width: 250vw;
+  width: 350vw;
   margin-top: 2%;
-  animation: logo-slide 15s infinite alternate;
+  animation: logo-slide 30s infinite alternate;
   border: 1px solid #cdcdcd;
 }
 
@@ -1566,7 +1578,7 @@ footer h4 {
     margin-left: 0;
   }
   to {
-    margin-left: -100%;
+    margin-left: -190%;
   }
 }
 
@@ -1576,7 +1588,7 @@ footer h4 {
 
 .brand-logo-content {
   display: flex;
-  gap: 50%;
+  gap: 30%;
   margin-left: 7%;
   align-items: center;
 }
