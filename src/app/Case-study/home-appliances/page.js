@@ -27,7 +27,7 @@ const page = () => {
           </div>
           <div className="section-one-right">
             <Image
-              src="/home5.jpg"
+              src="/home11.jpg"
               alt=""
               width={300}
               height={550}

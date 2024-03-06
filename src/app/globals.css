@@ -1532,6 +1532,59 @@ footer h4 {
   gap: 50px;
 }
 
+#tic-tac path {
+  fill: #000;
+}
+
+#tic-tac {
+  width: 100px;
+  height: 100px;
+}
+
+.brand-logo-center {
+  overflow: hidden;
+}
+
+.brand-logo-center-df {
+  display: flex;
+  width: 250vw;
+  margin-top: 2%;
+  animation: logo-slide 15s infinite alternate;
+  border: 1px solid #cdcdcd;
+}
+
+.brand-logo {
+  padding-bottom: 7%;
+}
+
+@keyframes logo-slide {
+  from {
+    margin-left: 0;
+  }
+  to {
+    margin-left: -100%;
+  }
+}
+
+#brand-logo-content-two {
+  margin-left: 25%;
+}
+
+.brand-logo-content {
+  display: flex;
+  gap: 50%;
+  margin-left: 7%;
+}
+
+.brand-logo-content img {
+  object-fit: contain;
+}
+
+.brand-logo h1 {
+  text-align: center;
+  text-transform: capitalize;
+}
+
 @media screen and (max-width: 768px) {
   .add-navbar {
     display: flex;
