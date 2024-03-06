@@ -566,9 +566,9 @@ body {
 
 @media screen and (max-width: 768px) {
   .section-one-right img {
-    width: 89%;
-    height: 300px;
-    object-fit: none;
+    width: 85vw;
+    height: 255px;
+    object-fit: cover;
     margin-left: 0;
   }
 
@@ -582,7 +582,7 @@ body {
   }
 
   .section-one {
-    padding: 7% 8%;
+    padding: 7% 4%;
     margin-top: 5%;
   }
 

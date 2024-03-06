@@ -2114,7 +2114,7 @@ footer h4 {
   .google {
     position: relative;
     margin-left: -13%;
-    top: 19%;
+    top: 12%;
   }
 
   .ui {
@@ -2173,7 +2173,7 @@ footer h4 {
 
   .seo-bottom {
     position: absolute;
-    bottom: -21%;
+    bottom: -12%;
     width: 66%;
     left: 15%;
     border: 0.5px solid #aeaeae;
@@ -2588,6 +2588,7 @@ footer h4 {
     top: 21%;
     left: 4%;
     border: 0.5px solid #aeaeae;
+    background-color: #aeaeae;
   }
 
   .about-unnity-df {
