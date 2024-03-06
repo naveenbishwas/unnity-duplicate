@@ -877,8 +877,12 @@ body {
 }
 
 .services img {
-  width: 120px;
-  height: 170px;
+  width: 100px;
+  height: auto;
+}
+
+#for-mobile {
+  display: none;
 }
 
 .meta {
@@ -1574,6 +1578,7 @@ footer h4 {
   display: flex;
   gap: 50%;
   margin-left: 7%;
+  align-items: center;
 }
 
 .brand-logo-content img {
@@ -2065,9 +2070,25 @@ footer h4 {
     font-size: 11px;
   }
 
+  #for-mobile {
+    display: block;
+  }
+
+  #for-desktop {
+    display: none;
+  }
+
   .services img {
     width: 60px;
     height: auto;
+  }
+
+  .ui img {
+    margin-top: -32px;
+  }
+
+  .ui h3 {
+    margin-top: -11px;
   }
 
   .dental-df {
@@ -2092,8 +2113,8 @@ footer h4 {
 
   .google {
     position: relative;
-    margin-left: -12%;
-    top: 14%;
+    margin-left: -13%;
+    top: 19%;
   }
 
   .ui {
@@ -2134,6 +2155,7 @@ footer h4 {
     top: 21%;
     left: 0%;
     border: 0.5px solid #aeaeae;
+    background-color: aeaeae;
   }
 
   .services h3 {
@@ -2204,6 +2226,7 @@ footer h4 {
 
   .lets-started {
     flex-direction: column;
+    margin-top: 8%;
   }
 
   .start-left img {
@@ -2406,10 +2429,12 @@ footer h4 {
   .achieve-numbers img {
     width: 31px;
     height: 31px;
+    margin-left: -17px;
   }
 
   .red {
     margin-top: -26px;
+    margin-left: -17px;
   }
 
   .achieve-numbers:hover .catego h2 {
@@ -2447,6 +2472,28 @@ footer h4 {
     padding: 10px 0;
     justify-content: center;
     margin-top: -3%;
+  }
+
+  .brand-logo-content {
+    gap: 13%;
+  }
+
+  .brand-logo-content img {
+    object-fit: contain;
+    width: 70px;
+  }
+
+  #tic-tac {
+    width: 80px;
+    height: 74px;
+  }
+
+  #brand-logo-content-two {
+    margin-left: 18%;
+  }
+
+  .brand-logo-center {
+    margin-top: 5%;
   }
 }
 

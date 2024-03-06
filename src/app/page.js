@@ -280,7 +280,12 @@ export default function Home() {
                 height={100}
                 unoptimized
               ></Image>
-              <h3>Search Engine Optimisation</h3>
+              <h3 id="for-desktop">Search Engine Optimisation</h3>
+              <h3 id="for-mobile">
+                Search Engine
+                <br />
+                Optimisation
+              </h3>
               <div className="seo-right"></div>
               <div className="seo-bottom"></div>
             </div>
