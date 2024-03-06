@@ -2394,9 +2394,10 @@ footer h4 {
   #two,
   #third {
     height: 480px;
+    width: 100vw;
     display: flex;
     justify-content: center;
-    background-color: rgb(255, 177, 177);
+    background-color: aliceblue;
   }
 
   #third {
