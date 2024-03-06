@@ -649,9 +649,8 @@ export default function Home() {
                 </div>
                 <div className="dent-text">
                   <p>
-                    Find out how companies like yours seamlessly attract
-                    qualified leads, convert them into customers, and drive
-                    revenue..
+                    Welcome to a comprehensive overview of transforming a large
+                    dentistry chain's digital marketing strategy...
                   </p>
                 </div>
 
@@ -678,9 +677,8 @@ export default function Home() {
                 </div>
                 <div className="dent-text">
                   <p>
-                    Find out how companies like yours seamlessly attract
-                    qualified leads, convert them into customers, and drive
-                    revenue.
+                    Mission to dominate the digital advertising space through
+                    Google Ads. The journey began with scaling efforts...
                   </p>
                 </div>
 
@@ -708,9 +706,8 @@ export default function Home() {
 
                 <div className="dent-text">
                   <p>
-                    Find out how companies like yours seamlessly attract
-                    qualified leads, convert them into customers, and drive
-                    revenue..
+                    Brand E-Travelsim's journey with Google Ads is a testament
+                    to strategic scaling and optimization...
                   </p>
                 </div>
 
