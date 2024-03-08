@@ -2217,14 +2217,14 @@ footer h4 {
     right: 4%;
   }
 
-  .ui::after {
+  ui::after {
     content: "";
     width: 1px;
-    height: 90%;
+    height: 106%;
     background-color: #000;
     border: 0.5px solid #000;
     position: absolute;
-    top: 10%;
+    top: -29%;
     right: 3%;
   }
 
