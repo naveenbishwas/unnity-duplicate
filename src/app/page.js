@@ -286,8 +286,6 @@ export default function Home() {
                 <br />
                 Optimisation
               </h3>
-              <div className="seo-right"></div>
-              <div className="seo-bottom"></div>
             </div>
             <div className="meta">
               <Image
@@ -298,8 +296,6 @@ export default function Home() {
                 unoptimized
               ></Image>
               <h3>Meta Ads</h3>
-              <div className="meta-right"></div>
-              <div className="meta-bottom"></div>
             </div>
             <div className="google">
               <Image
@@ -310,7 +306,6 @@ export default function Home() {
                 unoptimized
               ></Image>
               <h3>Google Ads</h3>
-              <div className="google-bottom"></div>
             </div>
           </div>
           <div className="service-second-row">
@@ -323,8 +318,6 @@ export default function Home() {
                 unoptimized
               ></Image>
               <h3>UI/UX</h3>
-              <div className="ui-right"></div>
-              <div className="ui-bottom"></div>
             </div>
             <div className="development">
               <Image
@@ -335,8 +328,6 @@ export default function Home() {
                 unoptimized
               ></Image>
               <h3>Website Development</h3>
-              <div className="development-right"></div>
-              <div className="development-bottom"></div>
             </div>
             <div className="consult">
               <Image
@@ -347,7 +338,6 @@ export default function Home() {
                 unoptimized
               ></Image>
               <h3>Brand Consultation</h3>
-              <div className="consult-bottom"></div>
             </div>
           </div>
         </div>

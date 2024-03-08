@@ -892,9 +892,42 @@ body {
   position: relative;
 }
 
+.meta::after {
+  content: "";
+  width: 1px;
+  height: 95%;
+  background-color: #000;
+  border: 0.5px solid #000;
+  position: absolute;
+  right: -158%;
+  top: 7%;
+}
+
+.meta::before {
+  content: "";
+  height: 1px;
+  width: 219%;
+  background-color: #000;
+  border: 0.5px solid #000;
+  position: absolute;
+  bottom: -26%;
+  left: -54%;
+}
+
 .google {
   position: relative;
   margin-left: -12%;
+}
+
+.google::before {
+  content: "";
+  width: 220%;
+  height: 1px;
+  background-color: #000;
+  border: 0.5px solid #000;
+  position: absolute;
+  bottom: -25%;
+  right: -62%;
 }
 
 .meta img,
@@ -907,8 +940,30 @@ body {
   margin-left: 8%;
 }
 
+.ui::after {
+  content: "";
+  width: 1px;
+  height: 90%;
+  background-color: #000;
+  border: 0.5px solid #000;
+  position: absolute;
+  top: 10%;
+  right: -109%;
+}
+
 .development {
   position: relative;
+}
+
+.development::after {
+  content: "";
+  width: 1px;
+  height: 100%;
+  background-color: #000;
+  border: 0.5px solid #000;
+  position: absolute;
+  bottom: 0;
+  right: -40%;
 }
 
 .services .development h3 {
@@ -944,69 +999,32 @@ body {
   margin-left: -5%;
 }
 
+.seo::after {
+  content: "";
+  height: 100%;
+  width: 1px;
+  background-color: #000;
+  border: 0.5px solid #000;
+  position: absolute;
+  top: 10%;
+  right: -18%;
+}
+
+.seo::before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+  border: 0.5px solid #000;
+  position: absolute;
+  bottom: -34%;
+  left: 0;
+}
+
 .consult {
   position: relative;
   left: -5%;
   top: -19px;
-}
-
-.seo-right {
-  position: absolute;
-  top: 28%;
-  left: 116%;
-  width: 1px;
-  height: 76%;
-  border: 0.5px solid #aeaeae;
-}
-
-.meta-right {
-  position: absolute;
-  top: 26%;
-  left: 255%;
-  width: 1px;
-  height: 82%;
-  border: 0.5px solid #aeaeae;
-}
-
-.ui-right {
-  position: absolute;
-  top: 15%;
-  left: 208%;
-  width: 1px;
-  height: 78%;
-  border: 0.5px solid #aeaeae;
-}
-
-.development-right {
-  position: absolute;
-  top: 10%;
-  left: 139%;
-  width: 1px;
-  height: 89%;
-  border: 0.5px solid #aeaeae;
-}
-
-.seo-bottom {
-  position: absolute;
-  bottom: -33%;
-  width: 91%;
-  border: 0.5px solid #aeaeae;
-}
-
-.meta-bottom {
-  position: absolute;
-  bottom: -26%;
-  width: 262px;
-  left: -84%;
-  border: 0.5px solid #aeaeae;
-}
-
-.google-bottom {
-  position: absolute;
-  bottom: -26%;
-  width: 262px;
-  left: -46%;
-  border: 0.5px solid #aeaeae;
 }
 
 .service-second-row h3 {
@@ -1997,6 +2015,7 @@ footer h4 {
   .about-unnity-left p {
     max-width: 100%;
     font-size: 13px;
+    margin-top: 2%;
   }
 
   .about-unnity-left button {
@@ -2135,74 +2154,94 @@ footer h4 {
     top: 14%;
   }
 
-  .meta-bottom {
+  .meta::before {
+    content: "";
+    height: 1px;
+    width: 43%;
+    background-color: #000;
+    border: 0.5px solid #000;
     position: absolute;
-    bottom: -14%;
-    width: 139px;
-    left: 28%;
-    border: 0.5px solid #aeaeae;
+    bottom: -17%;
+    left: 31%;
   }
 
-  .google-bottom {
+  .google::before {
+    content: "";
+    width: 47%;
+    height: 1px;
+    background-color: #000;
+    border: 0.5px solid #000;
     position: absolute;
-    bottom: -21%;
-    width: 146px;
-    left: 22%;
-    border: 0.5px solid #aeaeae;
+    bottom: -16%;
+    left: 30%;
   }
 
-  .consult-bottom {
-    position: absolute;
-    bottom: -13%;
-    width: 146px;
-    left: 13%;
-    border: 0.5px solid #aeaeae;
-  }
-
-  .consult::after {
+  .google::after {
     content: "";
     width: 1px;
-    height: 110px;
+    height: 84%;
+    background-color: #000;
+    border: 0.5px solid #000;
     position: absolute;
-    top: 21%;
-    left: 0%;
-    border: 0.5px solid #aeaeae;
-    background-color: aeaeae;
+    bottom: -13%;
+    right: 3%;
+  }
+
+  .development::after {
+    display: none;
   }
 
   .services h3 {
     font-size: 13px;
   }
 
-  .seo-right {
+  .seo::before {
+    content: "";
+    width: 45%;
+    height: 1px;
+    background-color: #000;
+    border: 0.5px solid #000;
     position: absolute;
-    top: 25%;
-    left: 99%;
-    width: 1px;
-    height: 84%;
-    border: 0.5px solid #aeaeae;
+    bottom: -15%;
+    left: 30%;
   }
 
-  .seo-bottom {
+  .seo::after {
+    content: "";
+    height: 81%;
+    width: 1px;
+    background-color: #000;
+    border: 0.5px solid #000;
     position: absolute;
-    bottom: -12%;
-    width: 66%;
-    left: 15%;
-    border: 0.5px solid #aeaeae;
+    top: 30%;
+    right: 4%;
   }
 
-  .ui-right {
-    position: absolute;
-    top: -16%;
-    left: 100%;
+  .ui::after {
+    content: "";
     width: 1px;
-    height: 101%;
-    border: 0.5px solid #aeaeae;
+    height: 90%;
+    background-color: #000;
+    border: 0.5px solid #000;
+    position: absolute;
+    top: 10%;
+    right: 3%;
   }
 
   .development-right,
   .meta-right {
     display: none;
+  }
+
+  .consult::before {
+    content: "";
+    width: 50%;
+    height: 1px;
+    background-color: #000;
+    border: 0.5px solid #000;
+    position: absolute;
+    bottom: -7%;
+    left: 20%;
   }
 
   .consult img {
@@ -2225,6 +2264,10 @@ footer h4 {
     padding: 13px 10px;
     z-index: 1000;
     width: 100%;
+  }
+
+  .meta::after {
+    display: none;
   }
 
   .arrow {
@@ -2523,8 +2566,11 @@ footer h4 {
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
   .intro-bottom-part {
-    flex-direction: row;
     margin-top: -2%;
+  }
+
+  .dent-text p {
+    margin-top: 20px;
   }
 
   #intro-id .intro-bottom-part-left img {
@@ -2588,7 +2634,7 @@ footer h4 {
   }
 
   .intro-bottom-part-right {
-    width: 300vw;
+    width: 100vw;
     margin-left: 3%;
   }
 
@@ -2596,27 +2642,14 @@ footer h4 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20%;
-    margin-left: 15%;
+    margin-top: 4%;
+    margin-left: 2%;
   }
-
   .intro-bottom-part-left img {
     width: 330px;
   }
 
-  .consult::after {
-    content: "";
-    width: 1px;
-    height: 92px;
-    position: absolute;
-    top: 21%;
-    left: 4%;
-    border: 0.5px solid #aeaeae;
-    background-color: #aeaeae;
-  }
-
   .about-unnity-df {
-    flex-direction: row;
     padding: 10px 20px;
   }
 
@@ -2672,7 +2705,18 @@ footer h4 {
   .consult {
     position: relative;
     left: 92%;
-    top: -252%;
+    top: -236%;
+  }
+
+  .consult::before {
+    content: "";
+    width: 53%;
+    height: 1px;
+    background-color: #000;
+    border: 0.5px solid #000;
+    position: absolute;
+    bottom: -7%;
+    left: 28%;
   }
 
   .consult-bottom {
@@ -2796,12 +2840,181 @@ footer h4 {
   }
 }
 
+@media screen and (min-width: 426px) and (max-width: 500px) {
+  .achieve-numbers img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .red h1 {
+    margin-top: 20px;
+    color: #061b91;
+    font-size: 17px;
+    font-family: monospace;
+  }
+
+  .catego h2 {
+    font-size: 11px;
+    max-width: 79%;
+    margin-left: 5%;
+  }
+
+  .achieve-numbers {
+    max-width: 32%;
+    margin-left: 6%;
+  }
+
+  #data {
+    font-size: 1.6rem;
+  }
+
+  #data-text {
+    font-size: 1rem;
+  }
+
+  .banner h1 {
+    line-height: 1;
+  }
+
+  #banner-btn {
+    position: absolute;
+    top: 38%;
+    font-size: 11px;
+  }
+
+  .intro-heading h1 {
+    font-size: 1.3rem;
+  }
+
+  .intro-heading h1 .brand-name {
+    font-size: 1.2rem;
+    font-weight: bolder;
+  }
+
+  .intro-desc p {
+    text-align: left;
+    font-size: 14px;
+    max-width: 93%;
+    margin-left: 10px;
+  }
+
+  .seo-bottom {
+    position: absolute;
+    bottom: -8%;
+  }
+
+  .services .service-first-row h3 {
+    margin-top: -13px;
+  }
+
+  .seo-right {
+    position: absolute;
+    top: 25%;
+    left: 96%;
+    width: 1px;
+    height: 68%;
+    border: 0.5px solid #aeaeae;
+  }
+
+  .meta-bottom {
+    position: absolute;
+    bottom: -6%;
+    width: 119px;
+    left: 28%;
+    border: 0.5px solid #aeaeae;
+  }
+
+  .consult {
+    position: relative;
+    left: 92%;
+    top: -210%;
+  }
+
+  .consult-bottom {
+    position: absolute;
+    bottom: -13%;
+    width: 120px;
+    left: 22%;
+    border: 0.5px solid #aeaeae;
+  }
+
+  .ui-right {
+    position: absolute;
+    top: -3%;
+  }
+
+  .ui {
+    position: relative;
+    margin-left: -10%;
+    top: -27%;
+  }
+
+  .google {
+    position: relative;
+    margin-left: -13%;
+    top: 7%;
+  }
+
+  .google-bottom {
+    position: absolute;
+    bottom: -4%;
+    width: 119px;
+    left: 32%;
+    border: 0.5px solid #aeaeae;
+  }
+}
+
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .intro-bottom-part-left img {
     border-radius: 2000px;
     margin-top: -30px;
     width: 400px;
     height: 550px;
+  }
+
+  .meta img,
+  .google img {
+    width: 75px;
+  }
+
+  .banner h1 {
+    position: absolute;
+    top: 15%;
+  }
+
+  .ui img {
+    width: 90px;
+  }
+
+  #company-name,
+  #budget,
+  #name,
+  #phone,
+  #email,
+  #service,
+  #designation {
+    width: 100%;
+    height: 55px;
+    font-size: 18px;
+    padding: 0 20px;
+  }
+
+  #submit {
+    border-radius: 6px;
+    width: 100%;
+  }
+
+  .intro-bottom-part-right {
+    margin-left: 11%;
+    max-width: 47%;
+  }
+
+  #data {
+    font-size: 3rem;
+  }
+
+  #data-text {
+    font-size: 2.5rem;
   }
 
   .intro-desc p {
@@ -2906,5 +3119,32 @@ footer h4 {
 
   .dental-pos {
     width: 283px;
+  }
+
+  #intro-id .intro-bottom-part-left img {
+    height: 400px;
+    margin-top: 0;
+    margin-left: 4%;
+    object-fit: cover;
+  }
+
+  .about-unnity-right img {
+    width: 80%;
+    height: auto;
+  }
+
+  .about-unnity-left p {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
+  .about-unnity-right img {
+    width: 80%;
+    height: auto;
+  }
+
+  .about-unnity-left p {
+    max-width: 100%;
   }
 }
