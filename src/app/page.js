@@ -7,8 +7,18 @@ import React, { useState } from "react";
 import { useKeenSlider } from "keen-slider/react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Link from "next/link";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 export default function Home() {
+  const [companyName, setCompanyName] = useState("");
+  const [budget, setBudget] = useState("");
+  const [name, setName] = useState("");
+  const [phone, setPhone] = useState("");
+  const [email, setEmail] = useState("");
+  const [service, setService] = useState("");
+  const [designation, setDesignation] = useState("");
+
   const [currentSlide, setCurrentSlide] = useState(0);
   const [loaded, setLoaded] = useState(false);
   const [sliderRef, instanceRef] = useKeenSlider({
@@ -52,6 +62,42 @@ export default function Home() {
       </svg>
     );
   }
+
+  const submitHanlder = (e) => {
+    e.preventDefault();
+
+    const serviceId = "service_lc3zqsj";
+    const templateId = "template_lgmyk3o";
+    const publicKey = "vwQ1UwMU_xiay6xqT";
+
+    const templateParams = {
+      to_name: "Sayam",
+      from_name: companyName,
+      company_name: companyName,
+      monthly_marketing_budget: budget,
+      client_name: name,
+      phone_no: phone,
+      email_id: email,
+      service_id: service,
+      designation: designation,
+    };
+
+    emailjs
+      .send(serviceId, templateId, templateParams, publicKey)
+      .then((response) => {
+        console.log("Email sent successfully", response);
+        setCompanyName("");
+        setBudget("");
+        setName("");
+        setPhone("");
+        setEmail("");
+        setService("");
+        setDesignation("");
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  };
   return (
     <div className="main-container">
       <section className="add-navbar">
@@ -140,7 +186,11 @@ export default function Home() {
                 ></Image>
               </div>
               <div className="intro-bottom-part-right">
-                <form action="" className="contact-form needs-validation">
+                <form
+                  action=""
+                  className="contact-form needs-validation"
+                  onSubmit={submitHanlder}
+                >
                   <div className="was-validated">
                     <input
                       type="text"
@@ -148,16 +198,28 @@ export default function Home() {
                       id="company-name"
                       placeholder="Company Name"
                       required
+                      value={companyName}
+                      onChange={(e) => setCompanyName(e.target.value)}
                     />
                   </div>
                   <div className="was-validated">
-                    <select required name="budget" id="budget">
-                      <option value="">Monthly Marketing Budget</option>
-                      <option value="">Less Than Rs 2L Budget</option>
-                      <option value="">Rs 2L to Rs 5L</option>
-                      <option value="">Rs 5L to Rs 25L</option>
-                      <option value="">More Than 50L</option>
-                      <option value="">
+                    <select
+                      required
+                      name="budget"
+                      id="budget"
+                      value={budget}
+                      onChange={(e) => setBudget(e.target.value)}
+                    >
+                      <option value="Monthly Marketing Budget">
+                        Monthly Marketing Budget
+                      </option>
+                      <option value="Less Than Rs 2L Budget">
+                        Less Than Rs 2L Budget
+                      </option>
+                      <option value="Rs 2L to Rs 5L">Rs 2L to Rs 5L</option>
+                      <option value="Rs 5L to Rs 25L">Rs 5L to Rs 25L</option>
+                      <option value="More Than 50L">More Than 50L</option>
+                      <option value="I am Looking For Organic Services">
                         I am Looking For Organic Services
                       </option>
                     </select>
@@ -169,6 +231,8 @@ export default function Home() {
                       id="name"
                       placeholder="Name"
                       required
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
                     />
                   </div>
                   <div className="was-validated">
@@ -178,6 +242,8 @@ export default function Home() {
                       id="phone"
                       placeholder="Phone Number"
                       required
+                      value={phone}
+                      onChange={(e) => setPhone(e.target.value)}
                     />
                   </div>
                   <div className="was-validated">
@@ -187,14 +253,24 @@ export default function Home() {
                       id="email"
                       placeholder="Email Address"
                       required
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
                     />
                   </div>
                   <div className="was-validated">
-                    <select required name="service" id="service">
+                    <select
+                      required
+                      name="service"
+                      id="service"
+                      value={service}
+                      onChange={(e) => setService(e.target.value)}
+                    >
                       <option value="">Choose The Service</option>
-                      <option value="">SEO & Content</option>
-                      <option value="">Paid Search</option>
-                      <option value="">MarketPlace Management</option>
+                      <option value="SEO & Content">SEO & Content</option>
+                      <option value="Paid Search">Paid Search</option>
+                      <option value="MarketPlace Management">
+                        MarketPlace Management
+                      </option>
                     </select>
                   </div>
                   <div className="was-validated">
@@ -204,6 +280,8 @@ export default function Home() {
                       id="designation"
                       placeholder="Designation"
                       required
+                      value={designation}
+                      onChange={(e) => setDesignation(e.target.value)}
                     />
                   </div>
 

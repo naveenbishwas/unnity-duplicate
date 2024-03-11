@@ -244,7 +244,7 @@ const page = () => {
 
       <div className="strategy">
         <Image
-          src={"/dentist-min.jpg"}
+          src={"/dentist-case.webp"}
           alt="strategy"
           width={100}
           height={100}

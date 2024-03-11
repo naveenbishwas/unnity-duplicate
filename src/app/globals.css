@@ -906,12 +906,12 @@ body {
 .meta::before {
   content: "";
   height: 1px;
-  width: 219%;
+  width: 250%;
   background-color: #000;
   border: 0.5px solid #000;
   position: absolute;
   bottom: -26%;
-  left: -54%;
+  left: -67%;
 }
 
 .google {
@@ -1640,11 +1640,6 @@ footer h4 {
     top: 13%;
   }
 
-  .banner video {
-    height: 61vh;
-    margin-top: -30%;
-  }
-
   #banner-btn {
     position: absolute;
     top: 35%;
@@ -2217,7 +2212,7 @@ footer h4 {
     right: 4%;
   }
 
-  ui::after {
+  .ui::after {
     content: "";
     width: 1px;
     height: 106%;
@@ -2556,7 +2551,7 @@ footer h4 {
   }
 
   #brand-logo-content-two {
-    margin-left: 18%;
+    margin-left: 24%;
   }
 
   .brand-logo-center {
@@ -2635,7 +2630,7 @@ footer h4 {
 
   .intro-bottom-part-right {
     width: 100vw;
-    margin-left: 3%;
+    margin-left: 0;
   }
 
   .contact-form {
@@ -3146,5 +3141,19 @@ footer h4 {
 
   .about-unnity-left p {
     max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  .intro-bottom-part-left img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px 1px salmon, 0.5px 1px 1px 1px blue;
+  }
+
+  #banner-btn {
+    position: absolute;
+    top: 44%;
   }
 }
