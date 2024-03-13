@@ -124,7 +124,7 @@ export default function Home() {
               <h4>+91 93150 03754</h4>
             </a>
             <a id="mobile-view" href="tel:91 93150 03754">
-              <h4>+91 93150 03754</h4>
+              <h4>93150 03754</h4>
             </a>
           </div>
         </div>

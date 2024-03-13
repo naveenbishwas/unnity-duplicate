@@ -167,13 +167,13 @@ body {
   margin-left: -4%;
 }
 
-#dots {
+/* #dots {
   background-image: radial-gradient(circle, #fff 1px, transparent -6px);
   background-size: 2px 3px;
   background-clip: text;
   color: transparent;
   display: inline-block;
-}
+} */
 
 .banner h1 {
   position: absolute;
@@ -1628,6 +1628,8 @@ footer h4 {
     display: flex;
     justify-content: space-evenly;
     gap: 16%;
+    top: -5px;
+    padding-top: 10px;
   }
 
   #mobile-view {
@@ -2117,7 +2119,7 @@ footer h4 {
   }
 
   .number h4 {
-    font-size: 11px;
+    font-size: 13px;
   }
 
   #for-mobile {
@@ -2384,7 +2386,7 @@ footer h4 {
   .dental-abs {
     position: absolute;
     top: 0%;
-    left: 12%;
+    left: 0;
     width: 301px;
     height: 277px;
   }
