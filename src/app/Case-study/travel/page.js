@@ -9,15 +9,15 @@ const paje = () => {
         <section className="section-one">
           <div className="section-one-df">
             <div className="section-one-left">
-              <h1>E-Travelsim: A Google Ads Success Story</h1>
+              <h1>E-sim: A Google Ads Success Story</h1>
               <p>
-                Brand E-Travelsim's journey with Google Ads is a testament to
+                Brand E-sim's journey with Google Ads is a testament to
                 strategic scaling and optimization. From a modest beginning to
                 achieving record-breaking sales and conversion rates, this case
                 study showcases the power of targeted advertising and the
                 effective use of Google's algorithms. Let's dive into the
-                details of how E-Travelsim leveraged Google Ads to maximize
-                their ecommerce potential and outperform the competition
+                details of how E-sim leveraged Google Ads to maximize their
+                ecommerce potential and outperform the competition
               </p>
             </div>
             <div className="section-one-right">

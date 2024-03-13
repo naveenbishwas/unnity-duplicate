@@ -8,9 +8,9 @@ const page = () => {
       <section className="section-one">
         <div className="section-one-df">
           <div className="section-one-left">
-            <h1>Case Study: Home appliance India's Google Ads Campaign</h1>
+            <h1>Case Study: of India larget home-appliance brand</h1>
             <p>
-              mission to dominate the digital advertising space through Google
+              Mission to dominate the digital advertising space through Google
               Ads. The journey began with scaling efforts, but the initial
               performance did not meet expectations. A deep dive into the
               campaign structures and budget management was initiated to

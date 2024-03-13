@@ -116,11 +116,14 @@ export default function Home() {
         <div className="contact-btn">
           <a href="#connect">
             <button className="animate__animated animate__bounceIn">
-              Contact
+              Sign up
             </button>
           </a>
           <div className="number">
-            <a href="#connect">
+            <a id="desktop-view" href="#connect">
+              <h4>+91 93150 03754</h4>
+            </a>
+            <a id="mobile-view" href="tel:91 93150 03754">
               <h4>+91 93150 03754</h4>
             </a>
           </div>
@@ -142,7 +145,9 @@ export default function Home() {
           <h1>
             <span id="data">Data. Strategy. Growth.</span>
             <br />{" "}
-            <span id="data-text">We Connect the Dots for Your Brand </span>
+            <span id="data-text">
+              We Connect the <span id="dots">Dots</span> for Your Brand{" "}
+            </span>
           </h1>
           <a href="https://calendly.com/sayam-unnity/30min">
             <button id="banner-btn">Schedule a call now</button>
@@ -354,8 +359,8 @@ export default function Home() {
               <Image
                 src="/seo2.png"
                 alt=""
-                width={100}
-                height={100}
+                width={0}
+                height={0}
                 unoptimized
               ></Image>
               <h3 id="for-desktop">Search Engine Optimisation</h3>
@@ -389,7 +394,7 @@ export default function Home() {
           <div className="service-second-row">
             <div className="ui">
               <Image
-                src="/ui-short.png"
+                src="/ui5.png"
                 alt=""
                 width={100}
                 height={100}
@@ -409,7 +414,7 @@ export default function Home() {
             </div>
             <div className="consult">
               <Image
-                src="/brand-short.png"
+                src="/consult3.png"
                 alt=""
                 width={100}
                 height={100}
@@ -482,12 +487,11 @@ export default function Home() {
                 <div className="achieve-first-row">
                   <div className="achieve-numbers">
                     <div className="">
-                      {/* <img src="/growth.png" alt="" /> */}
                       <Image
                         id="network"
                         src="/growth.png"
-                        width={50}
-                        height={50}
+                        width={0}
+                        height={0}
                         alt="digi"
                         unoptimized
                       ></Image>
@@ -760,7 +764,7 @@ export default function Home() {
             <div id="third">
               <div className="dental-pos">
                 <div className="dental-clove-text">
-                  <h1>Case Study of E/Sim</h1>
+                  <h1>Case Study of E-Sim</h1>
                 </div>
                 <div className="dental-clove">
                   <Image
@@ -995,10 +999,11 @@ export default function Home() {
         <div className="footer-logo">
           <Image
             src="/check.png"
-            width={150}
-            height={85}
+            width={0}
+            height={0}
             alt="logo-image"
             unoptimized
+            style={{ width: "150px", height: "85px" }}
           ></Image>
         </div>
         <div className="footer-text">

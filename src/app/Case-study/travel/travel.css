@@ -460,6 +460,10 @@ body {
   padding: 3% 17%;
 }
 
+.section-eight h3 {
+  font-size: 19px;
+}
+
 .custome-header {
   max-width: 90%;
 }
