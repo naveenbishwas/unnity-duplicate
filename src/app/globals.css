@@ -2565,7 +2565,6 @@ footer h4 {
   #dis-grid {
     display: flex;
     flex-direction: column;
-    margin-left: 50%;
   }
 
   .dots {
@@ -3194,5 +3193,11 @@ footer h4 {
   #banner-btn {
     position: absolute;
     top: 44%;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  #dis-grid {
+    margin-left: 50%;
   }
 }
