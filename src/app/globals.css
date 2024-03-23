@@ -2562,10 +2562,10 @@ footer h4 {
     background-color: transparent;
   }
 
-  #dis-grid {
+  /* #dis-grid {
     display: flex;
     flex-direction: column;
-  }
+  } */
 
   .dots {
     display: flex;
@@ -3193,14 +3193,5 @@ footer h4 {
   #banner-btn {
     position: absolute;
     top: 44%;
-  }
-}
-
-@media screen and (max-width: 426px) {
-  .keen-slider {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 2%;
-    margin-left: 25%;
   }
 }
