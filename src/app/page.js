@@ -404,7 +404,7 @@ export default function Home() {
             </div>
             <div className="development">
               <Image
-                src="/smartphone2.png"
+                src="/webiste2.png"
                 alt=""
                 width={100}
                 height={100}
@@ -441,7 +441,6 @@ export default function Home() {
 
         <hr className="brand-border" />
         <div className="achievement-first" id="cupidclothig"></div>
-
         <div className="achievement-first" id="auravebrand"></div>
 
         <div className="naveen-slider">

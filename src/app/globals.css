@@ -215,7 +215,7 @@ body {
 }
 
 #color-balls h5 {
-  font-size: 9px;
+  font-size: 13px;
 }
 
 .float-one {
@@ -450,7 +450,7 @@ body {
     right: 15%;
   }
   22% {
-    top: 58%;
+    top: 18%;
   }
   32% {
     right: 65%;
@@ -978,7 +978,7 @@ body {
 }
 
 .services .development h3 {
-  margin-top: -17px;
+  margin-top: 12px;
 }
 
 .services .service-first-row h3 {
@@ -1228,7 +1228,6 @@ body {
 #dis-grid {
   display: flex;
   flex-direction: column;
-  margin-left: 100%;
 }
 
 .keen-slider a {
@@ -1630,6 +1629,10 @@ footer h4 {
     gap: 16%;
     top: -5px;
     padding-top: 10px;
+  }
+
+  #color-balls h5 {
+    font-size: 9px;
   }
 
   #mobile-view {
