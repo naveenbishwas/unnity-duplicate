@@ -2134,7 +2134,7 @@ footer h4 {
   }
 
   .services img {
-    width: 60px;
+    width: 49px;
     height: auto;
   }
 
@@ -2164,7 +2164,7 @@ footer h4 {
   .consult {
     position: relative;
     left: 99%;
-    top: -243%;
+    top: -231%;
   }
 
   .google {
@@ -2182,7 +2182,7 @@ footer h4 {
 
   .development {
     position: relative;
-    top: -32px;
+    top: -20px;
   }
 
   .meta::before {
@@ -2276,7 +2276,7 @@ footer h4 {
   }
 
   .consult img {
-    width: 75px;
+    width: 63px;
   }
 
   .consult h3 {
@@ -3197,7 +3197,10 @@ footer h4 {
 }
 
 @media screen and (max-width: 426px) {
-  #dis-grid {
-    margin-left: 50%;
+  .keen-slider {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    margin-left: 25%;
   }
 }
