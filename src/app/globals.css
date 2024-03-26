@@ -1226,11 +1226,6 @@ body {
   margin-top: 2%;
 }
 
-#dis-grid {
-  display: flex;
-  flex-direction: column;
-}
-
 .keen-slider a {
   color: #000;
   text-decoration: none;
@@ -3204,5 +3199,9 @@ footer h4 {
 
   #cupid {
     margin-top: 0;
+  }
+
+  #dis-grid {
+    margin-left: 200px;
   }
 }

@@ -552,7 +552,7 @@ export default function Home() {
                   </div>
                 </div>
               </div> */}
-              <div className="keen-slider__slide number-slide2">
+              <div className="keen-slider__slide number-slide2" id="dis-grid">
                 <div className="achievement-first" id="auravebrand">
                   <div className="achieve-name">
                     <Image
