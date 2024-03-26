@@ -3195,3 +3195,11 @@ footer h4 {
     top: 44%;
   }
 }
+
+@media screen and (max-width: 426px) {
+  #dis-grid {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50%;
+  }
+}
