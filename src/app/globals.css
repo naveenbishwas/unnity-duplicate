@@ -1618,6 +1618,11 @@ footer h4 {
   text-transform: capitalize;
 }
 
+#case-study-slider {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 @media screen and (max-width: 768px) {
   .add-navbar {
     display: flex;
