@@ -2140,13 +2140,13 @@ footer h4 {
   }
 
   .services img {
-    width: 49px;
+    width: 40px;
     height: auto;
   }
 
   .ui img {
     margin-top: -32px;
-    width: 50px;
+    width: 35px;
   }
 
   .ui h3 {
@@ -2221,7 +2221,7 @@ footer h4 {
     border: 0.5px solid #000;
     position: absolute;
     bottom: 1%;
-    right: 3%;
+    right: 3.4%;
   }
 
   .development::after {
@@ -2229,7 +2229,7 @@ footer h4 {
   }
 
   .services h3 {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .seo::before {
@@ -2282,7 +2282,7 @@ footer h4 {
   }
 
   .consult img {
-    width: 63px;
+    width: 52px;
   }
 
   .consult h3 {
@@ -2595,7 +2595,7 @@ footer h4 {
   }
 
   #brand-logo-content-two {
-    margin-left: 24%;
+    margin-left: 30%;
   }
 
   .brand-logo-center {
