@@ -23,6 +23,7 @@ body {
 
 .logo img {
   width: 150px;
+  height: auto;
 }
 
 #dis-grid {
@@ -170,14 +171,6 @@ body {
   font-size: 2.6rem;
   margin-left: -4%;
 }
-
-/* #dots {
-  background-image: radial-gradient(circle, #fff 1px, transparent -6px);
-  background-size: 2px 3px;
-  background-clip: text;
-  color: transparent;
-  display: inline-block;
-} */
 
 .banner h1 {
   position: absolute;
@@ -623,150 +616,6 @@ body {
   }
 }
 
-@keyframes floatseven {
-  0% {
-    top: 60%;
-  }
-  10% {
-    top: 70%;
-  }
-  20% {
-    left: 60px;
-  }
-  30% {
-    left: 35%;
-  }
-  40% {
-    top: 70%;
-  }
-  50% {
-    left: 60%;
-  }
-  60% {
-    top: 97%;
-  }
-  70% {
-    left: 70%;
-  }
-  80% {
-    left: 80%;
-  }
-  90% {
-    top: 50%;
-  }
-  100% {
-    top: 89%;
-  }
-}
-
-@keyframes floateight {
-  0% {
-    top: 0px;
-  }
-  10% {
-    right: 30%;
-  }
-  20% {
-    right: 60px;
-  }
-  30% {
-    right: 35%;
-  }
-  40% {
-    top: 10%;
-  }
-  50% {
-    right: 60%;
-  }
-  60% {
-    top: 47%;
-  }
-  70% {
-    right: 70%;
-  }
-  80% {
-    right: 80%;
-  }
-  90% {
-    top: 10%;
-  }
-  100% {
-    top: 89%;
-  }
-}
-
-@keyframes floatnine {
-  0% {
-    top: 50%;
-  }
-  10% {
-    right: 90%;
-  }
-  20% {
-    right: 60%;
-  }
-  30% {
-    right: 35%;
-  }
-  40% {
-    top: 10%;
-  }
-  50% {
-    right: 60%;
-  }
-  60% {
-    top: 57%;
-  }
-  70% {
-    right: 70%;
-  }
-  80% {
-    right: 80%;
-  }
-  90% {
-    top: 80%;
-  }
-  100% {
-    top: 89%;
-  }
-}
-
-@keyframes floatten {
-  0% {
-    top: 60%;
-  }
-  8% {
-    top: 56%;
-  }
-  22% {
-    top: 80%;
-  }
-  34% {
-    top: 74%;
-  }
-  40% {
-    top: 40%;
-  }
-  59% {
-    left: 36%;
-  }
-  64% {
-    left: 64%;
-  }
-  70% {
-    top: 77%;
-  }
-  84% {
-    top: 68%;
-  }
-  96% {
-    left: 60%;
-  }
-  100% {
-    top: 69%;
-  }
-}
-
 .brand-we-worked-header h1 {
   font-size: 3rem;
   text-transform: uppercase;
@@ -947,6 +796,7 @@ body {
 .meta img,
 .google img {
   width: 100px;
+  height: auto;
 }
 
 .ui {
@@ -1365,6 +1215,11 @@ body {
   display: none;
 }
 
+#linkedin {
+  display: flex;
+  gap: 10px;
+}
+
 .number a {
   color: #fff;
   text-decoration: none;
@@ -1586,7 +1441,7 @@ footer h4 {
   display: flex;
   width: 350vw;
   margin-top: 2%;
-  animation: logo-slide 30s infinite alternate;
+  animation: logo-slide 23s infinite alternate;
   border: 1px solid #cdcdcd;
 }
 
@@ -2293,10 +2148,11 @@ footer h4 {
     display: block;
     position: fixed;
     bottom: 0;
-    font-size: 17px;
-    border: none;
-    background: #000;
-    color: #fff;
+    font-size: 18px;
+    font-weight: bolder;
+    border: 1px solid #23234d;
+    background: #fff;
+    color: #000;
     padding: 13px 10px;
     z-index: 1000;
     width: 100%;
@@ -2567,11 +2423,6 @@ footer h4 {
   .intro-bottom-part-right {
     background-color: transparent;
   }
-
-  /* #dis-grid {
-    display: flex;
-    flex-direction: column;
-  } */
 
   .dots {
     display: flex;

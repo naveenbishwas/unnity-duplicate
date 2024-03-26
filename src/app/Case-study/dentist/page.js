@@ -33,6 +33,7 @@ const page = () => {
               width={300}
               height={550}
               unoptimized
+              priority
             ></Image>
           </div>
         </div>
@@ -57,7 +58,7 @@ const page = () => {
           <div className="autotag" id="pincode-spec">
             <div className="autotag-left">2</div>
             <div className="autotag-right">
-              <h1>Account Hygieney</h1>
+              <h1>Account Hygiene</h1>
               <p>
                 Lack of proper account hygiene, reflected in stagnant ad copies
                 and an accumulation of irrelevant and high CPC keywords, was
