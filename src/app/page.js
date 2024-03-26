@@ -180,7 +180,7 @@ export default function Home() {
                 <button id="sign">Sign Up</button>
               </a>
             </div>
-            <div className="intro-bottom-part" id="connect">
+            <div className="intro-bottom-part">
               <div className="intro-bottom-part-left">
                 <Image
                   src="/sayyam2.png"
@@ -190,7 +190,7 @@ export default function Home() {
                   unoptimized
                 ></Image>
               </div>
-              <div className="intro-bottom-part-right">
+              <div className="intro-bottom-part-right" id="connect">
                 <form
                   action=""
                   className="contact-form needs-validation"
