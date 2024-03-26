@@ -1107,7 +1107,8 @@ body {
 
 #cupid {
   width: 149px;
-  height: 115px;
+  height: 90px;
+  margin-top: -45px;
 }
 
 .brand-border {
@@ -3201,7 +3202,7 @@ footer h4 {
     max-width: 100%;
   }
 
-  #dis-grid {
-    display: none;
+  #cupid {
+    margin-top: 0;
   }
 }
