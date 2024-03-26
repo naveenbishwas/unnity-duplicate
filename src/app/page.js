@@ -489,8 +489,8 @@ export default function Home() {
                       <Image
                         id="network"
                         src="/growth.png"
-                        width={0}
-                        height={0}
+                        width={50}
+                        height={50}
                         alt="digi"
                         unoptimized
                       ></Image>

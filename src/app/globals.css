@@ -3200,4 +3200,8 @@ footer h4 {
   .achieve-numbers {
     max-width: 100%;
   }
+
+  #dis-grid {
+    display: none;
+  }
 }
