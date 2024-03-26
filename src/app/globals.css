@@ -1124,7 +1124,7 @@ body {
 
 #auravebrand {
   margin-top: 2%;
-  margin-left: 71%;
+  margin-left: 75%;
 }
 
 #aurave-row {
@@ -3209,5 +3209,13 @@ footer h4 {
 
   #cupid {
     margin-top: 0;
+  }
+
+  #aurave-row {
+    margin-left: 21%;
+  }
+
+  .achieve-numbers {
+    max-width: 26%;
   }
 }
