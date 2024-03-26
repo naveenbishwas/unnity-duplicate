@@ -25,6 +25,10 @@ body {
   width: 150px;
 }
 
+#dis-grid {
+  margin-left: 25%;
+}
+
 .add-navbar {
   display: flex;
   justify-content: space-around;
