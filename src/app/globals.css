@@ -3197,9 +3197,7 @@ footer h4 {
 }
 
 @media screen and (max-width: 426px) {
-  #dis-grid {
-    display: flex;
-    flex-direction: column;
-    margin-left: 50%;
+  .achieve-numbers {
+    max-width: 100%;
   }
 }
