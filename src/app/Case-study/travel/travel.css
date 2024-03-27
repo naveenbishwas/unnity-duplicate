@@ -464,6 +464,10 @@ body {
   font-size: 19px;
 }
 
+#case {
+  border: 1px solid;
+}
+
 .custome-header {
   max-width: 90%;
 }

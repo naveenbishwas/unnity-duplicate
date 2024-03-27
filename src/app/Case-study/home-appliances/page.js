@@ -8,7 +8,7 @@ const page = () => {
       <section className="section-one">
         <div className="section-one-df">
           <div className="section-one-left">
-            <h1>Case Study: of India larget home-appliance brand</h1>
+            <h1>Case Study: of India largest home-appliance brand</h1>
             <p>
               Mission to dominate the digital advertising space through Google
               Ads. The journey began with scaling efforts, but the initial
@@ -29,8 +29,8 @@ const page = () => {
             <Image
               src="/home11.jpg"
               alt=""
-              width={300}
-              height={550}
+              width={0}
+              height={0}
               unoptimized
             ></Image>
           </div>
@@ -352,6 +352,35 @@ const page = () => {
               Orders increased that helped supported organically and for the ads
               purpose as well
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="case" className="lets-started">
+        <div className="start-left">
+          <Image
+            src="/call.png"
+            alt="call"
+            width={100}
+            height={100}
+            unoptimized
+          ></Image>
+        </div>
+        <div className="start-right">
+          <div className="right-header">
+            <h1>Let's get Started</h1>
+            <p>
+              Schedule a call at your convenience time to help us understand
+              your brand, vision & expectations.
+            </p>
+            <div className="call-btn">
+              <a href="https://calendly.com/sayam-unnity/30min">
+                <button id="btn-first">Schedule A Call</button>
+              </a>
+              <a href="mailto:sayam.unnity@gmail.com">
+                <button id="btn-second">Send a Email</button>
+              </a>
+            </div>
           </div>
         </div>
       </section>

@@ -19,6 +19,10 @@ body {
   padding: 7% 9% 3%;
 }
 
+#case {
+  border: 1px solid;
+}
+
 .section-one h1 {
   font-family: "monspace";
   font-size: 3.2rem;

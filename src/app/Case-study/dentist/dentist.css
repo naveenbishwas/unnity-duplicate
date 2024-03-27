@@ -539,6 +539,10 @@ body {
   line-height: 1.5;
 }
 
+#case {
+  border: 1px solid;
+}
+
 .custome-label p,
 .automatic-label p {
   font-size: 18px;

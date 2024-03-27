@@ -339,6 +339,35 @@ const paje = () => {
             </p>
           </div>
         </section>
+
+        <section id="case" className="lets-started">
+          <div className="start-left">
+            <Image
+              src="/call.png"
+              alt="call"
+              width={100}
+              height={100}
+              unoptimized
+            ></Image>
+          </div>
+          <div className="start-right">
+            <div className="right-header">
+              <h1>Let's get Started</h1>
+              <p>
+                Schedule a call at your convenience time to help us understand
+                your brand, vision & expectations.
+              </p>
+              <div className="call-btn">
+                <a href="https://calendly.com/sayam-unnity/30min">
+                  <button id="btn-first">Schedule A Call</button>
+                </a>
+                <a href="mailto:sayam.unnity@gmail.com">
+                  <button id="btn-second">Send a Email</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </>
   );
