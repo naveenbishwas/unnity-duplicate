@@ -5,29 +5,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@600&family=Protest+Riot&family=Rubik:wght@500&display=swap");
 
 body {
-  animation: animationIn 0.5s;
   overflow-x: hidden;
+  animation: transitionIn 0.9s;
 }
 
-@keyframes animationIn {
+@keyframes transitionIn {
   from {
     opacity: 0;
-    transform: translateX(-10deg);
+    transform: rotateX(-10deg);
   }
 
   to {
     opacity: 1;
-    transform: translateX(0deg);
+    transform: rotateX(0);
   }
 }
 
 .logo img {
   width: 150px;
   height: auto;
-}
-
-#dis-grid {
-  margin-left: 25%;
 }
 
 .add-navbar {
@@ -823,11 +819,11 @@ body {
 .development::after {
   content: "";
   width: 1px;
-  height: 87%;
+  height: 112%;
   background-color: #000;
   border: 0.5px solid #000;
   position: absolute;
-  bottom: 0;
+  bottom: -23px;
   right: -48%;
 }
 
@@ -973,7 +969,6 @@ body {
 
 #auravebrand {
   margin-top: 2%;
-  margin-left: 75%;
 }
 
 #aurave-row {
@@ -2445,7 +2440,7 @@ footer h4 {
   }
 
   #brand-logo-content-two {
-    margin-left: 30%;
+    margin-left: 26%;
   }
 
   .brand-logo-center {
