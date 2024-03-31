@@ -535,7 +535,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="keen-slider__slide number-slide2">
-                <div className="achievement-first" id="auravebrand">
+                <div className="achievement-first" id="cupidbrand">
                   <div className="achieve-name">
                     <svg
                       id="cupid"
@@ -573,7 +573,7 @@ export default function Home() {
                     </svg>
                   </div>
 
-                  <div className="achieve-first-row" id="aurave-row">
+                  <div className="achieve-first-row" id="cupid-row">
                     <div className="achieve-numbers">
                       <div className="">
                         <Image

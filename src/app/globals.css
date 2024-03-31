@@ -2426,7 +2426,7 @@ footer h4 {
   }
 
   .brand-logo-content {
-    gap: 13%;
+    gap: 11%;
   }
 
   .brand-logo-content img {
@@ -2440,7 +2440,7 @@ footer h4 {
   }
 
   #brand-logo-content-two {
-    margin-left: 26%;
+    margin-left: 20%;
   }
 
   .brand-logo-center {
@@ -3060,7 +3060,20 @@ footer h4 {
     margin-left: 21%;
   }
 
-  .achieve-numbers {
+  #cupid-row .achieve-numbers {
+    max-width: 26%;
+  }
+
+  .achieve-name {
+    margin-top: 0;
+  }
+
+  #cupid-row {
+    margin-left: 20%;
+    margin-top: -16px;
+  }
+
+  div#aurave-row .achieve-numbers {
     max-width: 26%;
   }
 }
