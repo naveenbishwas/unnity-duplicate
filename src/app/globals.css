@@ -928,7 +928,6 @@ body {
 }
 
 .achieve-numbers {
-  width: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1071,7 +1070,6 @@ body {
 
 #naveen-slider {
   display: flex;
-  justify-content: space-around;
   margin-top: 2%;
 }
 
@@ -3048,32 +3046,32 @@ footer h4 {
 }
 
 @media screen and (max-width: 426px) {
-  .achieve-numbers {
+  /* .achieve-numbers {
     max-width: 100%;
-  }
+  } */
 
   #cupid {
     margin-top: 0;
   }
-
-  #aurave-row {
-    margin-left: 21%;
-  }
-
+  /* 
   #cupid-row .achieve-numbers {
     max-width: 26%;
-  }
+  } */
 
   .achieve-name {
     margin-top: 0;
   }
 
+  #naveen-slider {
+    justify-content: unset;
+  }
+  /* 
   #cupid-row {
     margin-left: 20%;
     margin-top: -16px;
-  }
+  } */
 
-  div#aurave-row .achieve-numbers {
+  /* div#aurave-row .achieve-numbers {
     max-width: 26%;
-  }
+  } */
 }
