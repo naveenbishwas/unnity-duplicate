@@ -27,6 +27,7 @@ const paje = () => {
                 width={300}
                 height={550}
                 unoptimized
+                priority
               ></Image>
             </div>
           </div>

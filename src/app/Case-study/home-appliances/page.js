@@ -32,6 +32,7 @@ const page = () => {
               width={0}
               height={0}
               unoptimized
+              priority
             ></Image>
           </div>
         </div>
