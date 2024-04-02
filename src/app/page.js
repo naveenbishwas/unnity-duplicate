@@ -132,7 +132,7 @@ export default function Home() {
 
       <section className="banner">
         <video
-          controls
+          controls={false}
           preload="none"
           width="100%"
           height="100%"
