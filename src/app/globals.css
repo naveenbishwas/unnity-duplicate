@@ -180,7 +180,7 @@ body {
 
 #banner-btn {
   position: absolute;
-  top: 35%;
+  top: 41%;
   font-size: 19px;
   border: none;
   padding: 10px 20px;
@@ -201,7 +201,7 @@ body {
 }
 
 .intro {
-  margin-top: -24%;
+  margin-top: 10%;
 }
 
 .intro-wrap {
@@ -1158,7 +1158,7 @@ body {
 }
 
 .banner video {
-  margin-top: -18%;
+  margin-top: -1%;
 }
 
 .case-study-header {
@@ -1525,7 +1525,7 @@ footer h4 {
 
   #banner-btn {
     position: absolute;
-    top: 35%;
+    top: 48%;
     font-size: 12px;
     border: none;
     padding: 4px 11px;
@@ -3042,7 +3042,7 @@ footer h4 {
 
   #banner-btn {
     position: absolute;
-    top: 44%;
+    top: 55%;
   }
 }
 

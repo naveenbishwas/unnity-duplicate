@@ -141,7 +141,7 @@ export default function Home() {
           autoPlay="autoplay"
           unoptimized
         >
-          <source src="/banner-dots2.mp4" type="video/mp4" />
+          <source src="/banner-dots4.mp4" type="video/mp4" />
         </video>
         <div className="banner-text">
           <h1>
