@@ -618,7 +618,6 @@ body {
   text-transform: uppercase;
   text-align: center;
   line-height: 1.2;
-  font-family: "Permanent Marker";
 }
 
 .brand-we-worked {
@@ -629,7 +628,6 @@ body {
 #italic {
   color: rgb(35, 35, 77);
   font-style: italic;
-  font-family: "Permanent Marker";
   margin-right: 10px;
 }
 
