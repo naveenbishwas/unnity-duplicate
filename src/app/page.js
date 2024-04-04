@@ -8,6 +8,7 @@ import { useKeenSlider } from "keen-slider/react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Link from "next/link";
 import emailjs from "@emailjs/browser";
+import "./globals.css";
 
 export default function Home() {
   const [companyName, setCompanyName] = useState("");
@@ -133,7 +134,7 @@ export default function Home() {
       <section className="banner">
         <video
           controls={false}
-          preload="none"
+          preload
           width="100%"
           height="100%"
           loop
