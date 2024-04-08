@@ -9,7 +9,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Link from "next/link";
 import emailjs from "@emailjs/browser";
 import "./globals.css";
-import { Head } from "next/document";
 
 export default function Home() {
   const [companyName, setCompanyName] = useState("");
