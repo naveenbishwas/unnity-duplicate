@@ -1431,9 +1431,9 @@ footer h4 {
 
 .brand-logo-center-df {
   display: flex;
-  width: 350vw;
+  width: 500vw;
   margin-top: 2%;
-  animation: logo-slide 23s infinite alternate;
+  animation: logo-slide 30s infinite alternate;
   border: 1px solid #cdcdcd;
 }
 
@@ -1446,7 +1446,7 @@ footer h4 {
     margin-left: 0;
   }
   to {
-    margin-left: -190%;
+    margin-left: -400%;
   }
 }
 
@@ -1456,7 +1456,7 @@ footer h4 {
 
 .brand-logo-content {
   display: flex;
-  gap: 30%;
+  gap: 10%;
   margin-left: 7%;
   align-items: center;
 }
@@ -1482,6 +1482,27 @@ footer h4 {
     gap: 16%;
     top: -5px;
     padding-top: 10px;
+  }
+
+  #brand-logo-content-two {
+    margin-left: 27%;
+  }
+
+  .brand-logo-center-df {
+    width: 1300vw;
+  }
+
+  .brand-logo-center-df {
+    animation: logo-slide 40s infinite alternate;
+  }
+
+  @keyframes logo-slide {
+    from {
+      margin-left: 0;
+    }
+    to {
+      margin-left: -1200%;
+    }
   }
 
   #color-balls h5 {
@@ -2435,10 +2456,6 @@ footer h4 {
   #tic-tac {
     width: 80px;
     height: 74px;
-  }
-
-  #brand-logo-content-two {
-    margin-left: 20%;
   }
 
   .brand-logo-center {

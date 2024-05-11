@@ -893,6 +893,70 @@ export default function Home() {
                   unoptimized
                 ></Image>
               </div>
+
+              <div className="">
+                <Image
+                  src={"/bablouie.webp"}
+                  alt="uk-derma"
+                  width={100}
+                  height={100}
+                  unoptimized
+                ></Image>
+              </div>
+              <div className="">
+                <Image
+                  src={"/Comforto.avif"}
+                  alt="uk-derma"
+                  width={100}
+                  height={100}
+                  unoptimized
+                ></Image>
+              </div>
+              <div className="">
+                <Image
+                  src={"/globe.avif"}
+                  alt="uk-derma"
+                  width={100}
+                  height={100}
+                  unoptimized
+                ></Image>
+              </div>
+              <div className="">
+                <Image
+                  src={"/isu.avif"}
+                  alt="uk-derma"
+                  width={100}
+                  height={100}
+                  unoptimized
+                ></Image>
+              </div>
+              <div className="">
+                <Image
+                  src={"/lifekraft.avif"}
+                  alt="uk-derma"
+                  width={100}
+                  height={100}
+                  unoptimized
+                ></Image>
+              </div>
+              <div className="">
+                <Image
+                  src={"/Sain_logo.avif"}
+                  alt="uk-derma"
+                  width={100}
+                  height={100}
+                  unoptimized
+                ></Image>
+              </div>
+              <div className="">
+                <Image
+                  src={"/uberlyfe.webp"}
+                  alt="uk-derma"
+                  width={100}
+                  height={100}
+                  unoptimized
+                ></Image>
+              </div>
             </div>
             <div className="brand-logo-content" id="brand-logo-content-two">
               <div className="">
@@ -970,6 +1034,70 @@ export default function Home() {
               <div className="">
                 <Image
                   src={"/aurav.avif"}
+                  alt="uk-derma"
+                  width={100}
+                  height={100}
+                  unoptimized
+                ></Image>
+              </div>
+
+              <div className="">
+                <Image
+                  src={"/bablouie.webp"}
+                  alt="uk-derma"
+                  width={100}
+                  height={100}
+                  unoptimized
+                ></Image>
+              </div>
+              <div className="">
+                <Image
+                  src={"/Comforto.avif"}
+                  alt="uk-derma"
+                  width={100}
+                  height={100}
+                  unoptimized
+                ></Image>
+              </div>
+              <div className="">
+                <Image
+                  src={"/globe.avif"}
+                  alt="uk-derma"
+                  width={100}
+                  height={100}
+                  unoptimized
+                ></Image>
+              </div>
+              <div className="">
+                <Image
+                  src={"/isu.avif"}
+                  alt="uk-derma"
+                  width={100}
+                  height={100}
+                  unoptimized
+                ></Image>
+              </div>
+              <div className="">
+                <Image
+                  src={"/lifekraft.avif"}
+                  alt="uk-derma"
+                  width={100}
+                  height={100}
+                  unoptimized
+                ></Image>
+              </div>
+              <div className="">
+                <Image
+                  src={"/Sain_logo.avif"}
+                  alt="uk-derma"
+                  width={100}
+                  height={100}
+                  unoptimized
+                ></Image>
+              </div>
+              <div className="">
+                <Image
+                  src={"/uberlyfe.webp"}
                   alt="uk-derma"
                   width={100}
                   height={100}
