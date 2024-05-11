@@ -132,7 +132,7 @@ export default function Home() {
       </section>
 
       <section className="banner">
-        <video
+        {/* <video
           controls={false}
           preload
           width="100%"
@@ -143,15 +143,23 @@ export default function Home() {
           unoptimized
         >
           <source src="/banner-dot6.mp4" type="video/mp4" />
-        </video>
+        </video> */}
+        <Image
+          src={"/data-growth.png"}
+          alt="Banner_image"
+          width={0}
+          height={0}
+          unoptimized
+          style={{ width: "100%", height: "auto" }}
+        />
         <div className="banner-text">
-          <h1>
+          {/* <h1>
             <span id="data">Data. Strategy. Growth.</span>
             <br />{" "}
             <span id="data-text">
               We Connect the <span id="dots">Dots</span> for Your Brand{" "}
             </span>
-          </h1>
+          </h1> */}
           <a href="https://calendly.com/sayam-unnity/30min">
             <button id="banner-btn">Schedule a call now</button>
           </a>

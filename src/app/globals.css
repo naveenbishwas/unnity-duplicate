@@ -180,13 +180,14 @@ body {
 
 #banner-btn {
   position: absolute;
-  top: 41%;
+  top: 67%;
+  left: 9%;
   font-size: 19px;
   border: none;
   padding: 10px 20px;
-  background: #fff;
+  background: #000000;
   border-radius: 30px;
-  color: #23234d;
+  color: #ffffff;
   transform: translateX(-50%);
   cursor: pointer;
 }

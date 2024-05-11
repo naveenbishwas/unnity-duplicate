@@ -256,15 +256,15 @@ body {
   color: rgb(47 47 132);
 }
 
-.section-three-image img {
+/* .section-three-image img {
   width: 100%;
   height: 100vh;
-}
+} */
 
 .section-three-color {
   background-color: #1d1d1d;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   position: absolute;
   top: 0;
   opacity: 50%;
@@ -546,6 +546,10 @@ body {
   margin-top: 3%;
   display: flex;
   gap: 1px;
+}
+
+.custome-label h3 {
+  font-size: 17px;
 }
 
 .custome-label h3,

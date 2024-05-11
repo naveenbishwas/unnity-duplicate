@@ -2,7 +2,7 @@ import React from "react";
 import "./travel.css";
 import Image from "next/image";
 
-const paje = () => {
+const page = () => {
   return (
     <>
       <div className="main-container">
@@ -374,4 +374,4 @@ const paje = () => {
   );
 };
 
-export default paje;
+export default page;

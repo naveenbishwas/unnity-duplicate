@@ -97,9 +97,10 @@ const page = () => {
           <Image
             src="/dent-pic-one.jpg"
             alt="dent-pic"
-            width={100}
-            height={80}
+            width={0}
+            height={0}
             unoptimized
+            style={{ width: "100%", height: "auto" }}
           ></Image>
         </div>
         <div className="section-three-color"></div>
