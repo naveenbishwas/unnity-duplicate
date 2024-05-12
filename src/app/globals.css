@@ -2451,6 +2451,7 @@ footer h4 {
   .brand-logo-content img {
     object-fit: contain;
     width: 70px;
+    height: auto;
   }
 
   #tic-tac {
