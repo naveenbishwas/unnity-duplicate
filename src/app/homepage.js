@@ -709,7 +709,7 @@ export default function Home() {
                         ></Image>
                       </div>
                       <div className="red">
-                        <h1>+122%</h1>
+                        <h1>+101%</h1>
                       </div>
                       <div className="catego">
                         <h2>
