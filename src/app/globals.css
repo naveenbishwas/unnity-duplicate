@@ -1953,6 +1953,18 @@ footer h4 {
     height: 74px;
   }
 
+  #isu div#cupid-row,
+  #comforto div#cupid-row {
+    margin-top: 10px;
+  }
+
+  img#isu,
+  img#comforto {
+    width: 75px;
+    height: 26px;
+    margin-top: 20px;
+  }
+
   .arrow {
     width: 29px;
     height: 29px;
