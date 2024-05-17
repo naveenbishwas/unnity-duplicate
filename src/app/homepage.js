@@ -10,6 +10,8 @@ import Link from "next/link";
 import emailjs from "@emailjs/browser";
 import "./globals.css";
 
+const animation = { duration: 205000, easing: (t) => t };
+
 export default function Home() {
   const [companyName, setCompanyName] = useState("");
   const [budget, setBudget] = useState("");
@@ -98,6 +100,21 @@ export default function Home() {
         console.log(error);
       });
   };
+
+  const [sliderRef3] = useKeenSlider({
+    loop: true,
+    renderMode: "performance",
+    drag: false,
+    created(s) {
+      s.moveToIdx(8, true, animation);
+    },
+    updated(s) {
+      s.moveToIdx(s.track.details.abs + 8, true, animation);
+    },
+    animationEnded(s) {
+      s.moveToIdx(s.track.details.abs + 8, true, animation);
+    },
+  });
   return (
     <div className="main-container">
       <section className="add-navbar">
@@ -282,10 +299,19 @@ export default function Home() {
                       onChange={(e) => setService(e.target.value)}
                     >
                       <option value="">Choose The Service</option>
-                      <option value="SEO & Content">SEO & Content</option>
-                      <option value="Paid Search">Paid Search</option>
+                      <option value="SEO & Content">SEO</option>
+                      <option value="Paid Search">
+                        Paid Marketing(Google, Facebook & Amazon ads)
+                      </option>
+                      <option value="MarketPlace Management">UI/UX</option>
                       <option value="MarketPlace Management">
-                        MarketPlace Management
+                        Website Development
+                      </option>
+                      <option value="MarketPlace Management">
+                        Website Maintenance
+                      </option>
+                      <option value="MarketPlace Management">
+                        Shopify Migration
                       </option>
                     </select>
                   </div>
@@ -1280,6 +1306,108 @@ export default function Home() {
                   height={100}
                   unoptimized
                 ></Image>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="work-videos">
+        <h1 id="brand-vid">
+          SOME CALL IT WORK.
+          <br /> WE CALL IT <span id="passion">PASSION.</span>
+        </h1>
+        <div ref={sliderRef3} className="keen-slider" id="work-video-slider">
+          <div className="keen-slider__slide number-slide1" id="for-desk">
+            <div className="top-row-video">
+              <div className="box-one-left" id="mobile-view-top">
+                <video muted loop autoPlay="autoplay">
+                  <source src="/bab-video.mp4" type="video/mp4" />
+                </video>
+                <h5>Bablouie</h5>
+              </div>
+              <div className="box-one-right">
+                <video muted loop autoPlay="autoplay">
+                  <source src="/aurave-video.mp4" type="video/mp4" />
+                </video>
+                <h5>Aurave</h5>
+              </div>
+
+              <div className="box-one-right">
+                <video muted loop autoPlay="autoplay">
+                  <source src="/isu-video.mp4" type="video/mp4" />
+                </video>
+                <h5>IS.U Fashion</h5>
+              </div>
+            </div>
+
+            <div className="top-row-video" id="naveen-pra">
+              <div className="box-one-left" id="mobile-view-top">
+                <video muted loop autoPlay="autoplay">
+                  <source src="/uberlyfe2-video.mp4" type="video/mp4" />
+                </video>
+                <h5>Uberlyfe</h5>
+              </div>
+              <div className="box-one-right">
+                <video muted loop autoPlay="autoplay">
+                  <source src="/cupid4-video.mp4" type="video/mp4" />
+                </video>
+                <h5>Cupid Clothing</h5>
+              </div>
+
+              <div className="box-one-right">
+                <video muted loop autoPlay="autoplay">
+                  <source src="/comforto-video.mp4" type="video/mp4" />
+                </video>
+                <h5>Comforto</h5>
+              </div>
+            </div>
+          </div>
+
+          <div className="keen-slider__slide number-slide1" id="for-mob">
+            <div className="top-row-video" id="row-video-first">
+              <div className="box-one-left" id="mobile-view-top">
+                <video muted loop autoPlay="autoplay">
+                  <source src="/bab-video.mp4" type="video/mp4" />
+                </video>
+                <h5>Bablouie</h5>
+              </div>
+              <div className="box-one-right">
+                <video muted loop autoPlay="autoplay">
+                  <source src="/aurave-video.mp4" type="video/mp4" />
+                </video>
+                <h5>Aurave</h5>
+              </div>
+            </div>
+
+            <div className="top-row-video" id="naveen-pra">
+              <div className="box-one-left" id="mobile-view-top">
+                <video muted loop autoPlay="autoplay">
+                  <source src="/uberlyfe.mp4" type="video/mp4" />
+                </video>
+                <h5>Uberlyfe</h5>
+              </div>
+              <div className="box-one-right">
+                <video muted loop autoPlay="autoplay">
+                  <source src="/cupid4-video.mp4" type="video/mp4" />
+                </video>
+                <h5>Cupid Clothing</h5>
+              </div>
+            </div>
+
+            <div className="top-row-video" id="row-video-third">
+              <div className="box-one-right">
+                <video muted loop autoPlay="autoplay">
+                  <source src="/isu-video.mp4" type="video/mp4" />
+                </video>
+                <h5>IS.U Fashion</h5>
+              </div>
+
+              <div className="box-one-right">
+                <video muted loop autoPlay="autoplay">
+                  <source src="/comforto-video.mp4" type="video/mp4" />
+                </video>
+                <h5>Comforto</h5>
               </div>
             </div>
           </div>
