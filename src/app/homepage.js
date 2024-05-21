@@ -162,7 +162,7 @@ export default function Home() {
           <source src="/banner-dot6.mp4" type="video/mp4" />
         </video> */}
         <Image
-          src={"/data-growth.png"}
+          src={"/UNNITY.png"}
           alt="Banner_image"
           width={0}
           height={0}
@@ -216,6 +216,7 @@ export default function Home() {
                   height={100}
                   alt="digi-img"
                   unoptimized
+                  priority
                 ></Image>
               </div>
               <div className="intro-bottom-part-right" id="connect">
