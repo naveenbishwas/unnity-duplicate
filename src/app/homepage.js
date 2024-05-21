@@ -106,13 +106,13 @@ export default function Home() {
     renderMode: "performance",
     drag: false,
     created(s) {
-      s.moveToIdx(8, true, animation);
+      s.moveToIdx(5, true, animation);
     },
     updated(s) {
-      s.moveToIdx(s.track.details.abs + 8, true, animation);
+      s.moveToIdx(s.track.details.abs + 5, true, animation);
     },
     animationEnded(s) {
-      s.moveToIdx(s.track.details.abs + 8, true, animation);
+      s.moveToIdx(s.track.details.abs + 5, true, animation);
     },
   });
   return (
@@ -1315,8 +1315,8 @@ export default function Home() {
 
       <section className="work-videos">
         <h1 id="brand-vid">
-          SOME CALL IT WORK.
-          <br /> WE CALL IT <span id="passion">PASSION.</span>
+          SOME CALL IT WORK
+          <br /> WE CALL IT <span id="passion">PASSION</span>
         </h1>
         <div ref={sliderRef3} className="keen-slider" id="work-video-slider">
           <div className="keen-slider__slide number-slide1" id="for-desk">

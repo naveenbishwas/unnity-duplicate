@@ -185,9 +185,9 @@ body {
   font-size: 19px;
   border: none;
   padding: 10px 20px;
-  background: #000000;
+  background: #ffffff;
   border-radius: 30px;
-  color: #ffffff;
+  color: #23234d;
   transform: translateX(-50%);
   cursor: pointer;
 }
