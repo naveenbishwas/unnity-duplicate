@@ -142,7 +142,7 @@ export default function Home() {
 
         <section className="front-banner">
           <Image
-            src={"./UNNITy.png"}
+            src={"./UNNITY.png"}
             alt="Banner-img"
             width={0}
             height={0}
