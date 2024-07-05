@@ -965,6 +965,7 @@ export default function Home() {
 
           <div className="case-studies">
             <div className="case-studies-box-one">
+              {/* <Link href={"/Case-study/dentist"} id="home-apll"> */}
               <span>
                 <h4>Case Studies of Dentist</h4>
               </span>
@@ -984,6 +985,7 @@ export default function Home() {
               <span id="learn-btn">
                 <button>Learn More</button>
               </span>
+              {/* </Link> */}
             </div>
 
             <div className="case-studies-box-two">
@@ -1011,6 +1013,7 @@ export default function Home() {
             </div>
 
             <div className="case-studies-box-three">
+              {/* <Link href={"/Case-study/travel"} id="home-apll"> */}
               <span>
                 <h4>Case Study of E-Sim</h4>
               </span>
@@ -1030,6 +1033,7 @@ export default function Home() {
               <span id="learn-btn">
                 <button>Learn More</button>
               </span>
+              {/* </Link> */}
             </div>
           </div>
         </section>
