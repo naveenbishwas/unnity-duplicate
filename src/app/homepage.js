@@ -1,7 +1,6 @@
 "use client";
 
 import "animate.css";
-
 import Image from "next/image";
 import React, { useState } from "react";
 import { useKeenSlider } from "keen-slider/react";
@@ -44,6 +43,7 @@ export default function Home() {
     },
     slides: { perView: 1 },
   });
+
   function Arrow(props) {
     const disabled = props.disabled ? " arrow--disabled" : "";
     return (
@@ -115,6 +115,7 @@ export default function Home() {
       s.moveToIdx(s.track.details.abs + 5, true, animation);
     },
   });
+
   return (
     <div className="main-container">
       <section className="add-navbar">
