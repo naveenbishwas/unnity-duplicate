@@ -359,6 +359,7 @@ export default function Home() {
                 height={0}
                 alt="seo"
                 unoptimized
+                priority
               ></Image>
               <h2 id="des">Search Engine Optimisation</h2>
               <h2 id="mob">
@@ -374,6 +375,7 @@ export default function Home() {
                 height={0}
                 alt="meta"
                 unoptimized
+                priority
               ></Image>
               <h2>Meta Ads</h2>
             </div>
@@ -385,6 +387,7 @@ export default function Home() {
                 height={0}
                 alt="google-ads"
                 unoptimized
+                priority
               ></Image>
               <h2>Google Ads</h2>
             </div>
@@ -398,6 +401,7 @@ export default function Home() {
                 height={0}
                 alt="ui"
                 unoptimized
+                priority
               ></Image>
               <h2>UI/UX</h2>
             </div>
@@ -409,6 +413,7 @@ export default function Home() {
                 height={0}
                 alt="website"
                 unoptimized
+                priority
               ></Image>
               <h2>Website Development</h2>
             </div>
@@ -420,6 +425,7 @@ export default function Home() {
                 height={0}
                 alt="seo"
                 unoptimized
+                priority
               ></Image>
               <h2>Brand Consultation</h2>
             </div>
@@ -433,6 +439,7 @@ export default function Home() {
                 height={0}
                 alt="seo"
                 unoptimized
+                priority
               ></Image>
               <h2 id="des">Search Engine Optimisation</h2>
               <h2 id="mob">
@@ -448,6 +455,7 @@ export default function Home() {
                 height={0}
                 alt="meta"
                 unoptimized
+                priority
               ></Image>
               <h2>Meta Ads</h2>
             </div>
@@ -459,6 +467,7 @@ export default function Home() {
                 height={0}
                 alt="google-ads"
                 unoptimized
+                priority
               ></Image>
               <h2>Google Ads</h2>
             </div>
@@ -470,6 +479,7 @@ export default function Home() {
                 height={0}
                 alt="ui"
                 unoptimized
+                priority
               ></Image>
               <h2>UI/UX</h2>
             </div>
@@ -481,6 +491,7 @@ export default function Home() {
                 height={0}
                 alt="website"
                 unoptimized
+                priority
               ></Image>
               <h2>Website Development</h2>
             </div>
@@ -492,6 +503,7 @@ export default function Home() {
                 height={0}
                 alt="seo"
                 unoptimized
+                priority
               ></Image>
               <h2>Brand Consultation</h2>
             </div>
@@ -1013,27 +1025,28 @@ export default function Home() {
             </div>
 
             <div className="case-studies-box-three">
-              {/* <Link href={"/Case-study/travel"} id="home-apll"> */}
-              <span>
-                <h4>Case Study of E-Sim</h4>
-              </span>
-              <Image
-                src={"./travel4.jpg"}
-                alt="Dentist"
-                width={0}
-                height={0}
-                unoptimized
-              ></Image>
-              <span>
-                <p>
-                  Brand E-Travelsim's journey with Google Ads is a testament to
-                  strategic scaling and optimization...
-                </p>
-              </span>
-              <span id="learn-btn">
-                <button>Learn More</button>
-              </span>
-              {/* </Link> */}
+              <Link href={"/Case-study/travel"} id="home-apll">
+                <span>
+                  <h4>Case Study of E-Sim</h4>
+                </span>
+                <Image
+                  src={"./travel4.jpg"}
+                  alt="Dentist"
+                  width={0}
+                  height={0}
+                  unoptimized
+                  priority
+                ></Image>
+                <span>
+                  <p>
+                    Brand E-Travelsim's journey with Google Ads is a testament
+                    to strategic scaling and optimization...
+                  </p>
+                </span>
+                <span id="learn-btn">
+                  <button>Learn More</button>
+                </span>
+              </Link>
             </div>
           </div>
         </section>
