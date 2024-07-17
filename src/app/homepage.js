@@ -36,6 +36,7 @@ export default function Home() {
     const serviceId = "service_lc3zqsj";
     const templateId = "template_lgmyk3o";
     const publicKey = "vwQ1UwMU_xiay6xqT";
+    const comfirmationTemplateId = "template_dtk82zi";
 
     const templateParams = {
       to_name: "Sayam",
@@ -49,6 +50,11 @@ export default function Home() {
       designation: designation,
     };
 
+    const confirmationParam = {
+      user_name: name,
+      user_email: email,
+    };
+
     emailjs
       .send(serviceId, templateId, templateParams, publicKey)
       .then((response) => {
@@ -60,6 +66,15 @@ export default function Home() {
         setEmail("");
         setService("");
         setDesignation("");
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+
+    emailjs
+      .send(serviceId, confirmationParam, templateParams, publicKey)
+      .then((response) => {
+        console.log("Confirmation email sent sucessfully", response);
       })
       .catch((error) => {
         console.log(error);
@@ -1484,7 +1499,7 @@ export default function Home() {
               >
                 <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
               </svg>
-              <h6>Email Id : sayam@unnity.in</h6>
+              <h6>Email Id : sayam@unnitymedia.com</h6>
             </span>
             <span className="footer-address">
               <svg
