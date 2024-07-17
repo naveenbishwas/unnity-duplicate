@@ -72,7 +72,7 @@ export default function Home() {
       });
 
     emailjs
-      .send(serviceId, confirmationParam, templateParams, publicKey)
+      .send(serviceId, comfirmationTemplateId, templateParams, publicKey)
       .then((response) => {
         console.log("Confirmation email sent sucessfully", response);
       })
