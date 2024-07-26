@@ -50,7 +50,9 @@ export default function Home() {
       designation: designation,
     };
 
-    const confirmationParam = {
+    const confirmationParams = {
+      to_name: name,
+      to_email: email,
       user_name: name,
       user_email: email,
     };
@@ -72,7 +74,7 @@ export default function Home() {
       });
 
     emailjs
-      .send(serviceId, comfirmationTemplateId, templateParams, publicKey)
+      .send(serviceId, comfirmationTemplateId, confirmationParams, publicKey)
       .then((response) => {
         console.log("Confirmation email sent sucessfully", response);
       })
