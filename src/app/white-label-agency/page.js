@@ -1,12 +1,12 @@
 "use client";
-import React, { useState } from "react";
+import { useState } from "react";
 import "./white-label.css";
 import Image from "next/image";
 import Link from "next/link";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 
-const page = () => {
+const Page = () => {
   const FAQs = [
     {
       question: "What makes Unnity different from other Digital Agencies?",
@@ -15,7 +15,7 @@ const page = () => {
     },
 
     {
-      question: "How will progress and analytics reports be shared with me?",
+      question: "How will progress and analytics reports be shared with me.?",
       answer:
         "Being a Unnity PPC Agency, we ensure that the teams hired will share the reports on a weekly/biweekly/monthly basis as per your needs. In fact, real-time tracking and analytics reports will also be shared on a regular basis to keep you updated regarding your campaign’s performance.",
     },
@@ -74,13 +74,13 @@ const page = () => {
     },
   ];
 
-  const [activeIndex, setActiveIndex] = useState(null);
+  const [ActiveIndex, SetActiveIndex] = useState(null);
 
   const showHandler = (index) => {
-    setActiveIndex((prevIndex) => (prevIndex === index ? null : index));
+    SetActiveIndex((prevIndex) => (prevIndex === index ? null : index));
   };
 
-  const [showFirstCard, setShowFirstCard] = useState(false);
+  const [ShowFirstCard, SetShowFirstCard] = useState(false);
   const [showSecondCard, setShowSecondCard] = useState(false);
   const [showThirdCard, setShowThirdCard] = useState(false);
   const [showFourCard, setShowFourCard] = useState(false);
@@ -407,7 +407,7 @@ const page = () => {
                   <div
                     className="card-box-top-n"
                     onClick={() => {
-                      setShowFirstCard(true);
+                      SetShowFirstCard(true);
                     }}
                   >
                     <Image
@@ -451,10 +451,10 @@ const page = () => {
                     <h4>Unnity SEO Services for Agencies</h4>
                   </div>
 
-                  {showFirstCard && (
+                  {ShowFirstCard && (
                     <div
                       className="card-box-top-n-second"
-                      onClick={() => setShowFirstCard(false)}
+                      onClick={() => SetShowFirstCard(false)}
                     >
                       <Image
                         id="pluss-two"
@@ -496,6 +496,7 @@ const page = () => {
                     <span>
                       <Image
                         id="pc"
+                        alt="pc-img"
                         src={"/pc.png"}
                         width={0}
                         height={0}
@@ -1255,59 +1256,10 @@ const page = () => {
 
       <section className="faq-sec">
         <h1>Frequently Asked Questions</h1>
-        {/* <div className="questions-ans">
-          <span id="title-ans" onClick={showHandler}>
-            <h3>What makes Unnity different from other Digital Agencies?</h3>
 
-            {hidePlusButton && (
-              <svg
-                id="plus"
-                xmlns="http://www.w3.org/2000/svg"
-                width="35"
-                height="35"
-                fill="currentColor"
-                class="bi bi-plus"
-                viewBox="0 0 16 16"
-              >
-                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
-              </svg>
-            )}
-
-            {showMinusButton && (
-              <svg
-                id="minus"
-                xmlns="http://www.w3.org/2000/svg"
-                width="35"
-                height="35"
-                fill="currentColor"
-                class="bi bi-dash-lg"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8"
-                />
-              </svg>
-            )}
-          </span>
-
-          {showAnswerOne && (
-            <p>
-              As a reliable operational partner - we are inclined towards
-              expertise and quality. With more than 5+ years of experience and
-              having worked with more than 50+ clients globally, we have helped
-              agencies quantify their marketing efforts. How? With a
-              full-fledged and dedicated workforce professionals. Be it
-              achieving scalability, business objectives or even brand value -
-              we have provided an edge over their competitors. Hence choosing us
-              as your Digital Agency is not a bad idea at all.
-            </p>
-          )}
-          <hr className="faq-border" />
-        </div> */}
         <div>
           {FAQs.map((faq, index) => {
-            const isActive = activeIndex === index;
+            const isActive = ActiveIndex === index;
             return (
               <div className="questions-ans" key={index}>
                 <span
@@ -1340,452 +1292,6 @@ const page = () => {
             );
           })}
         </div>
-
-        {/*         
-        <div className="questions-ans">
-          <span id="title-ans" onClick={showHandlerTwo}>
-            <h3>How will progress and analytics reports be shared with me?</h3>
-
-            {hidePlusButtonTwo && (
-              <svg
-                id="plus"
-                xmlns="http://www.w3.org/2000/svg"
-                width="35"
-                height="35"
-                fill="currentColor"
-                class="bi bi-plus"
-                viewBox="0 0 16 16"
-              >
-                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
-              </svg>
-            )}
-
-            {showMinusButtonTwo && (
-              <svg
-                id="minus"
-                xmlns="http://www.w3.org/2000/svg"
-                width="35"
-                height="35"
-                fill="currentColor"
-                class="bi bi-dash-lg"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8"
-                />
-              </svg>
-            )}
-          </span>
-
-          {showAnswerTwo && (
-            <p>
-              Being a Unnity PPC Agency, we ensure that the teams hired will
-              share the reports on a weekly/biweekly/monthly basis as per your
-              needs. In fact, real-time tracking and analytics reports will also
-              be shared on a regular basis to keep you updated regarding your
-              campaign’s performance.
-            </p>
-          )}
-          <hr className="faq-border" />
-        </div>
-
-        <div className="questions-ans">
-          <span id="title-ans" onClick={showHandlerThree}>
-            <h3>What is the Standard operating procedure Unnitys follow?</h3>
-
-            {hidePlusButtonThree && (
-              <svg
-                id="plus"
-                xmlns="http://www.w3.org/2000/svg"
-                width="35"
-                height="35"
-                fill="currentColor"
-                class="bi bi-plus"
-                viewBox="0 0 16 16"
-              >
-                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
-              </svg>
-            )}
-
-            {showMinusButtonThree && (
-              <svg
-                id="minus"
-                xmlns="http://www.w3.org/2000/svg"
-                width="35"
-                height="35"
-                fill="currentColor"
-                class="bi bi-dash-lg"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8"
-                />
-              </svg>
-            )}
-          </span>
-
-          {showAnswerThree && (
-            <p>
-              Talking about the SOP we follow, then it begins with hand picking
-              the right resources/team for your project. Our internal team has
-              tools and rating systems in place, built on the feedback given by
-              our 7000+ clients to help choose the better.Upon confirmation, our
-              onboarding specialist will help you set-up and introduce you to
-              your team.
-            </p>
-          )}
-          <hr className="faq-border" />
-        </div>
-
-        <div className="questions-ans">
-          <span id="title-ans" onClick={showHandlerFour}>
-            <h3>
-              Do you take any significant measures for the maintenance & safety
-              of IT security and firewalls?
-            </h3>
-
-            {hidePlusButtonFour && (
-              <svg
-                id="plus"
-                xmlns="http://www.w3.org/2000/svg"
-                width="35"
-                height="35"
-                fill="currentColor"
-                class="bi bi-plus"
-                viewBox="0 0 16 16"
-              >
-                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
-              </svg>
-            )}
-
-            {showMinusButtonFour && (
-              <svg
-                id="minus"
-                xmlns="http://www.w3.org/2000/svg"
-                width="35"
-                height="35"
-                fill="currentColor"
-                class="bi bi-dash-lg"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8"
-                />
-              </svg>
-            )}
-          </span>
-
-          {showAnswerFour && (
-            <p>
-              At Unnitys, all of our devices are IP restricted along with
-              firewall protection.
-            </p>
-          )}
-          <hr className="faq-border" />
-        </div>
-
-        <div className="questions-ans">
-          <span id="title-ans" onClick={showHandlerFive}>
-            <h3>What is the preferred mode of communication?</h3>
-
-            {hidePlusButtonFive && (
-              <svg
-                id="plus"
-                xmlns="http://www.w3.org/2000/svg"
-                width="35"
-                height="35"
-                fill="currentColor"
-                class="bi bi-plus"
-                viewBox="0 0 16 16"
-              >
-                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
-              </svg>
-            )}
-
-            {showMinusButtonFive && (
-              <svg
-                id="minus"
-                xmlns="http://www.w3.org/2000/svg"
-                width="35"
-                height="35"
-                fill="currentColor"
-                class="bi bi-dash-lg"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8"
-                />
-              </svg>
-            )}
-          </span>
-
-          {showAnswerFive && (
-            <p>
-              Well, we always ensure to consider the client's preferences over
-              ours. But, to your answer, here are some of the tools we use as a
-              mode of communication.
-              <br /> <br /> Email, Skype, Slack, Hangout, PMS or any other form
-              of communication that is comfortable for you and the resources. We
-              also encourage video calls as we believe that a face-to-face
-              conversation helps a lot in understanding your business and its
-              needs.
-            </p>
-          )}
-          <hr className="faq-border" />
-        </div>
-
-        <div className="questions-ans">
-          <span id="title-ans" onClick={showHandlerSix}>
-            <h3>
-              We want to know about the local time-zone support. Do you provide
-              it? If yes -then how?
-            </h3>
-
-            {hidePlusButtonSix && (
-              <svg
-                id="plus"
-                xmlns="http://www.w3.org/2000/svg"
-                width="35"
-                height="35"
-                fill="currentColor"
-                class="bi bi-plus"
-                viewBox="0 0 16 16"
-              >
-                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
-              </svg>
-            )}
-
-            {showMinusButtonSix && (
-              <svg
-                id="minus"
-                xmlns="http://www.w3.org/2000/svg"
-                width="35"
-                height="35"
-                fill="currentColor"
-                class="bi bi-dash-lg"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8"
-                />
-              </svg>
-            )}
-          </span>
-
-          {showAnswerSix && (
-            <p>
-              Yes, we do provide local time-zone support. But, there will be
-              some additional charges applied. Say, if you need a team to work
-              on the Australian or Singapore time-zone - 10% extra will be
-              charged. And 20% extra for United States time-zone support.
-            </p>
-          )}
-          <hr className="faq-border" />
-        </div>
-
-        <div className="questions-ans">
-          <span id="title-ans" onClick={showHandlerSeven}>
-            <h3>
-              Which are the popular Unnity Digital Marketing Services your
-              clients prefer?
-            </h3>
-
-            {hidePlusButtonSeven && (
-              <svg
-                id="plus"
-                xmlns="http://www.w3.org/2000/svg"
-                width="35"
-                height="35"
-                fill="currentColor"
-                class="bi bi-plus"
-                viewBox="0 0 16 16"
-              >
-                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
-              </svg>
-            )}
-
-            {showMinusButtonSeven && (
-              <svg
-                id="minus"
-                xmlns="http://www.w3.org/2000/svg"
-                width="35"
-                height="35"
-                fill="currentColor"
-                class="bi bi-dash-lg"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8"
-                />
-              </svg>
-            )}
-          </span>
-
-          {showAnswerSeven && (
-            <p>
-              As a leading Unnity marketing agency, every service that we
-              provide is appreciated. But, to name them, these are the white
-              label digital marketing services that have gained popularity and
-              appreciation.
-            </p>
-          )}
-          <hr className="faq-border" />
-        </div>
-
-        <div className="questions-ans">
-          <span id="title-ans" onClick={showHandlerEight}>
-            <h3>
-              What is the experience you hold when it comes to working with
-              agencies?
-            </h3>
-
-            {hidePlusButtonEight && (
-              <svg
-                id="plus"
-                xmlns="http://www.w3.org/2000/svg"
-                width="35"
-                height="35"
-                fill="currentColor"
-                class="bi bi-plus"
-                viewBox="0 0 16 16"
-              >
-                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
-              </svg>
-            )}
-
-            {showMinusButtonEight && (
-              <svg
-                id="minus"
-                xmlns="http://www.w3.org/2000/svg"
-                width="35"
-                height="35"
-                fill="currentColor"
-                class="bi bi-dash-lg"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8"
-                />
-              </svg>
-            )}
-          </span>
-
-          {showAnswerEight && (
-            <p>
-              We are recognized as a trustworthy Unnity PPC agency and Unnity
-              SEO for Agencies. Our experience talks about our capabilities to
-              work with 500+ agencies across 52 nations worldwide when it comes
-              to outsourcing Unnity Marketing Services.
-            </p>
-          )}
-          <hr className="faq-border" />
-        </div>
-
-        <div className="questions-ans">
-          <span id="title-ans" onClick={showHandlerNine}>
-            <h3>
-              Do I get a referral bonus if I refer your agency to someone and
-              they end up choosing your Unnity Services?
-            </h3>
-
-            {hidePlusButtonNine && (
-              <svg
-                id="plus"
-                xmlns="http://www.w3.org/2000/svg"
-                width="35"
-                height="35"
-                fill="currentColor"
-                class="bi bi-plus"
-                viewBox="0 0 16 16"
-              >
-                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
-              </svg>
-            )}
-
-            {showMinusButtonNine && (
-              <svg
-                id="minus"
-                xmlns="http://www.w3.org/2000/svg"
-                width="35"
-                height="35"
-                fill="currentColor"
-                class="bi bi-dash-lg"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8"
-                />
-              </svg>
-            )}
-          </span>
-
-          {showAnswerNine && (
-            <p>
-              Yes, yes you surely do get a bonus when you refer us to others.
-              That’s how we love to push our journey of growth ahead! So, if
-              someone is in need of any services - be it Unnity SEO Services for
-              Agencies, Unnity PPC services or other marketing services, we are
-              happy to help.
-            </p>
-          )}
-          <hr className="faq-border" />
-        </div>
-
-        <div className="questions-ans">
-          <span id="title-ans" onClick={showHandlerTen}>
-            <h3>
-              Do you sign the NDA documents before the project kickstarts?
-            </h3>
-
-            {hidePlusButtonTen && (
-              <svg
-                id="plus"
-                xmlns="http://www.w3.org/2000/svg"
-                width="35"
-                height="35"
-                fill="currentColor"
-                class="bi bi-plus"
-                viewBox="0 0 16 16"
-              >
-                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
-              </svg>
-            )}
-
-            {showMinusButtonTen && (
-              <svg
-                id="minus"
-                xmlns="http://www.w3.org/2000/svg"
-                width="35"
-                height="35"
-                fill="currentColor"
-                class="bi bi-dash-lg"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8"
-                />
-              </svg>
-            )}
-          </span>
-
-          {showAnswerTen && (
-            <p>
-              Being a Unnity Digital Marketing Agency, NDAs are the first and
-              foremost documentation that is being taken care of. We do sign
-              NDAs and adhere to it, strictly!
-            </p>
-          )}
-          <hr className="faq-border" />
-        </div> */}
       </section>
 
       <footer>
@@ -1896,4 +1402,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
