@@ -57,7 +57,7 @@ const Page = () => {
       question:
         "What is the experience you hold when it comes to working with agencies?",
       answer:
-        "We are recognized as a trustworthy Unnity PPC agency and Unnity SEO for Agencies. Our experience talks about our capabilities to work with 500+ agencies across 52 nations worldwide when it comes to outsourcing Unnity Marketing Services.",
+        "We are recognized as a trustworthy Unnity PPC agency and Unnity SEO for Agencies. Our experience talks about our capabilities to work with 50+ agencies across 52 nations worldwide when it comes to outsourcing Unnity Marketing Services.",
     },
 
     {
@@ -80,11 +80,12 @@ const Page = () => {
     SetActiveIndex((prevIndex) => (prevIndex === index ? null : index));
   };
 
-  const [ShowFirstCard, SetShowFirstCard] = useState(false);
+  const [showFirstCard, setShowFirstCard] = useState(false);
   const [showSecondCard, setShowSecondCard] = useState(false);
   const [showThirdCard, setShowThirdCard] = useState(false);
   const [showFourCard, setShowFourCard] = useState(false);
   const [showFiveCard, setShowFiveCard] = useState(false);
+  const [showSixCard, setShowSixCard] = useState(false);
 
   const carousel = (slider) => {
     const z = 300;
@@ -114,13 +115,6 @@ const Page = () => {
 
   return (
     <div className="special-main-container">
-      <section className="advertisement">
-        <h4>
-          For digital marketing services, <b>Visit Mavlers</b> and for email
-          marketing services, <b>Visit Email Unnity</b>
-        </h4>
-      </section>
-
       <section className="front-special">
         <div className="navbar">
           <div className="special-logo">
@@ -174,12 +168,18 @@ const Page = () => {
           <div className="front-banner-content-left">
             <h2>Unnity Digital Marketing Services</h2>
             <h3>
-              We provide top-notch Unnity Marketing Services including SEO, PPC,
-              and Social Media Marketing. Our well-versed team of Digital
-              Marketing experts helps your clients get noticed and bring digital
-              DNA into their business.
+              Empower your agency by outsourcing your clients to Unnity, where
+              our expert digital marketing team transforms brands and injects
+              digital DNA into their business. Focus on your core clients while
+              we help your clients shine online.
             </h3>
-            <button>Get a custom Quote</button>
+            <Link
+              href={
+                "https://outlook.office365.com/book/BookaMeet@unnitymedia.com"
+              }
+            >
+              <button>Get a custom Quote</button>
+            </Link>
           </div>
         </div>
       </section>
@@ -187,53 +187,21 @@ const Page = () => {
       <section className="special-projects">
         <div className="special-projects-df">
           <span>
-            <h3>$3M</h3>
-            <h4>Media Spend Managed</h4>
+            <h3>$5M</h3>
+            <h4>Our Clients Made</h4>
           </span>
 
           <span>
-            <h3>5000+</h3>
-            <h4>Keywords Optimized Every Month</h4>
+            <h3>500+</h3>
+            <h4>Projects Successfully Completing</h4>
           </span>
 
           <span>
-            <h3>100+</h3>
-            <h4>Campaigns Scheduled Every Month</h4>
+            <h3>50+</h3>
+            <h4>Global Partnership</h4>
           </span>
         </div>
       </section>
-
-      {/* <section className="ratings">
-        <div className="ratings-df">
-          <div className="ratings-df-left">
-            <span>
-              <Image
-                src={"/clutch.png"}
-                width={0}
-                height={0}
-                alt="cluth"
-                unoptimized
-                priority
-              ></Image>
-              <h3>We are rated 4.5 out of 5 on average across 90 reviews</h3>
-            </span>
-          </div>
-
-          <div className="ratings-df-right">
-            <span>
-              <Image
-                src={"/trust.png"}
-                width={0}
-                height={0}
-                alt="cluth"
-                unoptimized
-                priority
-              ></Image>
-              <h3>We are rated 4.5 out of 5 on average across 90 reviews</h3>
-            </span>
-          </div>
-        </div>
-      </section> */}
 
       <section className="brand-card">
         <div className="trust-brand">
@@ -407,7 +375,7 @@ const Page = () => {
                   <div
                     className="card-box-top-n"
                     onClick={() => {
-                      SetShowFirstCard(true);
+                      setShowFirstCard(true);
                     }}
                   >
                     <Image
@@ -421,40 +389,78 @@ const Page = () => {
                     ></Image>
 
                     <span>
-                      <svg
-                        id="search-svg"
-                        data-name="Layer 1"
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="63.95"
-                        height="55.09"
-                        viewBox="0 0 63.95 55.09"
-                      >
-                        <defs></defs>
-                        <polygon
-                          class="cls-1"
-                          points="62.95 48.2 57.9 53.25 44.93 40.29 50.06 35.32 62.95 48.2 62.95 48.2"
-                        />
-                        <path
-                          class="cls-1"
-                          d="M11.65,28.89A21.5,21.5,0,0,1,32.16,1h0a21.48,21.48,0,1,1-5.75,42.18L25.89,43"
-                        />
-                        <path
-                          class="cls-1"
-                          d="M32,7.09A15.54,15.54,0,0,1,47.5,22.63"
-                        />
-                        <path
-                          class="cls-2"
-                          d="M33.81,40.24A16.46,16.46,0,0,0,34,37.69a16.27,16.27,0,0,0-.19-2.55H29.92a12.54,12.54,0,0,0-1.87-4.48l2.75-2.75a15.55,15.55,0,0,0-3.62-3.62L24.45,27A12.71,12.71,0,0,0,20,25.17V21.28a17.14,17.14,0,0,0-5.09,0v3.89A12.54,12.54,0,0,0,10.38,27L7.63,24.29A15.74,15.74,0,0,0,4,27.91l2.75,2.75a12.54,12.54,0,0,0-1.87,4.48H1a17.58,17.58,0,0,0-.19,2.55A17.79,17.79,0,0,0,1,40.24H4.89a12.74,12.74,0,0,0,1.87,4.49L4,47.47a15.51,15.51,0,0,0,3.62,3.61l2.75-2.75a12.54,12.54,0,0,0,4.48,1.87v3.89a16.29,16.29,0,0,0,5.09,0V50.2a12.71,12.71,0,0,0,4.5-1.87l2.73,2.75a15.32,15.32,0,0,0,3.62-3.61l-2.75-2.74a12.74,12.74,0,0,0,1.87-4.49Zm-16.4,5.1a7.66,7.66,0,1,1,7.65-7.65A7.65,7.65,0,0,1,17.41,45.34Z"
-                        />
-                      </svg>
+                      <Image
+                        id="consist-img"
+                        src={"/management-service.png"}
+                        width={0}
+                        height={0}
+                        unoptimized
+                        alt="video-editing"
+                        priority
+                      ></Image>
+                    </span>
+                    <h4>Unnity PPC Services</h4>
+                  </div>
+
+                  {showFirstCard && (
+                    <div
+                      className="card-box-top-n-second"
+                      onClick={() => setShowFirstCard(false)}
+                    >
+                      <Image
+                        id="pluss-two"
+                        src={"/ben-plus.png"}
+                        width={0}
+                        height={0}
+                        alt="plus"
+                        unoptimized
+                        priority
+                      ></Image>
+
+                      <h4>Unnity PPC Services</h4>
+                      <p>
+                        Ad Management on Meta, Google & Amazon , Ad Remarketing
+                        , Video Ad Management , PPC Audits, Ad Consultation
+                      </p>
+                    </div>
+                  )}
+                </div>
+
+                <div className="card-box-top-n-cover">
+                  <div
+                    className="card-box-top-n"
+                    onClick={() => {
+                      setShowSecondCard(true);
+                    }}
+                  >
+                    <Image
+                      id="pluss"
+                      src={"/ben-plus.png"}
+                      width={0}
+                      height={0}
+                      alt="plus"
+                      unoptimized
+                      priority
+                    ></Image>
+
+                    <span>
+                      <Image
+                        id="consist-img"
+                        src={"/seo 2.png"}
+                        width={0}
+                        height={0}
+                        unoptimized
+                        alt="video-editing"
+                        priority
+                      ></Image>
                     </span>
                     <h4>Unnity SEO Services for Agencies</h4>
                   </div>
 
-                  {ShowFirstCard && (
+                  {showSecondCard && (
                     <div
                       className="card-box-top-n-second"
-                      onClick={() => SetShowFirstCard(false)}
+                      onClick={() => setShowSecondCard(false)}
                     >
                       <Image
                         id="pluss-two"
@@ -480,61 +486,6 @@ const Page = () => {
                   <div
                     className="card-box-top-n"
                     onClick={() => {
-                      setShowSecondCard(true);
-                    }}
-                  >
-                    <Image
-                      id="pluss"
-                      src={"/ben-plus.png"}
-                      width={0}
-                      height={0}
-                      alt="plus"
-                      unoptimized
-                      priority
-                    ></Image>
-
-                    <span>
-                      <Image
-                        id="pc"
-                        alt="pc-img"
-                        src={"/pc.png"}
-                        width={0}
-                        height={0}
-                        unoptimized
-                        priority
-                      ></Image>
-                    </span>
-                    <h4>Unnity PPC Services</h4>
-                  </div>
-
-                  {showSecondCard && (
-                    <div
-                      className="card-box-top-n-second"
-                      onClick={() => setShowSecondCard(false)}
-                    >
-                      <Image
-                        id="pluss-two"
-                        src={"/ben-plus.png"}
-                        width={0}
-                        height={0}
-                        alt="plus"
-                        unoptimized
-                        priority
-                      ></Image>
-
-                      <h4>Unnity PPC Services</h4>
-                      <p>
-                        Ad Management , Ad Remarketing , Video Ad Management ,
-                        PPC Audits
-                      </p>
-                    </div>
-                  )}
-                </div>
-
-                <div className="card-box-top-n-cover">
-                  <div
-                    className="card-box-top-n"
-                    onClick={() => {
                       setShowThirdCard(true);
                     }}
                   >
@@ -548,97 +499,17 @@ const Page = () => {
                       priority
                     ></Image>
 
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      id="speak-svg"
-                      data-name="Layer 1"
-                      width="65.25"
-                      height="63.19"
-                      viewBox="0 0 65.25 63.19"
-                    >
-                      <defs></defs>
-                      <path
-                        class="cls-1"
-                        d="M45,11.88l-.71-3.83,1.28-.23-.09-1.53L44,6.56l-.18-.95c-.08-.43,0-.75.61-.86l.79-.15L45,3.27a11.2,11.2,0,0,0-1.16.15,1.83,1.83,0,0,0-1.55,2.33l.2,1.1-1.29.24.28,1.49,1.29-.24.71,3.83L45,11.88Z"
-                      />
-                      <rect
-                        class="cls-2"
-                        x="37.51"
-                        y="1.75"
-                        width="12.11"
-                        height="12.11"
-                        transform="translate(-0.69 8.08) rotate(-10.52)"
-                      />
-                      <rect
-                        class="cls-2"
-                        x="51.31"
-                        y="15.55"
-                        width="12.11"
-                        height="12.11"
-                        transform="translate(-0.55 1.52) rotate(-1.51)"
-                      />
-                      <rect
-                        class="cls-2"
-                        x="51.97"
-                        y="32.63"
-                        width="12.11"
-                        height="12.11"
-                        transform="matrix(1, 0.07, -0.07, 1, 2.97, -4.13)"
-                      />
-                      <rect
-                        class="cls-2"
-                        x="42.77"
-                        y="49.71"
-                        width="12.11"
-                        height="12.11"
-                        transform="translate(6.37 -4.99) rotate(6.26)"
-                      />
-                      <path
-                        class="cls-1"
-                        d="M55.68,21.82a1.44,1.44,0,1,1,1.48,1.4,1.44,1.44,0,0,1-1.48-1.4m-.78,0a2.22,2.22,0,1,0,2.16-2.28,2.23,2.23,0,0,0-2.16,2.28m4-2.41a.52.52,0,0,0,1,0,.52.52,0,1,0-1,0m-3.38,5.92a2.65,2.65,0,0,1-.81-.13,1.24,1.24,0,0,1-.5-.31,1.28,1.28,0,0,1-.34-.49,2.48,2.48,0,0,1-.17-.8c0-.45,0-.59-.07-1.74s0-1.3,0-1.75a2.68,2.68,0,0,1,.12-.81,1.52,1.52,0,0,1,.32-.51,1.25,1.25,0,0,1,.48-.33,2.23,2.23,0,0,1,.8-.17c.46,0,.59,0,1.75-.07s1.29,0,1.75,0a2.31,2.31,0,0,1,.8.12,1.44,1.44,0,0,1,.85.8,2.48,2.48,0,0,1,.17.8c0,.46,0,.59.07,1.75s0,1.29,0,1.75a2.25,2.25,0,0,1-.13.8,1.28,1.28,0,0,1-.31.51,1.37,1.37,0,0,1-.49.33,2.23,2.23,0,0,1-.8.17c-.45,0-.59.05-1.74.08s-1.29,0-1.75,0m-.24-7.82a3.22,3.22,0,0,0-1,.23,2.08,2.08,0,0,0-.75.52,2.15,2.15,0,0,0-.48.78,3.19,3.19,0,0,0-.17,1.05c0,.46,0,.61,0,1.79s0,1.32.07,1.78a3.43,3.43,0,0,0,.23,1,2.08,2.08,0,0,0,.52.75,2,2,0,0,0,.78.48,3.16,3.16,0,0,0,1.05.18c.47,0,.61,0,1.79,0s1.32,0,1.78-.07a2.92,2.92,0,0,0,1-.23,2.2,2.2,0,0,0,.76-.52,2,2,0,0,0,.47-.78,3.11,3.11,0,0,0,.18-1.05c0-.46,0-.61,0-1.78s0-1.32-.08-1.78a3,3,0,0,0-.23-1.05,2,2,0,0,0-.52-.75,2,2,0,0,0-.77-.48,3.25,3.25,0,0,0-1.06-.17c-.46,0-.61,0-1.78,0s-1.32,0-1.78.07"
-                      />
-                      <path
-                        class="cls-1"
-                        d="M54.64,35.84a.79.79,0,0,1,.3-.58.93.93,0,0,1,.67-.18.87.87,0,0,1,.62.27.8.8,0,0,1,.21.64.74.74,0,0,1-.29.55.91.91,0,0,1-.68.19h0a.86.86,0,0,1-.62-.28A.8.8,0,0,1,54.64,35.84Zm-.36,6.29.35-4.8,1.59.12-.35,4.79Zm2.48.18,1.59.12.2-2.68a1.15,1.15,0,0,1,.08-.39A1,1,0,0,1,59,39a.81.81,0,0,1,.52-.13c.54,0,.78.42.73,1.14L60,42.55l1.6.11.2-2.75a2.32,2.32,0,0,0-.39-1.65,1.71,1.71,0,0,0-1.29-.64,1.63,1.63,0,0,0-1.5.69h0l.05-.68-1.59-.12c0,.15,0,.63-.09,1.43S56.87,40.86,56.76,42.31Z"
-                      />
-                      <path
-                        class="cls-1"
-                        d="M50.67,53.45h0l.33,0,.12,0,.21.09.18.12a1,1,0,0,1,.15.13.71.71,0,0,1,.12.13c0,.05.09.06.18.06l.28,0,.3-.08.19-.05,0,0h0v0l-.08.12a1.62,1.62,0,0,1-.18.2.6.6,0,0,1-.18.15l-.1.07-.06,0,0,0h.16l.36,0,.18,0h0l-.1.09-.1.1,0,0-.16.12-.28.19a.27.27,0,0,0-.15.22c0,.09,0,.2-.07.32a3.61,3.61,0,0,1-.1.38,3.5,3.5,0,0,1-.18.45,4.52,4.52,0,0,1-.25.49,4.85,4.85,0,0,1-.29.41,3,3,0,0,1-.26.31l-.23.23-.29.24-.19.14-.14.08-.27.15-.25.12-.28.1a2.75,2.75,0,0,1-.34.1l-.38.07-.38,0h-.65l-.42-.07h0l-.09,0-.26-.07-.35-.12a2.89,2.89,0,0,1-.37-.18,3.67,3.67,0,0,1-.42-.24L45.36,58l-.1-.08,0,0h0l.16,0,.27,0,.3,0,.37,0a2.26,2.26,0,0,0,.39-.07l.26-.08a1.56,1.56,0,0,0,.24-.1l.16-.08h0l-.1,0-.15,0-.21-.11a1.37,1.37,0,0,1-.21-.15l-.15-.14s-.06-.09-.1-.15a1,1,0,0,1-.11-.2,1.13,1.13,0,0,1-.08-.22l0-.12h0l.07,0,.22,0a.82.82,0,0,0,.21,0h.07l0,0-.16-.1a1,1,0,0,1-.21-.15,1,1,0,0,1-.14-.15,1.16,1.16,0,0,1-.13-.2,1.69,1.69,0,0,1-.13-.27,1.77,1.77,0,0,1-.06-.3,1.22,1.22,0,0,1,0-.27v-.13h0l.1.06a1.67,1.67,0,0,0,.23.11l.17.06h.05l-.05,0-.1-.12-.09-.15a1.3,1.3,0,0,1-.08-.17,1.94,1.94,0,0,1-.07-.22,2,2,0,0,1,0-.26,2.18,2.18,0,0,1,0-.25.88.88,0,0,1,0-.2.89.89,0,0,1,.07-.19.9.9,0,0,1,.11-.22l.07-.11h0l.07.11.17.25.12.14s0,0,0,0l.11.14a3,3,0,0,0,.25.24l.36.3c.13.09.27.18.43.27a2.64,2.64,0,0,0,.33.17l.32.13L49,55l.16,0h0v-.08s0-.13,0-.22,0-.19.06-.27a2.4,2.4,0,0,1,.11-.23c0-.08.08-.14.11-.19l.14-.15.21-.18a2,2,0,0,1,.29-.14,1.21,1.21,0,0,1,.28-.08l.21,0Z"
-                      />
-                      <path
-                        class="cls-2"
-                        d="M19,32.93a1.51,1.51,0,1,0,1.5,1.51A1.51,1.51,0,0,0,19,32.93Z"
-                      />
-                      <path
-                        class="cls-2"
-                        d="M9.32,32.93a1.51,1.51,0,1,0,1.5,1.51,1.51,1.51,0,0,0-1.5-1.51Z"
-                      />
-                      <path
-                        class="cls-3"
-                        d="M30.63,18.43H31a2.2,2.2,0,0,1,2.19,2.19V49.09A2.2,2.2,0,0,1,31,51.28h-.36c-1.21,0-8.77-11.16-16.85-11.16H3.72a3,3,0,0,1-3-3V32.56a3,3,0,0,1,3-3H13.78c8.09,0,15.64-11.16,16.85-11.16Z"
-                      />
-                      <path
-                        class="cls-2"
-                        d="M35.12,29.53a5.55,5.55,0,0,1,0,10.65"
-                      />
-                      <line
-                        class="cls-2"
-                        x1="13.97"
-                        y1="29.59"
-                        x2="13.97"
-                        y2="40.12"
-                      />
-                      <path
-                        class="cls-2"
-                        d="M11.57,40.12c.4,2.32-.19,4.75,1.22,7l2.4,3.77a1.89,1.89,0,0,1-1.46,2.6H10.14a2.72,2.72,0,0,1-2.5-2L4.94,40.12Z"
-                      />
-                      <path
-                        class="cls-2"
-                        d="M35.4,21.63a13.6,13.6,0,0,1,0,26.11"
-                      />
-                    </svg>
+                    <Image
+                      id="consist-img"
+                      src={"/globe.png"}
+                      width={0}
+                      height={0}
+                      unoptimized
+                      alt="video-editing"
+                      priority
+                    ></Image>
 
-                    <h4>Unnity SMM Services</h4>
+                    <h4>Unnity Website Management</h4>
                   </div>
 
                   {showThirdCard && (
@@ -656,10 +527,12 @@ const Page = () => {
                         priority
                       ></Image>
 
-                      <h4>Unnity SMM Services</h4>
+                      <h4>Unnity Website Management</h4>
                       <p>
-                        Facebook Ads , Instagram Ads , LinkedIn Ads , YouTube
-                        Ads
+                        Shopify Ecommerce Store, React Next JS, Wordpress,
+                        Migration to shopify, Migration to wordpress, Custom
+                        websites Logo Desgining- Simple Logo, Complex logo and
+                        Premium Logo
                       </p>
                     </div>
                   )}
@@ -683,85 +556,19 @@ const Page = () => {
                       unoptimized
                       priority
                     ></Image>
+
                     <span>
-                      <svg
-                        version="1.1"
-                        id="blog"
-                        x="0px"
-                        y="0px"
-                        width="45.7px"
-                        height="45.7px"
-                        viewBox="0 0 45.7 45.7"
-                      >
-                        <g>
-                          <polygon
-                            class="st0"
-                            points="0.4,16.3 14.2,16.3 16.4,17.6 16.4,34.6 18.7,34.6 17.2,36.9 14.2,37.7 1.2,37.7  "
-                          />
-                          <path
-                            class="st1"
-                            d="M6.9,23.6H0.8C0.3,23.6,0,24,0,24.4v6.1c0,0.4,0.3,0.8,0.8,0.8h6.1c0.4,0,0.8-0.3,0.8-0.8v-6.1   C7.6,24,7.3,23.6,6.9,23.6 M6.1,29.7H1.5v-4.6h4.6V29.7z"
-                          />
-                          <path
-                            class="st1"
-                            d="M42.3,0H3.4C1.5,0,0,1.5,0,3.4v38.9c0,1.9,1.5,3.4,3.4,3.4h38.9c1.9,0,3.4-1.5,3.4-3.4V3.4   C45.7,1.5,44.2,0,42.3,0 M44.2,42.3c0,1.1-0.9,1.9-1.9,1.9H3.4c-1,0-1.9-0.9-1.9-1.9V3.4c0-1.1,0.9-1.9,1.9-1.9h38.9   c1.1,0,1.9,0.9,1.9,1.9C44.2,3.4,44.2,42.3,44.2,42.3z"
-                          />
-                          <path
-                            class="st1"
-                            d="M6.9,3h-3C3.4,3,3,3.4,3,3.8v3c0,0.4,0.3,0.8,0.8,0.8h3c0.4,0,0.8-0.3,0.8-0.8v-3C7.6,3.4,7.3,3,6.9,3    M6.1,6.1H4.6V4.6h1.5V6.1z"
-                          />
-                          <path
-                            class="st1"
-                            d="M13,3h-3C9.5,3,9.1,3.4,9.1,3.8v3c0,0.4,0.3,0.8,0.8,0.8h3c0.4,0,0.8-0.3,0.8-0.8v-3C13.7,3.4,13.4,3,13,3    M12.2,6.1h-1.5V4.6h1.5V6.1z"
-                          />
-                          <path
-                            class="st1"
-                            d="M19.1,3h-3c-0.4,0-0.8,0.3-0.8,0.8v3c0,0.4,0.3,0.8,0.8,0.8h3c0.4,0,0.8-0.3,0.8-0.8v-3   C19.8,3.4,19.5,3,19.1,3 M18.3,6.1h-1.5V4.6h1.5V6.1z"
-                          />
-                          <path
-                            class="st1"
-                            d="M42.3,0H3.4C1.5,0,0,1.5,0,3.4v6.5c0,0.4,0.3,0.8,0.8,0.8H45c0.4,0,0.8-0.3,0.8-0.8V3.4   C45.7,1.5,44.2,0,42.3,0 M44.2,9.1H1.5V3.4c0-1,0.9-1.9,1.9-1.9h38.9c1.1,0,1.9,0.9,1.9,1.9C44.2,3.4,44.2,9.1,44.2,9.1z"
-                          />
-                          <path
-                            class="st1"
-                            d="M38.1,21.3H23.6c-0.4,0-0.8,0.3-0.8,0.8c0,0.4,0.3,0.8,0.8,0.8h14.5c0.4,0,0.8-0.3,0.8-0.8   C38.9,21.7,38.5,21.3,38.1,21.3"
-                          />
-                          <path
-                            class="st1"
-                            d="M34.3,18.3H23.6c-0.4,0-0.8,0.3-0.8,0.8c0,0.4,0.3,0.8,0.8,0.8h10.7c0.4,0,0.8-0.3,0.8-0.8   C35.1,18.6,34.7,18.3,34.3,18.3"
-                          />
-                          <path
-                            class="st1"
-                            d="M40.4,24.4H23.6c-0.4,0-0.8,0.3-0.8,0.8s0.3,0.8,0.8,0.8h16.8c0.4,0,0.8-0.3,0.8-0.8S40.8,24.4,40.4,24.4"
-                          />
-                          <path
-                            class="st1"
-                            d="M38.1,32.8H23.6c-0.4,0-0.8,0.3-0.8,0.8s0.3,0.8,0.8,0.8h14.5c0.4,0,0.8-0.3,0.8-0.8S38.5,32.8,38.1,32.8"
-                          />
-                          <path
-                            class="st1"
-                            d="M34.3,29.7H23.6c-0.4,0-0.8,0.3-0.8,0.8s0.3,0.8,0.8,0.8h10.7c0.4,0,0.8-0.3,0.8-0.8S34.7,29.7,34.3,29.7"
-                          />
-                          <path
-                            class="st1"
-                            d="M40.4,35.8H23.6c-0.4,0-0.8,0.3-0.8,0.8s0.3,0.8,0.8,0.8h16.8c0.4,0,0.8-0.3,0.8-0.8S40.8,35.8,40.4,35.8"
-                          />
-                          <path
-                            class="st1"
-                            d="M13,19.1H0.8c-0.4,0-0.8,0.3-0.8,0.8v15.2c0,0.4,0.3,0.8,0.8,0.8H13c0.4,0,0.8-0.3,0.8-0.8V19.8   C13.7,19.4,13.4,19.1,13,19.1 M12.2,34.3H1.5V20.6h10.7V34.3z"
-                          />
-                          <path
-                            class="st1"
-                            d="M13.9,16H0.8C0.3,16,0,16.3,0,16.8v18.3c0,0.4,0.3,0.8,0.8,0.8H16c0.4,0,0.8-0.3,0.8-0.8V18.8   C16.8,17.3,15.5,16,13.9,16 M15.2,34.3H1.5V17.5h12.4c0.7,0,1.3,0.6,1.3,1.3V34.3z"
-                          />
-                          <path
-                            class="st1"
-                            d="M18.3,34.3H0.8c-0.4,0-0.8,0.3-0.8,0.8v3c0,0.4,0.3,0.8,0.8,0.8h14.5c2.1,0,3.8-1.7,3.8-3.8   C19.1,34.6,18.7,34.3,18.3,34.3 M15.2,37.3H1.5v-1.5h15.9C17.1,36.7,16.2,37.3,15.2,37.3"
-                          />
-                        </g>
-                      </svg>
+                      <Image
+                        id="consist-img"
+                        src={"/email.png"}
+                        width={0}
+                        height={0}
+                        unoptimized
+                        alt="video-editing"
+                        priority
+                      ></Image>
                     </span>
-                    <h4>Unnity Programmatic Advertising </h4>
+                    <h4>Unnity Email Marketing</h4>
                   </div>
 
                   {showFourCard && (
@@ -779,11 +586,11 @@ const Page = () => {
                         priority
                       ></Image>
 
-                      <h4>Unnity Programmatic Advertising</h4>
+                      <h4>Unnity Email Marketing</h4>
                       <p>
-                        Campaign Development , Google Analytics Integration ,
-                        Custom Ad Targeting , Campaign Optimization &
-                        Remarketing , Revenue Management
+                        HTML5 Email Template , Newsletters, email verification,
+                        data scraping, data verifiying, Email Automation , Email
+                        Template Audit, Creating Email Template
                       </p>
                     </div>
                   )}
@@ -806,95 +613,16 @@ const Page = () => {
                       priority
                     ></Image>
 
-                    <span>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        id="message-svg"
-                        data-name="Layer 1"
-                        width="66.02"
-                        height="53.2"
-                        viewBox="0 0 66.02 53.2"
-                      >
-                        <defs></defs>
-                        <rect
-                          class="cls-1"
-                          x="19.25"
-                          y="1"
-                          width="43.55"
-                          height="31.07"
-                          rx="3.38"
-                        />
-                        <path
-                          class="cls-2"
-                          d="M19.59,5.68l16.91,11a7.65,7.65,0,0,0,8.07.18L62.8,6.1"
-                        />
-                        <line
-                          class="cls-2"
-                          x1="31.67"
-                          y1="17.93"
-                          x2="19.59"
-                          y2="26.15"
-                        />
-                        <line
-                          class="cls-2"
-                          x1="50.22"
-                          y1="17.93"
-                          x2="62.31"
-                          y2="26.15"
-                        />
-                        <line
-                          class="cls-1"
-                          x1="14.55"
-                          y1="8.29"
-                          x2="1"
-                          y2="8.29"
-                        />
-                        <line
-                          class="cls-1"
-                          x1="65.02"
-                          y1="45.1"
-                          x2="51.48"
-                          y2="45.1"
-                        />
-                        <line
-                          class="cls-1"
-                          x1="7.32"
-                          y1="1"
-                          x2="25.63"
-                          y2="1"
-                        />
-                        <line
-                          class="cls-1"
-                          x1="42.94"
-                          y1="52.2"
-                          x2="61.26"
-                          y2="52.2"
-                        />
-                        <path
-                          class="cls-2"
-                          d="M46.53,36.67V49.79a2.42,2.42,0,0,1-2.42,2.41H5.39A2.42,2.42,0,0,1,3,49.79V23.55a2.42,2.42,0,0,1,2.42-2.41h9.16"
-                        />
-                        <path
-                          class="cls-2"
-                          d="M3.31,25.81l16.91,11a7.67,7.67,0,0,0,8.07.17l2-1.17"
-                        />
-                        <line
-                          class="cls-2"
-                          x1="15.4"
-                          y1="38.07"
-                          x2="3.31"
-                          y2="46.28"
-                        />
-                        <line
-                          class="cls-2"
-                          x1="33.94"
-                          y1="38.07"
-                          x2="46.03"
-                          y2="46.28"
-                        />
-                      </svg>
-                    </span>
-                    <h4>Unnity Email Marketing</h4>
+                    <Image
+                      id="consist-img"
+                      src={"/video-editor.png"}
+                      width={0}
+                      height={0}
+                      unoptimized
+                      alt="video-editing"
+                      priority
+                    ></Image>
+                    <h4>Video Editing</h4>
                   </div>
 
                   {showFiveCard && (
@@ -912,10 +640,67 @@ const Page = () => {
                         priority
                       ></Image>
 
-                      <h4>Unnity Email Marketing</h4>
+                      <h4>Video Editing</h4>
                       <p>
-                        HTML5 Email Template , Newsletters , Email Automation ,
-                        Email Template Audit
+                        Unlimited Video Revisions, Adapted for Tiktok, Youtube &
+                        short reels
+                      </p>
+                    </div>
+                  )}
+                </div>
+
+                <div className="card-box-top-n-cover">
+                  <div
+                    className="card-box-top-n"
+                    onClick={() => {
+                      setShowSixCard(true);
+                    }}
+                  >
+                    <Image
+                      id="pluss"
+                      src={"/ben-plus.png"}
+                      width={0}
+                      height={0}
+                      alt="plus"
+                      unoptimized
+                      priority
+                    ></Image>
+
+                    <span>
+                      <Image
+                        id="consist-img"
+                        src={"/copy-writing.png"}
+                        width={0}
+                        height={0}
+                        unoptimized
+                        alt="video-editing"
+                        priority
+                      ></Image>
+                    </span>
+                    <h4>Content Writing</h4>
+                  </div>
+
+                  {showSixCard && (
+                    <div
+                      className="card-box-top-n-second"
+                      onClick={() => setShowSixCard(false)}
+                    >
+                      <Image
+                        id="pluss-two"
+                        src={"/ben-plus.png"}
+                        width={0}
+                        height={0}
+                        alt="plus"
+                        unoptimized
+                        priority
+                      ></Image>
+
+                      <h4>Content Writing</h4>
+                      <p>
+                        Unlimited Video Revisions, Unlimited revisions, Adapted
+                        to SEO perspective, Experienced writers for travelling,
+                        tourism, rental spaces, Air BNBs, dentists,
+                        dermatologists
                       </p>
                     </div>
                   )}
@@ -1138,8 +923,7 @@ const Page = () => {
       <section className="reason-to-choose">
         <div className="reason-to-choose-header">
           <h1>
-            Reasons to choose Unnitys as your = Digital
-            <br /> Marketing Agency
+            Reasons to choose Unnity as your <br /> Digital Marketing Agency
           </h1>
         </div>
 

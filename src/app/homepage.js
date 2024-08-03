@@ -932,6 +932,97 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
+
+                  <div
+                    className="keen-slider__slide number-slide2"
+                    id="comforto"
+                  >
+                    <div className="achievement-first" id="uberlyfe">
+                      <div className="achieve-name">
+                        <Image
+                          id="comforto"
+                          src={"/uberlyfe.webp"}
+                          alt="comforto-img"
+                          width={130}
+                          height={40}
+                          unoptimized
+                        />
+                      </div>
+
+                      <div className="achieve-first-row" id="cupid-row">
+                        <div className="achieve-numbers">
+                          <div className="">
+                            <Image
+                              id="network"
+                              src="/growth.png"
+                              width={50}
+                              height={50}
+                              alt="digi"
+                              unoptimized
+                            ></Image>
+                          </div>
+                          <div className="red">
+                            <h1>+71%</h1>
+                          </div>
+                          <div className="catego">
+                            <h2>
+                              Increase{" "}
+                              <span className="achieve-color">Revenue</span> in
+                              Last 6 months
+                            </h2>
+                          </div>
+                        </div>
+
+                        <div className="achieve-numbers">
+                          <div className="">
+                            <Image
+                              id="network"
+                              src="/shopping.png"
+                              width={50}
+                              height={50}
+                              alt="digi"
+                              unoptimized
+                            ></Image>
+                          </div>
+                          <div className="red">
+                            <h1>+33%</h1>
+                          </div>
+                          <div className="catego">
+                            <h2>
+                              Number of
+                              <span className="achieve-color"> Order </span>
+                              Increase
+                            </h2>
+                          </div>
+                        </div>
+
+                        <div className="achieve-numbers">
+                          <div className="">
+                            <Image
+                              id="network"
+                              src="/interest-rate.png"
+                              width={50}
+                              height={50}
+                              alt="digi"
+                              unoptimized
+                            ></Image>
+                          </div>
+                          <div className="red">
+                            <h1>+201%</h1>
+                          </div>
+                          <div className="catego">
+                            <h2>
+                              Increase in
+                              <span className="achieve-color">
+                                {" "}
+                                Conversion Rate
+                              </span>
+                            </h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
 
                 {loaded && instanceRef.current && (
@@ -1111,6 +1202,7 @@ export default function Home() {
                 </div>
                 <div className="">
                   <Image
+                    id="tic-tac"
                     src={"/tic2.avif"}
                     alt="tic-toc"
                     width={0}
@@ -1127,15 +1219,7 @@ export default function Home() {
                     unoptimized
                   ></Image>
                 </div>
-                <div className="">
-                  <Image
-                    src={"/secular.avif"}
-                    alt="secular"
-                    width={0}
-                    height={0}
-                    unoptimized
-                  ></Image>
-                </div>
+
                 <div className="">
                   <Image
                     src={"/Empire.png"}
@@ -1211,8 +1295,53 @@ export default function Home() {
                 </div>
                 <div className="">
                   <Image
+                    id="uberlyf"
                     src={"/uberlyfe.webp"}
                     alt="uk-derma"
+                    width={0}
+                    height={0}
+                    unoptimized
+                  ></Image>
+                </div>
+
+                <div className="">
+                  <Image
+                    id="edoofa"
+                    src={"/EDOOFA.webp"}
+                    alt="edoofa"
+                    width={0}
+                    height={0}
+                    unoptimized
+                  ></Image>
+                </div>
+
+                <div className="">
+                  <Image
+                    id="harall"
+                    src={"/harall.avif"}
+                    alt="hardall"
+                    width={0}
+                    height={0}
+                    unoptimized
+                  ></Image>
+                </div>
+
+                <div className="">
+                  <Image
+                    id="mesky"
+                    src={"/mesky.webp"}
+                    alt="mesky"
+                    width={0}
+                    height={0}
+                    unoptimized
+                  ></Image>
+                </div>
+
+                <div className="">
+                  <Image
+                    id="aqua"
+                    src={"/aqua.png"}
+                    alt="mesky"
                     width={0}
                     height={0}
                     unoptimized
@@ -1258,6 +1387,7 @@ export default function Home() {
                 </div>
                 <div className="">
                   <Image
+                    id="tic-tac"
                     src={"/tic2.avif"}
                     alt="tic-toc"
                     width={0}
@@ -1274,15 +1404,7 @@ export default function Home() {
                     unoptimized
                   ></Image>
                 </div>
-                <div className="">
-                  <Image
-                    src={"/secular.avif"}
-                    alt="secular"
-                    width={0}
-                    height={0}
-                    unoptimized
-                  ></Image>
-                </div>
+
                 <div className="">
                   <Image
                     src={"/Empire.png"}
@@ -1358,8 +1480,53 @@ export default function Home() {
                 </div>
                 <div className="">
                   <Image
+                    id="uberlyf"
                     src={"/uberlyfe.webp"}
                     alt="uk-derma"
+                    width={0}
+                    height={0}
+                    unoptimized
+                  ></Image>
+                </div>
+
+                <div className="">
+                  <Image
+                    id="edoofa"
+                    src={"/EDOOFA.webp"}
+                    alt="edoofa"
+                    width={0}
+                    height={0}
+                    unoptimized
+                  ></Image>
+                </div>
+
+                <div className="">
+                  <Image
+                    id="harall"
+                    src={"/harall.avif"}
+                    alt="hardall"
+                    width={0}
+                    height={0}
+                    unoptimized
+                  ></Image>
+                </div>
+
+                <div className="">
+                  <Image
+                    id="mesky"
+                    src={"/mesky.webp"}
+                    alt="mesky"
+                    width={0}
+                    height={0}
+                    unoptimized
+                  ></Image>
+                </div>
+
+                <div className="">
+                  <Image
+                    id="aqua"
+                    src={"/aqua.png"}
+                    alt="mesky"
                     width={0}
                     height={0}
                     unoptimized

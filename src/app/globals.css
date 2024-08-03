@@ -700,11 +700,6 @@ section.sub-form {
   height: auto;
 }
 
-#cupid {
-  width: 149px;
-  height: 90px;
-}
-
 .brand-border {
   width: 83%;
   margin-left: 9%;
@@ -829,9 +824,16 @@ section.sub-form {
   height: auto;
 }
 
-#cupid {
-  width: 149px;
+#cupid,
+#edoofa {
+  width: 99px;
   height: 90px;
+}
+
+#mesky,
+#aqua {
+  width: 50px;
+  height: auto;
 }
 
 .brand-border {
@@ -980,7 +982,18 @@ section.sub-form {
 }
 
 #brand-logo-content-two {
-  margin-left: 19%;
+  margin-left: 30%;
+}
+
+#tic-tac,
+#uberlyf {
+  width: 130px;
+  height: auto;
+}
+
+#harall,
+#aqua {
+  background-color: #000;
 }
 
 .brand-logo-content {
