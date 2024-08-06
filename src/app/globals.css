@@ -2035,4 +2035,8 @@ footer h4 {
   .follow-us {
     margin-left: -25px;
   }
+
+  .navbar nav {
+    display: none;
+  }
 }
