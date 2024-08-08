@@ -1,6 +1,6 @@
 import React from "react";
 import Dentist from "./dentist";
-import { Helmet } from "react-helmet";
+import Head from "next/head";
 
 export const metadata = {
   title:
@@ -12,10 +12,10 @@ export const metadata = {
 export default function page() {
   return (
     <>
-      <Helmet>
+      <Head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
-      </Helmet>
+      </Head>
       <Dentist />;
     </>
   );

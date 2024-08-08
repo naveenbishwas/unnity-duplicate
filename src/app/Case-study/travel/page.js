@@ -1,6 +1,6 @@
 import React from "react";
 import Travel from "./travel";
-import { Helmet } from "react-helmet";
+import Head from "next/head";
 
 export const metadata = {
   title: "Scaling Success: E-sim's Record-Breaking Sales with Google Ads",
@@ -11,10 +11,10 @@ export const metadata = {
 export default function page() {
   return (
     <>
-      <Helmet>
+      <Head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
-      </Helmet>
+      </Head>
       <Travel />;
     </>
   );

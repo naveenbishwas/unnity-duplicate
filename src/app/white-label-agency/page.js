@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
-import { Helmet } from "react-helmet";
+import Head from "next/head";
 
 export const metadata = {
   title:
@@ -123,10 +123,10 @@ const Page = () => {
 
   return (
     <>
-      <Helmet>
+      <Head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
-      </Helmet>
+      </Head>
 
       <div className="special-main-container">
         <section className="front-special">
