@@ -1,5 +1,6 @@
 import React from "react";
 import Appliances from "./home-appliance";
+import { Helmet } from "react-helmet";
 
 export const metadata = {
   title:
@@ -9,5 +10,13 @@ export const metadata = {
 };
 
 export default function page() {
-  return <Appliances />;
+  return (
+    <>
+      <Helmet>
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+      </Helmet>
+      <Appliances />;
+    </>
+  );
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import Homepage from "./homepage";
+import { Helmet } from "react-helmet";
 
 export const metadata = {
   title:
@@ -9,5 +10,13 @@ export const metadata = {
 };
 
 export default function page() {
-  return <Homepage />;
+  return (
+    <>
+      <Helmet>
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+      </Helmet>
+      <Homepage />;
+    </>
+  );
 }
