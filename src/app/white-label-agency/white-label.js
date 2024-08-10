@@ -884,7 +884,13 @@ const Label = () => {
               <h2>Our hourly rates start from $25/hour to $40/hour.</h2>
             </div>
             <div className="inquire-right">
-              <button>Inquire Today</button>
+              <Link
+                href={
+                  "https://outlook.office365.com/book/BookaMeet@unnitymedia.com/"
+                }
+              >
+                <button>Inquire Today</button>
+              </Link>
             </div>
           </div>
         </section>
