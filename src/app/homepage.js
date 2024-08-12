@@ -286,15 +286,13 @@ export default function Home() {
                       Paid Marketing(Google, Facebook & Amazon ads)
                     </option>
                     <option value="MarketPlace Management">UI/UX</option>
-                    <option value="MarketPlace Management">
+                    <option value="Website Development">
                       Website Development
                     </option>
-                    <option value="MarketPlace Management">
+                    <option value="Website Maintenance">
                       Website Maintenance
                     </option>
-                    <option value="MarketPlace Management">
-                      Shopify Migration
-                    </option>
+                    <option value="Shopify Migration">Shopify Migration</option>
                   </select>
                 </div>
                 <div className="was-validated">
