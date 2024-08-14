@@ -4,9 +4,9 @@ import Head from "next/head";
 
 export const metadata = {
   title:
-    "Transforming Digital Marketing for Large Dentistry Chains | Comprehensive Strategy Guide",
+    "Comprehensive digital marketing strategy guide for large dentistry chains to enhance patient engagement and online growth",
   description:
-    "Discover the ultimate guide to revolutionizing digital marketing strategies for large dentistry chains. Learn how to enhance patient engagement, boost online presence, and achieve unparalleled growth with our comprehensive insights and actionable tips",
+    "This long-tail keyword is tailored to target large dentistry chains looking for in-depth digital marketing strategies. It includes key phrases like comprehensive strategy guide, enhance patient engagement, and online growth, which can help in attracting a more specific and relevant audience. To improve your SEO, incorporate this keyword into your content, meta descriptions, headers, and other strategic areas on your website",
 };
 
 export default function page() {

@@ -3,9 +3,10 @@ import Travel from "./travel";
 import Head from "next/head";
 
 export const metadata = {
-  title: "Scaling Success: E-sim's Record-Breaking Sales with Google Ads",
+  title:
+    "E-sim's record-breaking sales success through strategic Google Ads campaigns and targeted advertising optimization",
   description:
-    "Discover how E-sim achieved phenomenal growth and outperformed competitors with strategic Google Ads campaigns. This case study highlights the journey from modest beginnings to record-breaking sales, showcasing the power of targeted advertising and optimization",
+    "This long-tail keyword is designed to attract users interested in case studies and strategies for achieving significant growth through Google Ads. It includes key phrases like record-breaking sales,strategic Google Ads campaigns, and targeted advertising optimization, which can help in improving your website's SEO by focusing on specific, high-intent search queries",
 };
 
 export default function page() {

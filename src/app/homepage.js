@@ -160,7 +160,7 @@ export default function Home() {
         <section className="front-banner">
           <Image
             src={"./UNNITY.png"}
-            alt="Banner-img"
+            alt="Unnity Logo"
             width={0}
             height={0}
             unoptimized
@@ -194,7 +194,7 @@ export default function Home() {
                 src={"./sayyam2.png"}
                 width={0}
                 height={0}
-                alt="sayyam-img"
+                alt="Sayyam Image"
                 unoptimized
                 priority
               ></Image>
@@ -355,7 +355,7 @@ export default function Home() {
               src={"./trans-purple.png"}
               width={0}
               height={0}
-              alt=""
+              alt="Trans Purple Image"
               unoptimized
             ></Image>
           </div>
@@ -372,7 +372,7 @@ export default function Home() {
                 src={"./seo2.png"}
                 width={0}
                 height={0}
-                alt="seo"
+                alt="Seo"
                 unoptimized
                 priority
               ></Image>
@@ -388,7 +388,7 @@ export default function Home() {
                 src={"./meta2.png"}
                 width={0}
                 height={0}
-                alt="meta"
+                alt="Meta Logo"
                 unoptimized
                 priority
               ></Image>
@@ -400,7 +400,7 @@ export default function Home() {
                 src={"./adwords2.png"}
                 width={0}
                 height={0}
-                alt="google-ads"
+                alt="Google-ads Logo"
                 unoptimized
                 priority
               ></Image>
@@ -414,7 +414,7 @@ export default function Home() {
                 src={"./ui5.png"}
                 width={0}
                 height={0}
-                alt="ui"
+                alt="UI Logo"
                 unoptimized
                 priority
               ></Image>
@@ -426,7 +426,7 @@ export default function Home() {
                 src={"./webiste2.png"}
                 width={0}
                 height={0}
-                alt="website"
+                alt="Website Logo"
                 unoptimized
                 priority
               ></Image>
@@ -438,7 +438,7 @@ export default function Home() {
                 src={"./consult3.png"}
                 width={0}
                 height={0}
-                alt="seo"
+                alt="Consult Logo"
                 unoptimized
                 priority
               ></Image>
@@ -452,10 +452,11 @@ export default function Home() {
                 src={"./seo2.png"}
                 width={0}
                 height={0}
-                alt="seo"
+                alt="Seo Logo"
                 unoptimized
                 priority
               ></Image>
+
               <h2 id="des">Search Engine Optimisation</h2>
               <h2 id="mob">
                 Search Engine
@@ -468,7 +469,7 @@ export default function Home() {
                 src={"./meta2.png"}
                 width={0}
                 height={0}
-                alt="meta"
+                alt="Meta Logo"
                 unoptimized
                 priority
               ></Image>
@@ -480,7 +481,7 @@ export default function Home() {
                 src={"./adwords2.png"}
                 width={0}
                 height={0}
-                alt="google-ads"
+                alt="Google-ads Logo"
                 unoptimized
                 priority
               ></Image>
@@ -492,7 +493,7 @@ export default function Home() {
                 src={"./ui5.png"}
                 width={0}
                 height={0}
-                alt="ui"
+                alt="UI Logo"
                 unoptimized
                 priority
               ></Image>
@@ -504,7 +505,7 @@ export default function Home() {
                 src={"./webiste2.png"}
                 width={0}
                 height={0}
-                alt="website"
+                alt="Website Logo"
                 unoptimized
                 priority
               ></Image>
@@ -516,7 +517,7 @@ export default function Home() {
                 src={"./consult3.png"}
                 width={0}
                 height={0}
-                alt="seo"
+                alt="Seo Logo"
                 unoptimized
                 priority
               ></Image>
@@ -557,7 +558,7 @@ export default function Home() {
                           src="/aurav.avif"
                           width={50}
                           height={60}
-                          alt="digi"
+                          alt="Aurave Logo"
                           unoptimized
                         ></Image>
                       </div>
@@ -571,7 +572,7 @@ export default function Home() {
                               src="/growth.png"
                               width={50}
                               height={50}
-                              alt="digi"
+                              alt="Growth Logo"
                               unoptimized
                             ></Image>
                           </div>
@@ -594,7 +595,7 @@ export default function Home() {
                               src="/shopping.png"
                               width={50}
                               height={50}
-                              alt="digi"
+                              alt="Shopping Logo"
                               unoptimized
                             ></Image>
                           </div>
@@ -617,7 +618,7 @@ export default function Home() {
                               src="/interest-rate.png"
                               width={50}
                               height={50}
-                              alt="digi"
+                              alt="Network Logo"
                               unoptimized
                             ></Image>
                           </div>
@@ -685,7 +686,7 @@ export default function Home() {
                               src="/growth.png"
                               width={50}
                               height={50}
-                              alt="digi"
+                              alt="Growth Logo"
                               unoptimized
                             ></Image>
                           </div>
@@ -708,7 +709,7 @@ export default function Home() {
                               src="/shopping.png"
                               width={50}
                               height={50}
-                              alt="digi"
+                              alt="Shopping Logo"
                               unoptimized
                             ></Image>
                           </div>
@@ -731,7 +732,7 @@ export default function Home() {
                               src="/interest-rate.png"
                               width={50}
                               height={50}
-                              alt="digi"
+                              alt="Interest Logo"
                               unoptimized
                             ></Image>
                           </div>
@@ -758,7 +759,7 @@ export default function Home() {
                         <Image
                           id="isu"
                           src={"/isu.avif"}
-                          alt="isu-fashio"
+                          alt="Isu-Fashion Image"
                           width={100}
                           height={40}
                           unoptimized
@@ -773,7 +774,7 @@ export default function Home() {
                               src="/growth.png"
                               width={50}
                               height={50}
-                              alt="digi"
+                              alt="Growth Image"
                               unoptimized
                             ></Image>
                           </div>
@@ -796,7 +797,7 @@ export default function Home() {
                               src="/shopping.png"
                               width={50}
                               height={50}
-                              alt="digi"
+                              alt="Shopping Image"
                               unoptimized
                             ></Image>
                           </div>
@@ -819,7 +820,7 @@ export default function Home() {
                               src="/interest-rate.png"
                               width={50}
                               height={50}
-                              alt="digi"
+                              alt="Interest Image"
                               unoptimized
                             ></Image>
                           </div>
@@ -940,7 +941,7 @@ export default function Home() {
                         <Image
                           id="comforto"
                           src={"/uberlyfe.webp"}
-                          alt="comforto-img"
+                          alt="Comforto Image"
                           width={160}
                           height={50}
                           unoptimized
@@ -955,7 +956,7 @@ export default function Home() {
                               src="/growth.png"
                               width={50}
                               height={50}
-                              alt="digi"
+                              alt="Growth Image"
                               unoptimized
                             ></Image>
                           </div>
@@ -978,7 +979,7 @@ export default function Home() {
                               src="/shopping.png"
                               width={50}
                               height={50}
-                              alt="digi"
+                              alt="Shopping Image"
                               unoptimized
                             ></Image>
                           </div>
@@ -1001,7 +1002,7 @@ export default function Home() {
                               src="/interest-rate.png"
                               width={50}
                               height={50}
-                              alt="digi"
+                              alt="Interest Image"
                               unoptimized
                             ></Image>
                           </div>
@@ -1113,7 +1114,7 @@ export default function Home() {
                 </span>
                 <Image
                   src={"./home7.jpg"}
-                  alt="Dentist"
+                  alt="Dentist Image"
                   width={0}
                   height={0}
                   unoptimized
@@ -1137,7 +1138,7 @@ export default function Home() {
                 </span>
                 <Image
                   src={"./travel4.jpg"}
-                  alt="Dentist"
+                  alt="Travel Image"
                   width={0}
                   height={0}
                   unoptimized
@@ -1202,7 +1203,7 @@ export default function Home() {
                   <Image
                     id="tic-tac"
                     src={"/tic2.avif"}
-                    alt="tic-toc"
+                    alt="Tic Tac Logo"
                     width={0}
                     height={0}
                     unoptimized
@@ -1211,7 +1212,7 @@ export default function Home() {
                 <div className="">
                   <Image
                     src={"/uk-derma.png"}
-                    alt="uk-derma"
+                    alt="UK Derma Logo"
                     width={0}
                     height={0}
                     unoptimized
@@ -1221,7 +1222,7 @@ export default function Home() {
                 <div className="">
                   <Image
                     src={"/Empire.png"}
-                    alt="secular"
+                    alt="Empire Logo"
                     width={100}
                     height={100}
                     unoptimized
@@ -1230,7 +1231,7 @@ export default function Home() {
                 <div className="">
                   <Image
                     src={"/aurav.avif"}
-                    alt="uk-derma"
+                    alt="Aurav Logo"
                     width={0}
                     height={0}
                     unoptimized
@@ -1240,7 +1241,7 @@ export default function Home() {
                 <div className="">
                   <Image
                     src={"/bablouie.webp"}
-                    alt="uk-derma"
+                    alt="Bablouie Logo"
                     width={0}
                     height={0}
                     unoptimized
@@ -1249,7 +1250,7 @@ export default function Home() {
                 <div className="">
                   <Image
                     src={"/Comforto.avif"}
-                    alt="uk-derma"
+                    alt="Comforto Logo"
                     width={0}
                     height={0}
                     unoptimized
@@ -1258,7 +1259,7 @@ export default function Home() {
                 <div className="">
                   <Image
                     src={"/globe.avif"}
-                    alt="uk-derma"
+                    alt="Globe Logo"
                     width={0}
                     height={0}
                     unoptimized
@@ -1267,7 +1268,7 @@ export default function Home() {
                 <div className="">
                   <Image
                     src={"/isu.avif"}
-                    alt="uk-derma"
+                    alt="ISU Fashion Logo"
                     width={0}
                     height={0}
                     unoptimized
@@ -1276,7 +1277,7 @@ export default function Home() {
                 <div className="">
                   <Image
                     src={"/lifekraft.avif"}
-                    alt="uk-derma"
+                    alt="Lifekraft Logo"
                     width={0}
                     height={0}
                     unoptimized
@@ -1285,7 +1286,7 @@ export default function Home() {
                 <div className="">
                   <Image
                     src={"/Sain_logo.avif"}
-                    alt="uk-derma"
+                    alt="Sain Logo"
                     width={0}
                     height={0}
                     unoptimized
@@ -1295,7 +1296,7 @@ export default function Home() {
                   <Image
                     id="uberlyf"
                     src={"/uberlyfe.webp"}
-                    alt="uk-derma"
+                    alt="Uberlyfe Logo"
                     width={0}
                     height={0}
                     unoptimized
@@ -1306,7 +1307,7 @@ export default function Home() {
                   <Image
                     id="edoofa"
                     src={"/EDOOFA.webp"}
-                    alt="edoofa"
+                    alt="Edoofa Logo"
                     width={0}
                     height={0}
                     unoptimized
@@ -1317,7 +1318,7 @@ export default function Home() {
                   <Image
                     id="harall"
                     src={"/harall.avif"}
-                    alt="hardall"
+                    alt="Harall Logo"
                     width={0}
                     height={0}
                     unoptimized
@@ -1328,7 +1329,7 @@ export default function Home() {
                   <Image
                     id="mesky"
                     src={"/mesky.webp"}
-                    alt="mesky"
+                    alt="Mesky Logo"
                     width={0}
                     height={0}
                     unoptimized
@@ -1339,7 +1340,7 @@ export default function Home() {
                   <Image
                     id="aqua"
                     src={"/aqua.png"}
-                    alt="mesky"
+                    alt="Aqua Easy Purifier Logo"
                     width={0}
                     height={0}
                     unoptimized
@@ -1387,7 +1388,7 @@ export default function Home() {
                   <Image
                     id="tic-tac"
                     src={"/tic2.avif"}
-                    alt="tic-toc"
+                    alt="Tic Tac Logo"
                     width={0}
                     height={0}
                     unoptimized
@@ -1396,7 +1397,7 @@ export default function Home() {
                 <div className="">
                   <Image
                     src={"/uk-derma.png"}
-                    alt="uk-derma"
+                    alt="UK Derma Logo"
                     width={0}
                     height={0}
                     unoptimized
@@ -1406,7 +1407,7 @@ export default function Home() {
                 <div className="">
                   <Image
                     src={"/Empire.png"}
-                    alt="secular"
+                    alt="Empire Logo"
                     width={0}
                     height={0}
                     unoptimized
@@ -1415,7 +1416,7 @@ export default function Home() {
                 <div className="">
                   <Image
                     src={"/aurav.avif"}
-                    alt="uk-derma"
+                    alt="Aurav Logo"
                     width={0}
                     height={0}
                     unoptimized
@@ -1425,7 +1426,7 @@ export default function Home() {
                 <div className="">
                   <Image
                     src={"/bablouie.webp"}
-                    alt="uk-derma"
+                    alt="Bablouie Logo"
                     width={0}
                     height={0}
                     unoptimized
@@ -1434,7 +1435,7 @@ export default function Home() {
                 <div className="">
                   <Image
                     src={"/Comforto.avif"}
-                    alt="uk-derma"
+                    alt="Comforto Logo"
                     width={0}
                     height={0}
                     unoptimized
@@ -1443,7 +1444,7 @@ export default function Home() {
                 <div className="">
                   <Image
                     src={"/globe.avif"}
-                    alt="uk-derma"
+                    alt="Globe Logo"
                     width={0}
                     height={0}
                     unoptimized
@@ -1452,7 +1453,7 @@ export default function Home() {
                 <div className="">
                   <Image
                     src={"/isu.avif"}
-                    alt="uk-derma"
+                    alt="ISU Fashion Logo"
                     width={0}
                     height={0}
                     unoptimized
@@ -1461,7 +1462,7 @@ export default function Home() {
                 <div className="">
                   <Image
                     src={"/lifekraft.avif"}
-                    alt="uk-derma"
+                    alt="Lifekraft Logo"
                     width={0}
                     height={0}
                     unoptimized
@@ -1470,7 +1471,7 @@ export default function Home() {
                 <div className="">
                   <Image
                     src={"/Sain_logo.avif"}
-                    alt="uk-derma"
+                    alt="Sain Logo"
                     width={0}
                     height={0}
                     unoptimized
@@ -1480,7 +1481,7 @@ export default function Home() {
                   <Image
                     id="uberlyf"
                     src={"/uberlyfe.webp"}
-                    alt="uk-derma"
+                    alt="Uberlyfe Logo"
                     width={0}
                     height={0}
                     unoptimized
@@ -1491,7 +1492,7 @@ export default function Home() {
                   <Image
                     id="edoofa"
                     src={"/EDOOFA.webp"}
-                    alt="edoofa"
+                    alt="Edoofa Logo"
                     width={0}
                     height={0}
                     unoptimized
@@ -1502,7 +1503,7 @@ export default function Home() {
                   <Image
                     id="harall"
                     src={"/harall.avif"}
-                    alt="hardall"
+                    alt="Harall Logo"
                     width={0}
                     height={0}
                     unoptimized
@@ -1513,7 +1514,7 @@ export default function Home() {
                   <Image
                     id="mesky"
                     src={"/mesky.webp"}
-                    alt="mesky"
+                    alt="Mesky Logo"
                     width={0}
                     height={0}
                     unoptimized
@@ -1524,7 +1525,7 @@ export default function Home() {
                   <Image
                     id="aqua"
                     src={"/aqua.png"}
-                    alt="mesky"
+                    alt="Aqua Easy Purifier Logo"
                     width={0}
                     height={0}
                     unoptimized
@@ -1602,7 +1603,7 @@ export default function Home() {
           <div className="start-left">
             <Image
               src="/call.png"
-              alt="call"
+              alt="Call logo"
               width={100}
               height={100}
               unoptimized
@@ -1633,7 +1634,7 @@ export default function Home() {
               src="/check.png"
               width={0}
               height={0}
-              alt="logo-image"
+              alt="Unnity Logo"
               unoptimized
               style={{ width: "150px", height: "85px" }}
             ></Image>

@@ -4,9 +4,9 @@ import Head from "next/head";
 
 export const metadata = {
   title:
-    "Transforming Ad Performance: Home Appliances India's Journey with Google Ads",
+    "Home Appliances India's journey to transforming Google Ads performance with strategic restructuring and budget management",
   description:
-    "Explore how Home Appliances India turned initial Google Ads challenges into ecommerce success through strategic restructuring and budget management. This case study reveals the innovative solutions and remarkable outcomes achieved in their quest for digital advertising excellence",
+    "This keyword is designed to target those interested in case studies and strategic insights related to Google Ads performance for the home appliances sector. It includes key phrases like Google Ads performance, strategic restructuring, and budget management, which can help attract a specific audience searching for solutions to similar challenges. Use this keyword in your content, meta descriptions, and headers to improve SEO and visibility",
 };
 
 export default function page() {
