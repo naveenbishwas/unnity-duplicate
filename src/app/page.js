@@ -14,6 +14,10 @@ export default function page() {
       <Head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
+        <meta
+          name="google-site-verification"
+          content="google895a58eba6776f55"
+        />
       </Head>
       <Homepage />;
     </>
