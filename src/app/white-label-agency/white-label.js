@@ -119,15 +119,17 @@ const Label = () => {
         <section className="front-special">
           <div className="navbar">
             <div className="special-logo">
-              <Image
-                id="spec-logo"
-                src="/check.png"
-                width={0}
-                height={0}
-                alt="logo-image"
-                unoptimized
-                style={{ width: "150px", height: "85px" }}
-              ></Image>
+              <Link href="/">
+                <Image
+                  id="spec-logo"
+                  src="/check.png"
+                  width={0}
+                  height={0}
+                  alt="logo-image"
+                  unoptimized
+                  style={{ width: "150px", height: "85px" }}
+                ></Image>
+              </Link>
             </div>
           </div>
 
@@ -1116,11 +1118,11 @@ const Label = () => {
             <div className="footer-services">
               <h4>Services</h4>
               <li>SEO</li>
-              <li>Gogle Ads</li>
+              <li>Google Ads</li>
               <li>Meta Ads</li>
               <li>UI/UX</li>
-              <li>Website Devlopment</li>
-              <li>Brand Consult</li>
+              <li>Website Development</li>
+              <li>Brand Consultation</li>
             </div>
             <div className="follow-us">
               <h4>Follow Us</h4>
