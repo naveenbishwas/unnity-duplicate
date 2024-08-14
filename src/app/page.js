@@ -16,7 +16,7 @@ export default function page() {
         <meta name="description" content={metadata.description} />
         <meta
           name="google-site-verification"
-          content="google895a58eba6776f55"
+          content="vn1NyNfjfHshQLVwVfvgNQXQUCVzrHmKmNFja9489XE"
         />
       </Head>
       <Homepage />;
