@@ -2042,7 +2042,6 @@ footer h4 {
 
   form.contact-form.needs-validation {
     width: 100vw;
-    background: aliceblue;
     display: flex;
     flex-direction: column;
     align-items: center;
