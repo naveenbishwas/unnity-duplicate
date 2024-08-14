@@ -280,7 +280,7 @@ export default function Home() {
                     value={service}
                     onChange={(e) => setService(e.target.value)}
                   >
-                    <option value="">Choose The Service</option>
+                    <option value="">Choose A Service</option>
                     <option value="SEO & Content">SEO</option>
                     <option value="Paid Search">
                       Paid Marketing(Google, Facebook & Amazon ads)
@@ -338,11 +338,11 @@ export default function Home() {
 
         <section className="section-three">
           <div className="section-three-left">
-            <h1>Boost Your Business Online with Our Smart Marketing Moves</h1>
+            <h1>Boost Your Business Online with Smart Marketing Strategies</h1>
             <p>
-              We're here to supercharge your brand's online presence. Our clever
-              digital marketing strategies are designed to bring you more
-              customers and make your business shine. Discover a new era of
+              We're here to supercharge your brand's online presence. Our
+              effective digital marketing strategies are designed to bring you
+              more customers and make your business shine. Discover a new era of
               digital marketing with us. Our team combines creativity and
               strategy to bring you success in the online world. Let us be your
               digital wizards. We'll help your business get noticed, captivate
@@ -933,8 +933,94 @@ export default function Home() {
 
                   <div
                     className="keen-slider__slide number-slide2"
-                    id="comforto"
-                  ></div>
+                    id="uberlyfe"
+                  >
+                    <div className="achievement-first" id="cupidbrand">
+                      <div className="achieve-name">
+                        <Image
+                          id="comforto"
+                          src={"/uberlyfe.webp"}
+                          alt="comforto-img"
+                          width={160}
+                          height={50}
+                          unoptimized
+                        />
+                      </div>
+
+                      <div className="achieve-first-row" id="cupid-row">
+                        <div className="achieve-numbers">
+                          <div className="">
+                            <Image
+                              id="network"
+                              src="/growth.png"
+                              width={50}
+                              height={50}
+                              alt="digi"
+                              unoptimized
+                            ></Image>
+                          </div>
+                          <div className="red">
+                            <h1>+107%</h1>
+                          </div>
+                          <div className="catego">
+                            <h2>
+                              Increase{" "}
+                              <span className="achieve-color">Revenue</span> in
+                              Last 6 months
+                            </h2>
+                          </div>
+                        </div>
+
+                        <div className="achieve-numbers">
+                          <div className="">
+                            <Image
+                              id="network"
+                              src="/shopping.png"
+                              width={50}
+                              height={50}
+                              alt="digi"
+                              unoptimized
+                            ></Image>
+                          </div>
+                          <div className="red">
+                            <h1>+96%</h1>
+                          </div>
+                          <div className="catego">
+                            <h2>
+                              Number of
+                              <span className="achieve-color"> Order </span>
+                              Increase
+                            </h2>
+                          </div>
+                        </div>
+
+                        <div className="achieve-numbers">
+                          <div className="">
+                            <Image
+                              id="network"
+                              src="/interest-rate.png"
+                              width={50}
+                              height={50}
+                              alt="digi"
+                              unoptimized
+                            ></Image>
+                          </div>
+                          <div className="red">
+                            <h1>+5%</h1>
+                          </div>
+                          <div className="catego">
+                            <h2>
+                              Increase in
+                              <span className="achieve-color">
+                                {" "}
+                                Conversion Rate
+                              </span>
+                            </h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
 
                 {loaded && instanceRef.current && (
@@ -991,7 +1077,7 @@ export default function Home() {
             <p>
               Growing a business isn’t easy, but we’ve got your back. Explore
               some of our customers’ top business challenges and learn how can
-              we help you leave these problems in the past.
+              we help you leave these problems in the past ?.
             </p>
           </div>
 
@@ -1526,7 +1612,7 @@ export default function Home() {
             <div className="right-header">
               <h1>Let's get Started</h1>
               <p>
-                Schedule a call at your convenience time to help us understand
+                Schedule a call at your convenient time to help us understand
                 your brand, vision & expectations.
               </p>
               <div className="call-btn">
@@ -1534,7 +1620,7 @@ export default function Home() {
                   <button id="btn-first">Schedule A Call</button>
                 </a>
                 <a href="mailto:sayam.unnity@gmail.com">
-                  <button id="btn-second">Send a Email</button>
+                  <button id="btn-second">Send an Email</button>
                 </a>
               </div>
             </div>
@@ -1580,7 +1666,7 @@ export default function Home() {
               >
                 <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
               </svg>
-              <h6>Email Id : sayam@unnitymedia.com</h6>
+              <h6>Email ID : sayam@unnitymedia.com</h6>
             </span>
             <span className="footer-address">
               <svg
@@ -1604,11 +1690,11 @@ export default function Home() {
             <div className="footer-services">
               <h4>Services</h4>
               <li>SEO</li>
-              <li>Gogle Ads</li>
+              <li>Google Ads</li>
               <li>Meta Ads</li>
               <li>UI/UX</li>
-              <li>Website Devlopment</li>
-              <li>Brand Consult</li>
+              <li>Website Development</li>
+              <li>Brand Consultation</li>
             </div>
             <div className="follow-us">
               <h4>Follow Us</h4>
