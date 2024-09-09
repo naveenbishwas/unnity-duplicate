@@ -1914,7 +1914,7 @@ footer h4 {
   }
 
   #brand-logo-content-two {
-    margin-left: 37%;
+    margin-left: 49%;
   }
 
   .section-nine {
@@ -2057,5 +2057,44 @@ footer h4 {
     position: fixed;
     bottom: 0;
     left: 0;
+  }
+
+  .brand-logo-center-df img {
+    width: 48px !important;
+    height: auto;
+  }
+
+  #tic-tac,
+  #uberlyf {
+    width: 70px !important;
+  }
+
+  #mesky,
+  #aqua {
+    width: 29px !important;
+    height: auto;
+  }
+
+  .brand-logo-center-df {
+    padding: 0 0;
+  }
+
+  @keyframes logo-slide {
+    from {
+      margin-left: 0;
+    }
+    to {
+      margin-left: -850%;
+    }
+  }
+
+  .brand-logo-center {
+    overflow: hidden;
+    border: 1px solid #d5d5d5;
+  }
+
+  .brand-logo-center-df {
+    border: unset;
+    animation: logo-slide 49s infinite linear;
   }
 }
